@@ -19,12 +19,15 @@ subset, selected_variables = library.select_variables(data, rating_variables)
 names = ['scenario', 'question', 'scale']
 rating_data = library.split_qualtrics_variables(subset, 'ResponseId', column_names=names)
 rating_data = rating_data.dropna()
-#rating_data = rating_data.iloc[:, [0, 2, 3, 4, 5]]
-#rating_data['scenario'] = rating_data['scenario'].astype(int)
-rating_data['trial'] = rating_data['trial'].astype(int)
+rating_data = rating_data.iloc[:, [0, 2, 3, 4, 5]]
+
+rating_data.rename(columns={'value': 'rating'}, inplace=True)
+rating_data['scenario'] = rating_data['scenario'].astype(int)
+rating_data['rating'] = rating_data['rating'].astype(int)
+rating_data['scale'] = rating_data['scale'].astype(int)
 
 # Get scenarios
-scenarios = pandas.read_csv('scenarios.csv', sep='\t')
+scenarios = pandas.read_csv('scenarios.csv', sep=',')
 scenarios['scenario'] = numpy.arange(36) + 1
 
 # Merge ratings and scenarios
@@ -35,9 +38,12 @@ validation_variables = ['ResponseId', '_Q21', '_Q22', '_Q23']
 subset, selected_variables = library.select_variables(data, validation_variables)
 names = ['scenario', 'question']
 validation_data = library.split_qualtrics_variables(subset, 'ResponseId', column_names=names)
+validation_data.rename(columns={'value': 'selection'}, inplace=True)
 validation_data = validation_data.dropna()
 validation_data = validation_data.iloc[:, [0, 2, 3, 4]]
+
 validation_data['scenario'] = validation_data['scenario'].astype(int)
+validation_data.selection = validation_data.selection.str.lower()
 
 # Merge validation data and scenarios
 validation_data = pandas.merge(validation_data, scenarios, on='scenario')
@@ -52,14 +58,23 @@ validation_data.relevant[selection] = validation_data.condition[selection]
 selection = validation_data.question == 'Q23'
 validation_data.relevant[selection] = validation_data.action[selection]
 
-validation_data = validation_data.iloc[:, [0, 1, 2, 3, 7]]
-validation_data.value = validation_data.value.str.lower()
-validation_data['correct'] = validation_data.value.str[0] == validation_data.relevant.str[0]
+validation_data['correct'] = validation_data.selection.str[0] == validation_data.relevant.str[0]
+validation_data = validation_data.iloc[:, [0, 1, 2, 3 , 10]]
 
+grp = validation_data.groupby(['ResponseId','scenario'])
+mns = grp.mean()
+mns = mns.reset_index()
 
-# %% add trial order to validation data (this is not encoded in the variable names - bastards)
-trial_order = rating_data.iloc[:, [0,2, 4]]
-validation_data = pandas.merge(validation_data, trial_order , on=['ResponseId', 'scenario'])
+# Add validation data to ratings
+rating_data = rating_data.merge(mns, on=['ResponseId', 'scenario'])
+
+# Renumber scales
+grp = rating_data.groupby(['question', 'scale'])
+cnt = grp.count()
+cnt = cnt.reset_index()
+cnt = cnt.iloc[:, [0, 1]]
+cnt['renumbered_scale'] = ['s1', 's2', 's3', 's4', 's5', 's6']
+rating_data = pandas.merge(rating_data, cnt, on=['question', 'scale'])
 
 # %% Get demographic data
 demographics_variables = ['ResponseId', 'Q5', 'Q6', 'Q7', 'Q8', 'ethnicity']
@@ -70,7 +85,8 @@ demo_data = demo_data.loc[:, ('ResponseId', 'question', 'value')]
 demo_data = demo_data.dropna()
 
 # %%
-with pandas.ExcelWriter('output.xlsx') as writer:
+with pandas.ExcelWriter('preprocessed.xlsx') as writer:
     rating_data.to_excel(writer, sheet_name='rating_data')
     demo_data.to_excel(writer, sheet_name='demo_data')
     validation_data.to_excel(writer, sheet_name='validation_data')
+    scenarios.to_excel(writer, sheet_name='scenarios')
