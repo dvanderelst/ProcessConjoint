@@ -1,22 +1,33 @@
 import pandas
 import seaborn
 from matplotlib import pyplot
+
 from pyBat import Statistics
 
-rating_data = pandas.read_excel('preprocessed.xlsx', sheet_name='rating_data', index_col=0)
-scenarios = pandas.read_excel('preprocessed.xlsx', sheet_name='scenarios', index_col=0)
+data_table = pandas.read_excel('data_table.xls', sheet_name='data_table', index_col=0)
+data_table['s7'] = ((data_table.s4 + data_table.s5 + data_table.s6) / 300)
 
-print('before:', rating_data.shape)
-rating_data = rating_data.query('correct == 1')
-print('after:', rating_data.shape)
+grp = data_table.groupby('ResponseId')
+stats = grp.agg({'s1': ['mean', 'std'], 's2': ['mean', 'std'], 's3': ['mean', 'std'], 's7': ['mean', 'std']})
+stats = stats.reset_index()
+
+data_table = data_table.merge(stats, on='ResponseId')
+data_table = data_table.dropna()
+
+data_table['s1z'] = (data_table['s1'] - data_table[('s1', 'mean')]) / data_table[('s1', 'std')]
+data_table['s2z'] = (data_table['s2'] - data_table[('s2', 'mean')]) / data_table[('s2', 'std')]
+data_table['s3z'] = (data_table['s3'] - data_table[('s3', 'mean')]) / data_table[('s3', 'std')]
+data_table['s7z'] = (data_table['s7'] - data_table[('s7', 'mean')]) / data_table[('s7', 'std')]
+data_table = data_table.dropna()
 
 #%%
 
-pivotted = rating_data.pivot(index=('ResponseId', 'scenario'), columns='renumbered_scale', values='rating')
-pivotted = pivotted.reset_index()
-pivotted['summed'] = pivotted.s4 + pivotted.s5 + pivotted.s6
+seaborn.catplot(x='ResponseId', y='s7z', hue='actor', data=data_table, kind='point')
+pyplot.show()
 
-formula = 'summed ~ s1 + s2 + s3'
-result = Statistics.linear_regression(formula, pivotted)
-print(result['summary'])
+seaborn.catplot(x='action_rank', col='condition_rank', y='s2z', hue='actor', data=data_table, kind='point')
+pyplot.show()
+
+seaborn.catplot(x='action_rank', col='condition_rank', y='s3z', hue='actor', data=data_table, kind='point')
+pyplot.show()
 

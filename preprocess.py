@@ -85,8 +85,23 @@ demo_data = demo_data.loc[:, ('ResponseId', 'question', 'value')]
 demo_data = demo_data.dropna()
 
 # %%
-with pandas.ExcelWriter('preprocessed.xlsx') as writer:
+with pandas.ExcelWriter('preprocessed.xls') as writer:
     rating_data.to_excel(writer, sheet_name='rating_data')
     demo_data.to_excel(writer, sheet_name='demo_data')
     validation_data.to_excel(writer, sheet_name='validation_data')
     scenarios.to_excel(writer, sheet_name='scenarios')
+
+# %%
+print('before:', rating_data.shape)
+rating_data_subset = rating_data.query('correct == 1')
+print('after:', rating_data.shape)
+
+data_table = rating_data_subset.pivot(index=('ResponseId', 'scenario'), columns='renumbered_scale', values='rating')
+data_table = data_table.reset_index()
+data_table['summed'] = data_table.s4 + data_table.s5 + data_table.s6
+data_table = pandas.merge(data_table, scenarios, on='scenario')
+
+with pandas.ExcelWriter('data_table.xls') as writer:
+    data_table.to_excel(writer, sheet_name='data_table')
+
+
