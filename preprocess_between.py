@@ -2,7 +2,7 @@ import pandas
 import library
 import numpy
 
-data = pandas.read_csv('Ethics+in+patient+care_March+26,+2021_11.33.csv')
+data = pandas.read_csv('Ethics+in+patient+care_March+27,+2021_15.51.csv')
 data = data.query('Finished=="True"')
 data = data.query('Status == "IP Address"')  # remove previews
 line1 = data.iloc[0, :]
@@ -71,7 +71,7 @@ selection = validation_data.question == 'Q23'
 validation_data.relevant[selection] = validation_data.action[selection]
 
 validation_data['correct'] = validation_data.selection.str[0] == validation_data.relevant.str[0]
-validation_data = validation_data.iloc[:, [0, 1, 2, 3, 10]]
+validation_data = validation_data.iloc[:, [0, 1, 2, 3, 11]]
 
 grp = validation_data.groupby(['ResponseId', 'scenario'])
 mns = grp.mean()

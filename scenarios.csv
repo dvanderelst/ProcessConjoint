@@ -1,37 +1,37 @@
-actor,condition,action,action_rank,condition_rank
-nurse,acute schizophrenia (high health impact),accept Roberts's decision to not take the medication,0,2
-nurse,acute schizophrenia (high health impact),notify a trusted person selected by Robert,1,2
-nurse,acute schizophrenia (high health impact),notify Robert's doctor about his decision,2,2
-nurse,acute schizophrenia (high health impact),repeat the request to take the medication,3,2
-nurse,acute schizophrenia (high health impact),refuse to serve dinner until the medication is taken,4,2
-nurse,acute schizophrenia (high health impact),not to let Robert watch TV,5,2
-nurse,mild anxiety (low health impact),accept Roberts's decision to not take the medication,0,0
-nurse,mild anxiety (low health impact),notify a trusted person selected by Robert,1,0
-nurse,mild anxiety (low health impact),notify Robert's doctor about his decision,2,0
-nurse,mild anxiety (low health impact),repeat the request to take the medication,3,0
-nurse,mild anxiety (low health impact),refuse to serve dinner until the medication is taken,4,0
-nurse,mild anxiety (low health impact),not to let Robert watch TV,5,0
-nurse,migraine (medium health impact),accept Roberts's decision to not take the medication,0,1
-nurse,migraine (medium health impact),notify a trusted person selected by Robert,1,1
-nurse,migraine (medium health impact),notify Robert's doctor about his decision,2,1
-nurse,migraine (medium health impact),repeat the request to take the medication,3,1
-nurse,migraine (medium health impact),refuse to serve dinner until the medication is taken,4,1
-nurse,migraine (medium health impact),not to let Robert watch TV,5,1
-robot,acute schizophrenia (high health impact),accept Roberts's decision to not take the medication,0,2
-robot,acute schizophrenia (high health impact),notify a trusted person selected by Robert,1,2
-robot,acute schizophrenia (high health impact),notify Robert's doctor about his decision,2,2
-robot,acute schizophrenia (high health impact),repeat the request to take the medication,3,2
-robot,acute schizophrenia (high health impact),refuse to serve dinner until the medication is taken,4,2
-robot,acute schizophrenia (high health impact),not to let Robert watch TV,5,2
-robot,mild anxiety (low health impact),accept Roberts's decision to not take the medication,0,0
-robot,mild anxiety (low health impact),notify a trusted person selected by Robert,1,0
-robot,mild anxiety (low health impact),notify Robert's doctor about his decision,2,0
-robot,mild anxiety (low health impact),repeat the request to take the medication,3,0
-robot,mild anxiety (low health impact),refuse to serve dinner until the medication is taken,4,0
-robot,mild anxiety (low health impact),not to let Robert watch TV,5,0
-robot,migraine (medium health impact),accept Roberts's decision to not take the medication,0,1
-robot,migraine (medium health impact),notify a trusted person selected by Robert,1,1
-robot,migraine (medium health impact),notify Robert's doctor about his decision,2,1
-robot,migraine (medium health impact),repeat the request to take the medication,3,1
-robot,migraine (medium health impact),refuse to serve dinner until the medication is taken,4,1
-robot,migraine (medium health impact),not to let Robert watch TV,5,1
+id,actor,condition,action,action_rank,condition_rank
+1,nurse,acute schizophrenia (high health impact),accept Roberts's decision to not take the medication,4,2
+2,nurse,acute schizophrenia (high health impact),notify a trusted person selected by Robert,2,2
+3,nurse,acute schizophrenia (high health impact),notify Robert's doctor about his decision,1,2
+4,nurse,acute schizophrenia (high health impact),repeat the request to take the medication,0,2
+5,nurse,acute schizophrenia (high health impact),refuse to serve dinner until the medication is taken,5,2
+6,nurse,acute schizophrenia (high health impact),to not let Robert watch TV,3,2
+7,nurse,mild anxiety (low health impact),accept Roberts's decision to not take the medication,4,0
+8,nurse,mild anxiety (low health impact),notify a trusted person selected by Robert,2,0
+9,nurse,mild anxiety (low health impact),notify Robert's doctor about his decision,1,0
+10,nurse,mild anxiety (low health impact),repeat the request to take the medication,0,0
+11,nurse,mild anxiety (low health impact),refuse to serve dinner until the medication is taken,5,0
+12,nurse,mild anxiety (low health impact),to not let Robert watch TV,3,0
+13,nurse,migraine (medium health impact),accept Roberts's decision to not take the medication,4,1
+14,nurse,migraine (medium health impact),notify a trusted person selected by Robert,2,1
+15,nurse,migraine (medium health impact),notify Robert's doctor about his decision,1,1
+16,nurse,migraine (medium health impact),repeat the request to take the medication,0,1
+17,nurse,migraine (medium health impact),refuse to serve dinner until the medication is taken,5,1
+18,nurse,migraine (medium health impact),to not let Robert watch TV,3,1
+19,robot,acute schizophrenia (high health impact),accept Roberts's decision to not take the medication,4,2
+20,robot,acute schizophrenia (high health impact),notify a trusted person selected by Robert,2,2
+21,robot,acute schizophrenia (high health impact),notify Robert's doctor about his decision,1,2
+22,robot,acute schizophrenia (high health impact),repeat the request to take the medication,0,2
+23,robot,acute schizophrenia (high health impact),refuse to serve dinner until the medication is taken,5,2
+24,robot,acute schizophrenia (high health impact),to not let Robert watch TV,3,2
+25,robot,mild anxiety (low health impact),accept Roberts's decision to not take the medication,4,0
+26,robot,mild anxiety (low health impact),notify a trusted person selected by Robert,2,0
+27,robot,mild anxiety (low health impact),notify Robert's doctor about his decision,1,0
+28,robot,mild anxiety (low health impact),repeat the request to take the medication,0,0
+29,robot,mild anxiety (low health impact),refuse to serve dinner until the medication is taken,5,0
+30,robot,mild anxiety (low health impact),to not let Robert watch TV,3,0
+31,robot,migraine (medium health impact),accept Roberts's decision to not take the medication,4,1
+32,robot,migraine (medium health impact),notify a trusted person selected by Robert,2,1
+33,robot,migraine (medium health impact),notify Robert's doctor about his decision,1,1
+34,robot,migraine (medium health impact),repeat the request to take the medication,0,1
+35,robot,migraine (medium health impact),refuse to serve dinner until the medication is taken,5,1
+36,robot,migraine (medium health impact),to not let Robert watch TV,3,1

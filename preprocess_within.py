@@ -61,7 +61,7 @@ selection = validation_data.question == 'Q23'
 validation_data.relevant[selection] = validation_data.action[selection]
 
 validation_data['correct'] = validation_data.selection.str[0] == validation_data.relevant.str[0]
-validation_data = validation_data.iloc[:, [0, 1, 2, 3 , 10]]
+validation_data = validation_data.iloc[:, [0, 1, 2, 3 , 11]]
 
 grp = validation_data.groupby(['ResponseId','scenario'])
 mns = grp.mean()
