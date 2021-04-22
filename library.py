@@ -1,5 +1,9 @@
+import copy
+
 import numpy
 import pandas
+from scipy.stats import kruskal
+
 
 def select_variables(data, patterns=[]):
     selected_variables = None
@@ -24,3 +28,23 @@ def split_qualtrics_variables(data, idvariable, split='_', column_names=[]):
     #new_data = new_data.dropna()
     return new_data
 
+
+def my_kruskal(data, design=None, conditions=None, actions=None, print_queries=False):
+    data = copy.copy(data)
+    data['Actor'] = data['actor']
+    data['Action'] = data['action_rank']
+    data['Rating'] = data['s7']
+    data['Malady'] = data['condition_rank']
+
+    query = ''
+    if design is not None: query += 'Design == "%s" and ' % design
+    if conditions is not None: query += 'Malady in %s and ' % conditions
+    if actions is not None: query += 'Action in %s and ' % actions
+    q1 = query + 'Actor == "robot"'
+    q2 = query + 'Actor == "nurse"'
+    if print_queries: print('Q1: ', q1, '\nQ2: ', q2)
+    s1 = data.query(q1)
+    s2 = data.query(q2)
+    result = kruskal(s1.Rating, s2.Rating)
+    result = result + (s1.Rating, s2.Rating)
+    return result
