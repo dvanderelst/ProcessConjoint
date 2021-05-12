@@ -14,6 +14,13 @@ def select_variables(data, patterns=[]):
     subset = data.iloc[:, selected_variables]
     return subset, data.columns[selected_variables]
 
+def select_variables_regex(data, pattern):
+    new = data.filter(regex=pattern, axis=1)
+    subset = new.columns
+    subset = list(subset)
+    return new, subset
+
+
 def concatenate_columns(data):
     cols = data.columns
     result = data[cols].apply(lambda row: '_'.join(row.values.astype(str)), axis=1)
@@ -22,7 +29,8 @@ def concatenate_columns(data):
 
 def split_qualtrics_variables(data, idvariable, split='_', column_names=[]):
     new_data = pandas.melt(data, id_vars=idvariable)
-    split = new_data.variable.str.split(split, expand=True)
+    for x in split: new_data.variable = new_data.variable.str.replace(x, '_')
+    split = new_data.variable.str.split('_', expand=True)
     if len(column_names) > 0: split.columns = column_names
     new_data = pandas.concat((new_data, split), axis=1)
     #new_data = new_data.dropna()

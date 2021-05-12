@@ -1,10 +1,8 @@
 import pandas
 import seaborn
 from matplotlib import pyplot
-import preprocess_within
-import preprocess_between
 
-from library import my_kruskal
+from library import misc, preprocess_between, preprocess_within
 
 preprocess_within.run()
 preprocess_between.run()
@@ -62,4 +60,4 @@ pyplot.tight_layout()
 pyplot.show()
 
 
-r = my_kruskal(all_data, design='between', actions=[0, 4], conditions=[2])
+r = misc.my_kruskal(all_data, design='between', actions=[0, 4], conditions=[2])
