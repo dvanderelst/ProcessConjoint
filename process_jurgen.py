@@ -8,5 +8,6 @@ data_table = pandas.read_excel('data/data_table_jurgen.xls', sheet_name='data_ta
 data_table = data_table.query('CQ_correct == 1')
 
 seaborn.catplot(x='disease', y='response', col='action', hue='actor', kind='point', data=data_table)
+pyplot.hlines(0, 0,1)
 pyplot.ylim((-3, 3))
 pyplot.show()
