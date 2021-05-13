@@ -19,8 +19,16 @@ def run():
     vignettes = vignettes.iloc[:,[0,1,3,4,5,6,7]]
 
     #%% Get the attention questions
+    #CQ1: who (0) nurse, (1) robot
+    #CQ2: action (0) force (1) accept
+    #CQ#: (1) anxiety, (2) micgraine, (3) PD, (4) schizo
     selected_variables = ['ResponseId', 'CQ1', 'CQ2', 'CQ3']
     attention = data.loc[:, selected_variables]
+    attention = attention.replace({'CQ1': {'0': 'Perca', '1': 'Rob'}})  #
+    attention = attention.replace({'CQ2': {'0': 'Force', '1': 'Accept'}})  #
+    attention = attention.replace({'CQ3': {'1': 'Anx', '2': 'Mig', '3': 'PD', '4': 'Sciz'}})  #
+    attention['rating_nr'] = 1 # only attentions questions for rating 1
+
 
     ##% Get the ratings for each of the two vignettes seen
     data = data.replace({'Ethical1_Robot_1': {' ': '0'}}) #
@@ -36,7 +44,14 @@ def run():
 
     #%% merge vignettes an rating
     merged = pandas.merge(vignettes, ratings, on=('ResponseId', 'rating_nr'))
-    data_table = pandas.merge(merged, attention, on=('ResponseId'))
+    data_table = pandas.merge(merged, attention, on=('ResponseId', 'rating_nr'), how='outer')
+
+    data_table['CQ1_correct'] = data_table.CQ1 == data_table.actor
+    data_table['CQ2_correct'] = data_table.CQ2 == data_table.action
+    data_table['CQ3_correct'] = data_table.CQ3 == data_table.disease
+    data_table['CQ_correct'] = data_table['CQ1_correct'] * data_table['CQ2_correct'] * data_table['CQ3_correct']
+
+    data_table.CQ_correct[data_table.rating_nr == 2] = True #override for second vignette
 
     # %% output
     with pandas.ExcelWriter('data/data_table_jurgen.xls') as writer:

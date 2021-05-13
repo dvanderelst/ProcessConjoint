@@ -5,6 +5,7 @@ from matplotlib import pyplot
 preprocess_jurgen.run()
 
 data_table = pandas.read_excel('data/data_table_jurgen.xls', sheet_name='data_table', index_col=0)
+data_table = data_table.query('CQ_correct == 1')
 
 seaborn.catplot(x='disease', y='response', col='action', hue='actor', kind='point', data=data_table)
 pyplot.ylim((-3, 3))
