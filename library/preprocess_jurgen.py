@@ -5,6 +5,7 @@ import numpy
 def run():
     data = pandas.read_csv('raw_data/DATA_JURGEN.csv',na_values='')
     data['ResponseId'] = data['V1']
+    data = data.query('V10==1')
 
 
     #%% Get the vignettes seen by every person
@@ -43,8 +44,10 @@ def run():
     ratings.columns = ['ResponseId', 'rating_nr', 'response']
 
     #%% merge vignettes an rating
+    #print(ratings.shape, vignettes.shape, attention.shape)
     merged = pandas.merge(vignettes, ratings, on=('ResponseId', 'rating_nr'))
     data_table = pandas.merge(merged, attention, on=('ResponseId', 'rating_nr'), how='outer')
+    #print(data_table.shape)
 
     data_table['CQ1_correct'] = data_table.CQ1 == data_table.actor
     data_table['CQ2_correct'] = data_table.CQ2 == data_table.action
@@ -52,6 +55,11 @@ def run():
     data_table['CQ_correct'] = data_table['CQ1_correct'] * data_table['CQ2_correct'] * data_table['CQ3_correct']
 
     data_table.CQ_correct[data_table.rating_nr == 2] = True #override for second vignette
+
+    #%% Get demographics
+    demographic_variables = ['ResponseId','Gender','BirthYear','occupation','LocationLatitude','LocationLongitude']
+    demographics = data.loc[:, demographic_variables]
+    data_table = pandas.merge(data_table, demographics, on='ResponseId')
 
     # %% output
     with pandas.ExcelWriter('data/data_table_jurgen.xls') as writer:
