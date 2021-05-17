@@ -42,11 +42,18 @@ def run():
     "notify Robert's doctor about his decision",
     "repeat the request to take the medication",
     "refuse to serve dinner until the medication is taken",
-    "to not let Robert watch TV,5,2"]
+    "to not let Robert watch TV"]
+
+    action_short = ["Accept",
+               "Notify Trusted",
+               "Notify Doctor",
+               "Repeat",
+               "Refuse Dinner",
+               "No TV"]
 
     action_nr = ['1','2','3', '4', '5', '6']
 
-    actions = pandas.DataFrame({'actions': actions, 'action_nr': action_nr})
+    actions = pandas.DataFrame({'actions': actions, 'action_nr': action_nr, 'action_short': action_short})
 
     rating_data = rating_data.merge(actions, on='action_nr')
 
@@ -58,6 +65,11 @@ def run():
     demo_data = misc.split_qualtrics_variables(subset, 'ResponseId', column_names=names)
     demo_data = demo_data.loc[:, ('ResponseId', 'question', 'value')]
     demo_data = demo_data.dropna()
+
+    # %%
+    with pandas.ExcelWriter('data/preprocessed_simple.xls') as writer:
+        demo_data.to_excel(writer, sheet_name='demo_data')
+
 
     #%% output
     data_table = rating_data

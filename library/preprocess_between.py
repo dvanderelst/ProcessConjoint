@@ -71,14 +71,14 @@ def run():
     validation_data.relevant[selection] = validation_data.action[selection]
 
     validation_data['correct'] = validation_data.selection.str[0] == validation_data.relevant.str[0]
-    validation_data = validation_data.iloc[:, [0, 1, 2, 3, 11]]
+    validation_data = validation_data.iloc[:, [0, 1, 2, 3, 13]]
 
-    grp = validation_data.groupby(['ResponseId', 'scenario'])
-    mns = grp.mean()
+    grp = validation_data.groupby(['ResponseId'])
+    mns = grp.correct.mean()
     mns = mns.reset_index()
 
     # Add validation data to ratings
-    rating_data = rating_data.merge(mns, on=['ResponseId', 'scenario'])
+    rating_data = rating_data.merge(mns, on=['ResponseId'])
 
     # Renumber scales
     grp = rating_data.groupby(['question', 'scale'])
@@ -104,14 +104,15 @@ def run():
         scenarios.to_excel(writer, sheet_name='scenarios')
 
     # %%
-    print('before:', rating_data.shape)
-    rating_data_subset = rating_data.query('correct == 1')
-    print('after:', rating_data_subset.shape)
+    #print('before:', rating_data.shape)
+    #rating_data_subset = rating_data.query('correct == 1')
+    #print('after:', rating_data_subset.shape)
 
-    data_table = rating_data_subset.pivot(index=('ResponseId', 'scenario'), columns='renumbered_scale', values='rating')
-    data_table = data_table.reset_index()
-    data_table['summed'] = data_table.s4 + data_table.s5 + data_table.s6
-    data_table = pandas.merge(data_table, scenarios, on='scenario')
+    #data_table = rating_data.pivot(index=('ResponseId', 'scenario'), columns='renumbered_scale', values='rating')
+    #data_table = data_table.reset_index()
+    #data_table['summed'] = data_table.s4 + data_table.s5 + data_table.s6
+    #data_table = pandas.merge(data_table, scenarios, on='scenario')
 
     with pandas.ExcelWriter('data/data_table_between.xls') as writer:
-        data_table.to_excel(writer, sheet_name='data_table')
+        rating_data.to_excel(writer, sheet_name='data_table')
+
