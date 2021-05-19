@@ -2,7 +2,7 @@ import numpy
 import pandas
 import seaborn
 from matplotlib import pyplot
-
+from os import path
 from library import PlotSettings
 from library import preprocess_between
 from library import preprocess_within
@@ -103,9 +103,8 @@ for x in range(2):
 
 PlotSettings.copy_output()
 
-#%% On to the demographics
-
-
+#%% save the demographics
+demo = None
 for x in range(2):
     if x == 0:
         selected_pp = list(within.ResponseId.unique())
@@ -114,36 +113,10 @@ for x in range(2):
         selected_pp = list(between.ResponseId.unique())
         demo = pandas.read_excel('data/preprocessed_between.xls', sheet_name='demo_data', index_col=0)
 
-    demo.columns = ['ResponseId', 'question', 'response']
     demo = demo.query('ResponseId in @selected_pp')
+    if x == 0: demo.to_csv('demographic_data/within.csv', index=False)
+    if x == 1: demo.to_csv('demographic_data/between.csv',index=False)
 
-    pyplot.figure(figsize=(6,3))
-    pyplot.subplot(1,2,1)
 
-    colors = PlotSettings.get_colors(4)
-    data = demo.query('question == "Q8"')
-    grp = data.groupby('response')
-    cnt = grp.count()
-    cnt = cnt.reset_index()
-    cnt = cnt.replace('Genderqueer/Gender Non-Conforming','Non-Conforming')
-    pyplot.pie(cnt.question, labels=cnt.response, autopct='%1.1f%%', colors=colors, wedgeprops=PlotSettings.wedgeprops)
 
-    pyplot.subplot(1,2,2)
 
-    colors = PlotSettings.get_colors(12)
-    data = demo.query('question == "Q5"')
-    data['response'] = data.response.astype(float)
-    data['age'] = 2021 - data.response.astype(int)
-    data = data.replace(1, numpy.nan)
-
-    pyplot.hist(data.age,color=PlotSettings.black)
-    pyplot.ylabel('Count')
-    pyplot.xlabel('Age')
-    pyplot.title('Age distribution')
-    pyplot.tight_layout()
-    if x == 0: pyplot.savefig(PlotSettings.output_file('within_demo.pdf'))
-    if x == 1: pyplot.savefig(PlotSettings.output_file('between_demo.pdf'))
-    pyplot.show()
-    print(data.age.mean())
-
-PlotSettings.copy_output()

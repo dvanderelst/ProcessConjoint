@@ -40,3 +40,7 @@ f.write(result['latex'])
 f.close()
 
 PlotSettings.copy_output()
+
+demo = data_table.loc[:,['ResponseId','Gender','Occupation','BirthYear']]
+demo = demo.drop_duplicates()
+demo.to_csv('demographic_data/student.csv', index=False)

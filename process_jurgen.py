@@ -74,25 +74,6 @@ f.close()
 PlotSettings.copy_output()
 
 #%% On to demographics
-
-pyplot.figure(figsize=(6, 3))
-pyplot.subplot(1, 2, 1)
-
-colors = PlotSettings.get_colors(2)
-cnts = data_table.Gender.value_counts()
-
-pyplot.pie(cnts, labels=['Male','Female'], autopct='%1.1f%%',colors=colors, wedgeprops=PlotSettings.wedgeprops)
-
-pyplot.subplot(1, 2, 2)
-
-age = 2021 - data_table.BirthYear
-pyplot.hist(age, color=PlotSettings.black)
-pyplot.ylabel('Count')
-pyplot.xlabel('Age')
-pyplot.title('Age distribution')
-pyplot.tight_layout()
-pyplot.savefig(PlotSettings.output_file('jurgen_demo.pdf'))
-pyplot.show()
-# print(data.age.mean())
-
-print(numpy.mean(age))
+demo = data_table.loc[:,['ResponseId', 'Gender','BirthYear', 'occupation']]
+demo.columns = ['ResponseId', 'Gender','BirthYear', 'Occupation']
+demo.to_csv('demographic_data/jurgen.csv', index=False)

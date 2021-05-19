@@ -16,6 +16,12 @@ def run():
     for x in range(10): data['ethnicity'] = data['ethnicity'].str.replace('_nan', '')
     for x in range(10): data['ethnicity'] = data['ethnicity'].str.replace('nan_', '')
 
+    # Merge different options for gender into a single variable
+    subset, selected_variables = misc.select_variables(data, ['Q8_'])
+    data['gender'] = misc.concatenate_columns(subset)
+    for x in range(10): data['gender'] = data['gender'].str.replace('_nan', '')
+    for x in range(10): data['gender'] = data['gender'].str.replace('nan_', '')
+
     # Get rating data
     rating_variables = ['ResponseId', '_Q18_', '_Q19_']
     subset, selected_variables = misc.select_variables(data, rating_variables)
@@ -81,12 +87,14 @@ def run():
     rating_data = pandas.merge(rating_data, cnt, on=['question', 'scale'])
 
     # %% Get demographic data
-    demographics_variables = ['ResponseId', 'Q5', 'Q6', 'Q7', 'Q8', 'ethnicity']
-    subset, selected_variables = misc.select_variables(data, demographics_variables)
-    names = ['question', 'option', 'dummy']
-    demo_data = misc.split_qualtrics_variables(subset, 'ResponseId', column_names=names)
-    demo_data = demo_data.loc[:, ('ResponseId', 'question', 'value')]
-    demo_data = demo_data.dropna()
+    demographics_variables = ['ResponseId', 'Q5', 'Q6', 'Q7', 'gender', 'ethnicity']
+    demo_data, selected_variables = misc.select_variables(data, demographics_variables)
+    names = ['ResponseId', 'BirthYear', 'Major', 'Politics', 'Ethnicity', 'Gender']
+    demo_data.columns = names
+    #demo_data = misc.split_qualtrics_variables(subset, 'ResponseId', column_names=names)
+    #demo_data = demo_data.loc[:, ('ResponseId', 'question', 'value')]
+    #demo_data = demo_data.dropna()
+
 
     # %%
     with pandas.ExcelWriter('data/preprocessed_within.xls') as writer:
