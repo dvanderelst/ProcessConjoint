@@ -95,9 +95,9 @@ def run():
     rating_data = pandas.merge(rating_data, cnt, on=['question', 'scale'])
 
     # %% Get demographic data
-    demographics_variables = ['ResponseId', 'Q5', 'Q6', 'Q7', 'gender', 'ethnicity']
+    demographics_variables = ['ResponseId', 'Q5', 'Q6', 'Q7', 'gender', 'ethnicity', 'IPAddress']
     demo_data, selected_variables = misc.select_variables(data, demographics_variables)
-    names = ['ResponseId', 'BirthYear', 'Major', 'Politics', 'Ethnicity', 'Gender']
+    names = ['IPAddress','ResponseId', 'BirthYear', 'Major', 'Politics', 'Ethnicity', 'Gender']
     demo_data.columns = names
     #demo_data = misc.split_qualtrics_variables(subset, 'ResponseId', column_names=names)
     #demo_data = demo_data.loc[:, ('ResponseId', 'question', 'value')]

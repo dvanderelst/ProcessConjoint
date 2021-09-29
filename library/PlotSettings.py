@@ -8,14 +8,17 @@ plot_folder = 'output'
 paper_plot_folder = '/home/dieter/Dropbox/Apps/Overleaf/RobotsAndNurses/output'
 style = "whitegrid"
 facet_kws=dict(despine=False)
+rc ={'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'}
+
 short_order = ["Refuse Dinner","Accept", "No TV","Notify Trusted","Notify Doctor","Repeat"]
 black = (0,0,0)
 grey = (0.5,0.5,0.5)
-colors = [black, black]
+colors = ['#66c2a5','#fc8d62','#8da0cb']#[black, black]
 markers = ['o','s']
 lines = ['--', '-']
 estimator = numpy.mean
 ci = 95
+
 
 wedgeprops={"edgecolor":"k",'linewidth': 1, 'linestyle': 'solid', 'antialiased': True}
 

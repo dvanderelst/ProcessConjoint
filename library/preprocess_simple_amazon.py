@@ -99,13 +99,10 @@ def run():
 
 
     # %% Get demographic data
-    demographics_variables = ['ResponseId', 'Q6', 'gender', 'ethnicity']
+    demographics_variables = ['ResponseId', 'Q6', 'gender', 'ethnicity','IPAddress']
     demo_data, selected_variables = misc.select_variables(data, demographics_variables)
-    names = ['ResponseId', 'BirthYear', 'Ethnicity','Gender']
+    names = ['IPAddress', 'ResponseId', 'BirthYear', 'Ethnicity','Gender']
     demo_data.columns = names
-    #demo_data = misc.split_qualtrics_variables(subset, 'ResponseId', column_names=names)
-    #demo_data = demo_data.loc[:, ('ResponseId', 'question', 'value')]
-    #demo_data = demo_data.dropna()
 
     # %%
     with pandas.ExcelWriter('data/preprocessed_simple_amazon.xls') as writer:

@@ -4,6 +4,12 @@ import numpy
 import pandas
 from scipy.stats import kruskal
 
+def clean_summary(text):
+    if not type(text)==str: text = text.as_text()
+    text = text.replace('T.','')
+    text = text.replace('C(Scenario)', 'Scenario')
+    text = text.replace('[Rob]', '[Robot]')
+    return text
 
 def select_variables(data, patterns=[]):
     selected_variables = None
@@ -56,3 +62,9 @@ def my_kruskal(data, design=None, conditions=None, actions=None, print_queries=F
     result = kruskal(s1.Rating, s2.Rating)
     result = result + (s1.Rating, s2.Rating)
     return result
+
+def lst2str(lst):
+    s = ''
+    for x in lst: s = s + str(x) + ','
+    s = s.rstrip(',')
+    return s

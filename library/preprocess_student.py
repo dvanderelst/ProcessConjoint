@@ -40,7 +40,7 @@ def run():
     ratings = pandas.merge(ratings, numeric_values, on='response')
 
     #%% Get demographics
-    variables = ['ResponseId','Gender','Country','WorkingWithRobots','Occupation', 'BirthYear']
+    variables = ['ResponseId','Gender','Country','WorkingWithRobots','Occupation', 'BirthYear', 'IPAddress']
     demographics = data.loc[:, variables]
     data_table = pandas.merge(ratings, demographics, on='ResponseId')
 

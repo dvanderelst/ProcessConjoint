@@ -57,7 +57,8 @@ def run():
     data_table.CQ_correct[data_table.rating_nr == 2] = True #override for second vignette
 
     #%% Get demographics
-    demographic_variables = ['ResponseId','Gender','BirthYear','occupation','LocationLatitude','LocationLongitude']
+    data['IPAddress'] = data['V6']
+    demographic_variables = ['ResponseId','Gender','BirthYear','occupation','LocationLatitude','LocationLongitude','IPAddress']
     demographics = data.loc[:, demographic_variables]
     data_table = pandas.merge(data_table, demographics, on='ResponseId')
 

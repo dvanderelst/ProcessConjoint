@@ -2,10 +2,10 @@ import pandas
 import seaborn
 from matplotlib import pyplot
 from library import PlotSettings
-from library import preprocess_simple_amazon
+from library import preprocess_simple
 from pyBat import Statistics
 
-preprocess_simple_amazon.run()
+preprocess_simple.run()
 
 data_table = pandas.read_excel('data/data_table_simple.xls', sheet_name='data_table', index_col=0)
 data_table = data_table.replace("Not permissible",'Not Permissible')

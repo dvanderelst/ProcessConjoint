@@ -3,8 +3,10 @@ import pandas
 from library import preprocess_jurgen
 import seaborn
 from matplotlib import pyplot
-from library import PlotSettings
+from library import PlotSettings, misc
 from pyBat import Statistics
+from statsmodels.stats.anova import AnovaRM
+
 preprocess_jurgen.run()
 
 data_table = pandas.read_excel('data/data_table_jurgen.xls', sheet_name='data_table', index_col=0)
@@ -29,6 +31,13 @@ data_table['Rating'] = data_table['response']
 data_table['Malady'] = data_table['disease']
 data_table['Stage'] = data_table['rating_nr']
 
+data_table['Stage'] = data_table['Stage'].replace(1,'Rating 1')
+data_table['Stage'] = data_table['Stage'].replace(2,'Rating 2')
+
+data_table['Actor'] = data_table['Actor'].replace('Rob','Robot')
+data_table['Actor'] = data_table['Actor'].replace('Perca','Human')
+
+
 seaborn.set_style(PlotSettings.style)
 seaborn.set_context("paper", font_scale=1.5)
 g = seaborn.catplot(x='Malady', y='Rating',kind='point',
@@ -44,36 +53,76 @@ pyplot.ylim((-3, 3))
 g._legend.remove()
 pyplot.legend(loc='upper left')
 pyplot.tight_layout()
-pyplot.tight_layout()
 pyplot.savefig(PlotSettings.output_file('jurgen.pdf'))
 pyplot.show()
 
 formula = "Rating ~ Action  * Actor + Malady"
-
 stage1 = data_table.query('rating_nr==1')
 result1 = Statistics.regression(formula, data=stage1)
 summary1 = result1['summary']
-
-stage2 = data_table.query('rating_nr==2')
-result2 = Statistics.regression(formula, data=stage2)
-summary2 = result2['summary']
-
-f= open(PlotSettings.output_file('LM_jurgen.txt'), 'w')
-f.write(summary1.as_text())
-f.write(summary2.as_text())
+f = open(PlotSettings.output_file('LM_jurgen_1.tex'), 'w')
+f.write(misc.clean_summary(result1['latex']))
 f.close()
 
-f= open(PlotSettings.output_file('LM_jurgen_1.tex'), 'w')
-f.write(result1['latex'])
-f.close()
-
-f= open(PlotSettings.output_file('LM_jurgen_2.tex'), 'w')
-f.write(result2['latex'])
-f.close()
+# Prepare data for within subject analysis
+#todo: Discuss this with jurgen to see what the proper analysis is.
+within_data = pandas.pivot(data_table, index=['ResponseId','Malady','Actor','Action'], columns='Stage', values='Rating')
+within_data = within_data.reset_index()
+within_data = pandas.melt(within_data, id_vars=['ResponseId','Malady','Action','Actor'])
+within_data = within_data.dropna()
+within_data.columns = ['ResponseId','Malady','Action','Actor','Stage','Rating']
+within_data.to_csv('jurgen_within_data.csv')
+#
+# RUN analyze_within_subject_jurgen.R
+#
 
 PlotSettings.copy_output()
 
 #%% On to demographics
-demo = data_table.loc[:,['ResponseId', 'Gender','BirthYear', 'occupation']]
-demo.columns = ['ResponseId', 'Gender','BirthYear', 'Occupation']
+demo = data_table.loc[:,['ResponseId', 'Gender','BirthYear', 'occupation','IPAddress']]
+demo.columns = ['ResponseId', 'Gender','BirthYear', 'Occupation','IPAddress']
 demo.to_csv('demographic_data/jurgen.csv', index=False)
+
+
+#%%%
+seaborn.set_style(PlotSettings.style)
+seaborn.set(PlotSettings.rc)
+
+
+
+g = seaborn.catplot(x='Action', y='Rating',kind='point',
+                hue='Actor', row='Malady',
+                data=stage1,
+                palette=PlotSettings.colors,
+                linestyles=PlotSettings.lines,
+                markers=PlotSettings.markers,
+                facet_kws=PlotSettings.facet_kws)
+
+pyplot.ylim((-3, 3))
+g._legend.remove()
+pyplot.legend(loc='upper left')
+pyplot.tight_layout()
+pyplot.savefig(PlotSettings.output_file('jurgen_between.pdf'))
+pyplot.show()
+PlotSettings.copy_output()
+
+#%%
+
+
+
+
+g = seaborn.catplot(x='Action', y='Rating',kind='point',
+                hue='Actor', row='Malady',
+                data=within_data,
+                palette=PlotSettings.colors,
+                linestyles=PlotSettings.lines,
+                markers=PlotSettings.markers,
+                facet_kws=PlotSettings.facet_kws)
+
+pyplot.ylim((-3, 3))
+g._legend.remove()
+pyplot.legend(loc='upper left')
+pyplot.tight_layout()
+pyplot.savefig(PlotSettings.output_file('jurgen_within.pdf'))
+pyplot.show()
+PlotSettings.copy_output()
