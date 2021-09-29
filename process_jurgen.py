@@ -5,6 +5,7 @@ import seaborn
 from matplotlib import pyplot
 from library import PlotSettings, misc
 from pyBat import Statistics
+from scipy.stats import ttest_1samp
 from statsmodels.stats.anova import AnovaRM
 
 preprocess_jurgen.run()
@@ -64,18 +65,57 @@ f = open(PlotSettings.output_file('LM_jurgen_1.tex'), 'w')
 f.write(misc.clean_summary(result1['latex']))
 f.close()
 
-# Prepare data for within subject analysis
-#todo: Discuss this with jurgen to see what the proper analysis is.
+#%% Prepare data for within subject analysis
+
 within_data = pandas.pivot(data_table, index=['ResponseId','Malady','Actor','Action'], columns='Stage', values='Rating')
 within_data = within_data.reset_index()
 within_data = pandas.melt(within_data, id_vars=['ResponseId','Malady','Action','Actor'])
 within_data = within_data.dropna()
 within_data.columns = ['ResponseId','Malady','Action','Actor','Stage','Rating']
-within_data.to_csv('jurgen_within_data.csv')
-#
-# RUN analyze_within_subject_jurgen.R
-#
+within_data.to_csv('data/jurgen_within_data.csv')
 
+first_actors = ['Human', 'Robot']
+actions = ['Accept', 'Force']
+maladies = ['Sciz', 'Anx']
+
+tables = []
+for first_actor in first_actors:
+    for action in actions:
+        for malady in maladies:
+            selected = within_data.query('Actor == @first_actor and Action == @action and Malady == @malady and Stage == "Rating 1"')
+            selected_subjects = selected.ResponseId.values
+            selected_table = within_data.query("ResponseId in @selected_subjects")
+            selected_table = selected_table.pivot(index='ResponseId',columns='Actor', values='Rating')
+            selected_table['First_actor'] = first_actor
+            selected_table['Action'] = action
+            selected_table['Malady'] = malady
+            selected_table['Difference'] = selected_table.Human - selected_table.Robot
+            tables.append(selected_table)
+
+
+within_data_for_analysis = pandas.concat(tables)
+difference =  within_data_for_analysis.Difference.values
+test = ttest_1samp(difference, popmean=0)
+t = test[0]
+p = test[1]
+df = within_data_for_analysis.shape[0] - 1
+mn = numpy.mean(difference)
+text = '$\\Delta \\bar{\\mu}$ = %.2f, (%i) = %.2f, $p$ = %.2f' % (mn, df, t, p)
+f = open(PlotSettings.output_file('LM_jurgen_2.tex'), 'w')
+f.write(text)
+f.close()
+
+# within_data_for_analysis['Difference'] =
+#
+# grp = within_data_for_analysis.groupby(['First_actor', 'Action'])
+# mns = grp.Difference.mean()
+# mns = mns.reset_index()
+#
+# formula = "Difference ~ First_actor * Action"
+# result2 = Statistics.regression(formula, data=within_data_for_analysis)
+# summary2 = result2['summary']
+
+#
 PlotSettings.copy_output()
 
 #%% On to demographics
