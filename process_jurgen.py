@@ -29,7 +29,7 @@ print(all_pp, '-->', selected_pp)
 data_table['Actor'] = data_table['actor']
 data_table['Action'] = data_table['action']
 data_table['Rating'] = data_table['response']
-data_table['Malady'] = data_table['disease']
+data_table['Medical Condition'] = data_table['disease']
 data_table['Stage'] = data_table['rating_nr']
 
 data_table['Stage'] = data_table['Stage'].replace(1,'Rating 1')
@@ -38,10 +38,11 @@ data_table['Stage'] = data_table['Stage'].replace(2,'Rating 2')
 data_table['Actor'] = data_table['Actor'].replace('Rob','Robot')
 data_table['Actor'] = data_table['Actor'].replace('Perca','Human')
 
+data_table['Medical Condition'] = data_table['Medical Condition'].replace('Anx','Anxiety')
+data_table['Medical Condition'] = data_table['Medical Condition'].replace('Sciz','Schizophrenia')
+data_table['Condition'] = data_table['Medical Condition']
 
-seaborn.set_style(PlotSettings.style)
-seaborn.set_context("paper", font_scale=1.5)
-g = seaborn.catplot(x='Malady', y='Rating',kind='point',
+g = seaborn.catplot(x='Medical Condition', y='Rating',kind='point',
                 hue='Actor', row = 'Stage', col='Action',
                 data=data_table,
                 palette=[PlotSettings.black, PlotSettings.black],
@@ -51,13 +52,11 @@ g = seaborn.catplot(x='Malady', y='Rating',kind='point',
                 facet_kws=PlotSettings.facet_kws)
 
 pyplot.ylim((-3, 3))
-g._legend.remove()
-pyplot.legend(loc='upper left')
 pyplot.tight_layout()
 pyplot.savefig(PlotSettings.output_file('jurgen.pdf'))
 pyplot.show()
 
-formula = "Rating ~ Action  * Actor + Malady"
+formula = "Rating ~ Action  * Actor + Condition"
 stage1 = data_table.query('rating_nr==1')
 result1 = Statistics.regression(formula, data=stage1)
 summary1 = result1['summary']
@@ -67,28 +66,28 @@ f.close()
 
 #%% Prepare data for within subject analysis
 
-within_data = pandas.pivot(data_table, index=['ResponseId','Malady','Actor','Action'], columns='Stage', values='Rating')
+within_data = pandas.pivot(data_table, index=['ResponseId','Condition','Actor','Action'], columns='Stage', values='Rating')
 within_data = within_data.reset_index()
-within_data = pandas.melt(within_data, id_vars=['ResponseId','Malady','Action','Actor'])
+within_data = pandas.melt(within_data, id_vars=['ResponseId','Condition','Action','Actor'])
 within_data = within_data.dropna()
-within_data.columns = ['ResponseId','Malady','Action','Actor','Stage','Rating']
+within_data.columns = ['ResponseId','Condition','Action','Actor','Stage','Rating']
 within_data.to_csv('data/jurgen_within_data.csv')
 
 first_actors = ['Human', 'Robot']
 actions = ['Accept', 'Force']
-maladies = ['Sciz', 'Anx']
+maladies = ['Schizophrenia', 'Anxiety']
 
 tables = []
 for first_actor in first_actors:
     for action in actions:
         for malady in maladies:
-            selected = within_data.query('Actor == @first_actor and Action == @action and Malady == @malady and Stage == "Rating 1"')
+            selected = within_data.query('Actor == @first_actor and Action == @action and Condition == @malady and Stage == "Rating 1"')
             selected_subjects = selected.ResponseId.values
             selected_table = within_data.query("ResponseId in @selected_subjects")
             selected_table = selected_table.pivot(index='ResponseId',columns='Actor', values='Rating')
             selected_table['First_actor'] = first_actor
             selected_table['Action'] = action
-            selected_table['Malady'] = malady
+            selected_table['Condition'] = malady
             selected_table['Difference'] = selected_table.Human - selected_table.Robot
             tables.append(selected_table)
 
@@ -125,22 +124,21 @@ demo.to_csv('demographic_data/jurgen.csv', index=False)
 
 
 #%%%
-seaborn.set_style(PlotSettings.style)
-seaborn.set(PlotSettings.rc)
 
-
+#Export data for final figure
+stage1.to_csv('data/jurgen_for_final.csv', index=False)
 
 g = seaborn.catplot(x='Action', y='Rating',kind='point',
-                hue='Actor', row='Malady',
+                hue='Actor', row='Condition',
                 data=stage1,
                 palette=PlotSettings.colors,
                 linestyles=PlotSettings.lines,
                 markers=PlotSettings.markers,
-                facet_kws=PlotSettings.facet_kws)
-
+                facet_kws=PlotSettings.facet_kws,
+                legend=False)
+pyplot.legend(loc='lower right')
+g.set_titles(row_template='Medical Condition:\n{row_name}')
 pyplot.ylim((-3, 3))
-g._legend.remove()
-pyplot.legend(loc='upper left')
 pyplot.tight_layout()
 pyplot.savefig(PlotSettings.output_file('jurgen_between.pdf'))
 pyplot.show()
@@ -148,20 +146,19 @@ PlotSettings.copy_output()
 
 #%%
 
-
-
-
 g = seaborn.catplot(x='Action', y='Rating',kind='point',
-                hue='Actor', row='Malady',
+                hue='Actor', row='Condition',
                 data=within_data,
                 palette=PlotSettings.colors,
                 linestyles=PlotSettings.lines,
                 markers=PlotSettings.markers,
-                facet_kws=PlotSettings.facet_kws)
+                facet_kws=PlotSettings.facet_kws,
+                legend=False)
 
+pyplot.legend(loc='lower right')
+
+g.set_titles(row_template='Medical Condition:\n{row_name}')
 pyplot.ylim((-3, 3))
-g._legend.remove()
-pyplot.legend(loc='upper left')
 pyplot.tight_layout()
 pyplot.savefig(PlotSettings.output_file('jurgen_within.pdf'))
 pyplot.show()

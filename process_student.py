@@ -24,32 +24,34 @@ data_table = data_table.query('ResponseId in @selected_ids')
 
 # Add proper labels for plotting with seaborn
 data_table['Actor'] = data_table['actor']
-data_table['Scenario'] = data_table['scenario']
+data_table['Vignette'] = data_table['scenario']
 data_table['Rating'] = data_table['numeric_response']
 data_table['Variation'] = data_table['variation']
 
-seaborn.set_style(PlotSettings.style)
-seaborn.set(PlotSettings.rc)
-seaborn.set_context("paper", font_scale=3)
 
-g = seaborn.catplot(x='Scenario', y='Rating', kind='point',
+
+g = seaborn.catplot(x='Vignette', y='Rating', kind='bar',
                 hue='Actor', data=data_table, row='Variation',
                 palette=PlotSettings.colors,
                 estimator=PlotSettings.estimator,
-                facet_kws=PlotSettings.facet_kws,
-                markers = PlotSettings.markers,
-                linestyles=PlotSettings.lines,
+                #facet_kws=PlotSettings.facet_kws,
+                #markers = PlotSettings.markers,
+                #linestyles=PlotSettings.lines,
                 ci=PlotSettings.ci,
-                aspect=2)
+                aspect=2,
+                legend=False)
+
+pyplot.legend(loc='upper left')
+
+g.set_titles(row_template='Vignette variation {row_name}')
 
 pyplot.ylim(0,6)
-g._legend.remove()
-pyplot.legend(loc='upper left')
+PlotSettings.spine(g)
 pyplot.tight_layout()
 pyplot.savefig(PlotSettings.output_file('student.pdf'))
 pyplot.show()
 
-formula = "Rating ~ C(Scenario) + Actor + Variation"
+formula = "Rating ~ C(Vignette) + Actor + Variation"
 result = Statistics.regression(formula, data=data_table)
 summary = result['summary']
 f= open(PlotSettings.output_file('LM_student.txt'), 'w')
@@ -78,28 +80,53 @@ for i in range(4):
 line = line.strip(',')
 print(line)
 
-#%%
-selected_countries = ['Germany ','Colombia ','Argentina ']
-selected_countries = data_table.query('Country in @selected_countries')
-g = seaborn.catplot(x='Scenario', y='Rating', kind='point', col='Variation',
-                hue='Actor', data=selected_countries, row='Country',
-                palette=PlotSettings.colors,
-                estimator=PlotSettings.estimator,
-                facet_kws=PlotSettings.facet_kws,
-                markers = PlotSettings.markers,
-                linestyles=PlotSettings.lines,
-                ci=PlotSettings.ci,
-                aspect=2)
-pyplot.ylim(0,6)
-g._legend.remove()
-pyplot.legend(loc='upper left')
-pyplot.tight_layout()
-pyplot.savefig(PlotSettings.output_file('student_country.pdf'))
-pyplot.show()
+# #%%
+# selected_countries = ['Germany ','Colombia ','Argentina ']
+# selected_countries = data_table.query('Country in @selected_countries')
+# g = seaborn.catplot(x='Scenario', y='Rating', kind='point', col='Variation',
+#                 hue='Actor', data=selected_countries, row='Country',
+#                 palette=PlotSettings.colors,
+#                 estimator=PlotSettings.estimator,
+#                 facet_kws=PlotSettings.facet_kws,
+#                 markers = PlotSettings.markers,
+#                 linestyles=PlotSettings.lines,
+#                 ci=PlotSettings.ci,
+#                 aspect=2)
+# pyplot.ylim(0,6)
+# g._legend.remove()
+# pyplot.legend(loc='upper left')
+# pyplot.tight_layout()
+# pyplot.savefig(PlotSettings.output_file('student_country.pdf'))
+# pyplot.show()
+#
+# PlotSettings.copy_output()
+#
+# formula = "Rating ~ C(Scenario) + Actor + Variation + Country"
+# result = Statistics.regression(formula, data=selected_countries)
+# summary = result['summary']
+# print(summary)
+
+
+#%% Get occupation counts
+n = demo.shape[0]
+c = demo.Occupation.value_counts()
+c = (c / n) * 100
+c = c.round(1)
+print(c)
+
+occupations = c.index.values
+percents = c.values
+
+output_string = ''
+for i, j in zip(occupations, percents):
+    output_string+= i +': '+ str(j) + '\%, '
+output_string = output_string.rstrip(', ')
+output_string = '[' + output_string + '].'
+print(output_string)
+
+output_file = 'output/occupations_student.tex'
+f = open(output_file, 'w')
+f.write(output_string)
+f.close()
 
 PlotSettings.copy_output()
-
-formula = "Rating ~ C(Scenario) + Actor + Variation + Country"
-result = Statistics.regression(formula, data=selected_countries)
-summary = result['summary']
-print(summary)

@@ -3,19 +3,23 @@ import numpy
 import shutil
 import os
 from matplotlib import cm
-
+import seaborn
 plot_folder = 'output'
 paper_plot_folder = '/home/dieter/Dropbox/Apps/Overleaf/RobotsAndNurses/output'
-style = "whitegrid"
+
+
 facet_kws=dict(despine=False)
-rc ={'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'}
+
+
+seaborn.set_style("darkgrid")
+seaborn.set(font_scale=1.5)
 
 short_order = ["Refuse Dinner","Accept", "No TV","Notify Trusted","Notify Doctor","Repeat"]
 black = (0,0,0)
 grey = (0.5,0.5,0.5)
-colors = ['#66c2a5','#fc8d62','#8da0cb']#[black, black]
-markers = ['o','s']
-lines = ['--', '-']
+colors = ['#EDB200','#FF6600','#8da0cb']#[black, black]
+markers = ['s','o']
+lines = ['-', '-']
 estimator = numpy.mean
 ci = 95
 
@@ -39,5 +43,14 @@ def copy_output():
 def output_file(base):
     filename = os.path.join(plot_folder, base)
     return filename
+
+
+def spine(g):
+    for ax in g.axes.flatten():  # Loop directly on the flattened axes
+        ax.tick_params(bottom=False)
+        for _, spine in ax.spines.items():
+            spine.set_visible(True)
+            spine.set_color('black')
+            spine.set_linewidth(1)
 
 
