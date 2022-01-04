@@ -1,0 +1,661 @@
+ResponseId,variable,value,picture_order,side,action_nr,actor,actions,action_short,attention_response,attention_correct_x,attention_correct_y,IPAddress,BirthYear,Ethnicity,Gender,Age,Rating,Actor,Action
+R_3kH3D3nATEkgL3V,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,1,nurse,Accept
+R_3kH3D3nATEkgL3V,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,-1,robot,Accept
+R_3kH3D3nATEkgL3V,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_3kH3D3nATEkgL3V,Q3_2_2,Unsure,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,0,robot,Notify Trusted
+R_3kH3D3nATEkgL3V,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_3kH3D3nATEkgL3V,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,1,robot,Notify Doctor
+R_3kH3D3nATEkgL3V,Q3_1_4,Not Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,False,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,-1,nurse,Repeat
+R_3kH3D3nATEkgL3V,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,1,robot,Repeat
+R_3kH3D3nATEkgL3V,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,-1,nurse,Refuse Dinner
+R_3kH3D3nATEkgL3V,Q3_2_5,Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Permissible,True,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,1,robot,Refuse Dinner
+R_3kH3D3nATEkgL3V,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,-1,nurse,No TV
+R_3kH3D3nATEkgL3V,Q3_2_6,Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,0.8333333333333334,129.137.96.4,2002,White,Male,19.0,1,robot,No TV
+R_1gLPQspIWhlNHZO,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,129.137.96.4,2002,White,Male,19.0,1,nurse,Accept
+R_1gLPQspIWhlNHZO,Q3_2_1,Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,129.137.96.4,2002,White,Male,19.0,1,robot,Accept
+R_1gLPQspIWhlNHZO,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.4,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_1gLPQspIWhlNHZO,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.4,2002,White,Male,19.0,1,robot,Notify Trusted
+R_1gLPQspIWhlNHZO,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.4,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_1gLPQspIWhlNHZO,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.4,2002,White,Male,19.0,1,robot,Notify Doctor
+R_1gLPQspIWhlNHZO,Q3_1_4,Not Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.4,2002,White,Male,19.0,-1,nurse,Repeat
+R_1gLPQspIWhlNHZO,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.4,2002,White,Male,19.0,1,robot,Repeat
+R_1gLPQspIWhlNHZO,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.4,2002,White,Male,19.0,-1,nurse,Refuse Dinner
+R_1gLPQspIWhlNHZO,Q3_2_5,Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.4,2002,White,Male,19.0,1,robot,Refuse Dinner
+R_1gLPQspIWhlNHZO,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,129.137.96.4,2002,White,Male,19.0,-1,nurse,No TV
+R_1gLPQspIWhlNHZO,Q3_2_6,Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.4,2002,White,Male,19.0,1,robot,No TV
+R_DofrAuXnqUJVtJf,Q3_1_1,Not Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.24.222,2000,White,Male,21.0,-1,nurse,Accept
+R_DofrAuXnqUJVtJf,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.24.222,2000,White,Male,21.0,-1,robot,Accept
+R_DofrAuXnqUJVtJf,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,72.49.24.222,2000,White,Male,21.0,1,nurse,Notify Trusted
+R_DofrAuXnqUJVtJf,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,72.49.24.222,2000,White,Male,21.0,1,robot,Notify Trusted
+R_DofrAuXnqUJVtJf,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,72.49.24.222,2000,White,Male,21.0,1,nurse,Notify Doctor
+R_DofrAuXnqUJVtJf,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,72.49.24.222,2000,White,Male,21.0,1,robot,Notify Doctor
+R_DofrAuXnqUJVtJf,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,72.49.24.222,2000,White,Male,21.0,1,nurse,Repeat
+R_DofrAuXnqUJVtJf,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,72.49.24.222,2000,White,Male,21.0,1,robot,Repeat
+R_DofrAuXnqUJVtJf,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,72.49.24.222,2000,White,Male,21.0,0,nurse,Refuse Dinner
+R_DofrAuXnqUJVtJf,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,72.49.24.222,2000,White,Male,21.0,-1,robot,Refuse Dinner
+R_DofrAuXnqUJVtJf,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,72.49.24.222,2000,White,Male,21.0,1,nurse,No TV
+R_DofrAuXnqUJVtJf,Q3_2_6,Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,72.49.24.222,2000,White,Male,21.0,1,robot,No TV
+R_1eQrQWPq7TqiNke,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,24.26.39.181,1997,White,Male,24.0,1,nurse,Accept
+R_1eQrQWPq7TqiNke,Q3_2_1,Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,24.26.39.181,1997,White,Male,24.0,1,robot,Accept
+R_1eQrQWPq7TqiNke,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,24.26.39.181,1997,White,Male,24.0,1,nurse,Notify Trusted
+R_1eQrQWPq7TqiNke,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,24.26.39.181,1997,White,Male,24.0,1,robot,Notify Trusted
+R_1eQrQWPq7TqiNke,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,24.26.39.181,1997,White,Male,24.0,1,nurse,Notify Doctor
+R_1eQrQWPq7TqiNke,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,24.26.39.181,1997,White,Male,24.0,1,robot,Notify Doctor
+R_1eQrQWPq7TqiNke,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,24.26.39.181,1997,White,Male,24.0,1,nurse,Repeat
+R_1eQrQWPq7TqiNke,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,24.26.39.181,1997,White,Male,24.0,1,robot,Repeat
+R_1eQrQWPq7TqiNke,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,24.26.39.181,1997,White,Male,24.0,-1,nurse,Refuse Dinner
+R_1eQrQWPq7TqiNke,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,24.26.39.181,1997,White,Male,24.0,-1,robot,Refuse Dinner
+R_1eQrQWPq7TqiNke,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,24.26.39.181,1997,White,Male,24.0,-1,nurse,No TV
+R_1eQrQWPq7TqiNke,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,24.26.39.181,1997,White,Male,24.0,-1,robot,No TV
+R_43cafiyQMWHA8cp,Q3_1_1,Not Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,24.106.123.19,2003,Black or African American,Female,18.0,-1,nurse,Accept
+R_43cafiyQMWHA8cp,Q3_2_1,Unsure,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,24.106.123.19,2003,Black or African American,Female,18.0,0,robot,Accept
+R_43cafiyQMWHA8cp,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,24.106.123.19,2003,Black or African American,Female,18.0,1,nurse,Notify Trusted
+R_43cafiyQMWHA8cp,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,24.106.123.19,2003,Black or African American,Female,18.0,1,robot,Notify Trusted
+R_43cafiyQMWHA8cp,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,24.106.123.19,2003,Black or African American,Female,18.0,1,nurse,Notify Doctor
+R_43cafiyQMWHA8cp,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,24.106.123.19,2003,Black or African American,Female,18.0,1,robot,Notify Doctor
+R_43cafiyQMWHA8cp,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,24.106.123.19,2003,Black or African American,Female,18.0,1,nurse,Repeat
+R_43cafiyQMWHA8cp,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,24.106.123.19,2003,Black or African American,Female,18.0,1,robot,Repeat
+R_43cafiyQMWHA8cp,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,24.106.123.19,2003,Black or African American,Female,18.0,0,nurse,Refuse Dinner
+R_43cafiyQMWHA8cp,Q3_2_5,Unsure,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,24.106.123.19,2003,Black or African American,Female,18.0,0,robot,Refuse Dinner
+R_43cafiyQMWHA8cp,Q3_1_6,Unsure,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,24.106.123.19,2003,Black or African American,Female,18.0,0,nurse,No TV
+R_43cafiyQMWHA8cp,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,24.106.123.19,2003,Black or African American,Female,18.0,0,robot,No TV
+R_3FJ7KwOmGb8U9vZ,Q3_1_1,Not Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,-1,nurse,Accept
+R_3FJ7KwOmGb8U9vZ,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,-1,robot,Accept
+R_3FJ7KwOmGb8U9vZ,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_3FJ7KwOmGb8U9vZ,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.19,2002,White,Male,19.0,1,robot,Notify Trusted
+R_3FJ7KwOmGb8U9vZ,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_3FJ7KwOmGb8U9vZ,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,robot,Notify Doctor
+R_3FJ7KwOmGb8U9vZ,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,Repeat
+R_3FJ7KwOmGb8U9vZ,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,robot,Repeat
+R_3FJ7KwOmGb8U9vZ,Q3_1_5,Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,Refuse Dinner
+R_3FJ7KwOmGb8U9vZ,Q3_2_5,Unsure,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.19,2002,White,Male,19.0,0,robot,Refuse Dinner
+R_3FJ7KwOmGb8U9vZ,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,No TV
+R_3FJ7KwOmGb8U9vZ,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,129.137.96.19,2002,White,Male,19.0,0,robot,No TV
+R_pcK6XfzIZEdd2Ip,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,False,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,0,nurse,Accept
+R_pcK6XfzIZEdd2Ip,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,-1,robot,Accept
+R_pcK6XfzIZEdd2Ip,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,1,nurse,Notify Trusted
+R_pcK6XfzIZEdd2Ip,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,1,robot,Notify Trusted
+R_pcK6XfzIZEdd2Ip,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,1,nurse,Notify Doctor
+R_pcK6XfzIZEdd2Ip,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,1,robot,Notify Doctor
+R_pcK6XfzIZEdd2Ip,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,1,nurse,Repeat
+R_pcK6XfzIZEdd2Ip,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,1,robot,Repeat
+R_pcK6XfzIZEdd2Ip,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,-1,nurse,Refuse Dinner
+R_pcK6XfzIZEdd2Ip,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,-1,robot,Refuse Dinner
+R_pcK6XfzIZEdd2Ip,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,-1,nurse,No TV
+R_pcK6XfzIZEdd2Ip,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,0.8333333333333334,129.137.96.8,2003,White,Male,18.0,-1,robot,No TV
+R_2QKxEb2DwnLfgjQ,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,208.102.163.222,2001,White,Male,20.0,1,nurse,Accept
+R_2QKxEb2DwnLfgjQ,Q3_2_1,Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,208.102.163.222,2001,White,Male,20.0,1,robot,Accept
+R_2QKxEb2DwnLfgjQ,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,208.102.163.222,2001,White,Male,20.0,1,nurse,Notify Trusted
+R_2QKxEb2DwnLfgjQ,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,208.102.163.222,2001,White,Male,20.0,1,robot,Notify Trusted
+R_2QKxEb2DwnLfgjQ,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,208.102.163.222,2001,White,Male,20.0,1,nurse,Notify Doctor
+R_2QKxEb2DwnLfgjQ,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,208.102.163.222,2001,White,Male,20.0,1,robot,Notify Doctor
+R_2QKxEb2DwnLfgjQ,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,208.102.163.222,2001,White,Male,20.0,1,nurse,Repeat
+R_2QKxEb2DwnLfgjQ,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,208.102.163.222,2001,White,Male,20.0,1,robot,Repeat
+R_2QKxEb2DwnLfgjQ,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,208.102.163.222,2001,White,Male,20.0,-1,nurse,Refuse Dinner
+R_2QKxEb2DwnLfgjQ,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,208.102.163.222,2001,White,Male,20.0,-1,robot,Refuse Dinner
+R_2QKxEb2DwnLfgjQ,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,208.102.163.222,2001,White,Male,20.0,-1,nurse,No TV
+R_2QKxEb2DwnLfgjQ,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,208.102.163.222,2001,White,Male,20.0,-1,robot,No TV
+R_2UXViVYwLdeL6nC,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,75.81.229.129,2003,White,Female,18.0,1,nurse,Accept
+R_2UXViVYwLdeL6nC,Q3_2_1,Unsure,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,75.81.229.129,2003,White,Female,18.0,0,robot,Accept
+R_2UXViVYwLdeL6nC,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,75.81.229.129,2003,White,Female,18.0,1,nurse,Notify Trusted
+R_2UXViVYwLdeL6nC,Q3_2_2,Unsure,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,75.81.229.129,2003,White,Female,18.0,0,robot,Notify Trusted
+R_2UXViVYwLdeL6nC,Q3_1_3,Unsure,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Unsure,True,1.0,75.81.229.129,2003,White,Female,18.0,0,nurse,Notify Doctor
+R_2UXViVYwLdeL6nC,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,75.81.229.129,2003,White,Female,18.0,1,robot,Notify Doctor
+R_2UXViVYwLdeL6nC,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,75.81.229.129,2003,White,Female,18.0,1,nurse,Repeat
+R_2UXViVYwLdeL6nC,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,75.81.229.129,2003,White,Female,18.0,1,robot,Repeat
+R_2UXViVYwLdeL6nC,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,75.81.229.129,2003,White,Female,18.0,0,nurse,Refuse Dinner
+R_2UXViVYwLdeL6nC,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,75.81.229.129,2003,White,Female,18.0,-1,robot,Refuse Dinner
+R_2UXViVYwLdeL6nC,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,75.81.229.129,2003,White,Female,18.0,-1,nurse,No TV
+R_2UXViVYwLdeL6nC,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,75.81.229.129,2003,White,Female,18.0,-1,robot,No TV
+R_3lzdRVGxjYLIl1z,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,24.208.218.20,2003,White,Male,18.0,0,nurse,Accept
+R_3lzdRVGxjYLIl1z,Q3_2_1,Unsure,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,24.208.218.20,2003,White,Male,18.0,0,robot,Accept
+R_3lzdRVGxjYLIl1z,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,24.208.218.20,2003,White,Male,18.0,1,nurse,Notify Trusted
+R_3lzdRVGxjYLIl1z,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,24.208.218.20,2003,White,Male,18.0,1,robot,Notify Trusted
+R_3lzdRVGxjYLIl1z,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,24.208.218.20,2003,White,Male,18.0,1,nurse,Notify Doctor
+R_3lzdRVGxjYLIl1z,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,24.208.218.20,2003,White,Male,18.0,1,robot,Notify Doctor
+R_3lzdRVGxjYLIl1z,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,24.208.218.20,2003,White,Male,18.0,1,nurse,Repeat
+R_3lzdRVGxjYLIl1z,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,24.208.218.20,2003,White,Male,18.0,1,robot,Repeat
+R_3lzdRVGxjYLIl1z,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,24.208.218.20,2003,White,Male,18.0,-1,nurse,Refuse Dinner
+R_3lzdRVGxjYLIl1z,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,24.208.218.20,2003,White,Male,18.0,-1,robot,Refuse Dinner
+R_3lzdRVGxjYLIl1z,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,24.208.218.20,2003,White,Male,18.0,1,nurse,No TV
+R_3lzdRVGxjYLIl1z,Q3_2_6,Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,24.208.218.20,2003,White,Male,18.0,1,robot,No TV
+R_3nVORAANxyR82Uw,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,173.88.151.185,2002,White,Female,19.0,1,nurse,Accept
+R_3nVORAANxyR82Uw,Q3_2_1,Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,173.88.151.185,2002,White,Female,19.0,1,robot,Accept
+R_3nVORAANxyR82Uw,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,173.88.151.185,2002,White,Female,19.0,1,nurse,Notify Trusted
+R_3nVORAANxyR82Uw,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,173.88.151.185,2002,White,Female,19.0,1,robot,Notify Trusted
+R_3nVORAANxyR82Uw,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,173.88.151.185,2002,White,Female,19.0,1,nurse,Notify Doctor
+R_3nVORAANxyR82Uw,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,173.88.151.185,2002,White,Female,19.0,1,robot,Notify Doctor
+R_3nVORAANxyR82Uw,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,173.88.151.185,2002,White,Female,19.0,1,nurse,Repeat
+R_3nVORAANxyR82Uw,Q3_2_4,Unsure,Q3,2,4,robot,repeat the request to take the medication,Repeat,Unsure,True,1.0,173.88.151.185,2002,White,Female,19.0,0,robot,Repeat
+R_3nVORAANxyR82Uw,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,173.88.151.185,2002,White,Female,19.0,-1,nurse,Refuse Dinner
+R_3nVORAANxyR82Uw,Q3_2_5,Unsure,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,173.88.151.185,2002,White,Female,19.0,0,robot,Refuse Dinner
+R_3nVORAANxyR82Uw,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,173.88.151.185,2002,White,Female,19.0,1,nurse,No TV
+R_3nVORAANxyR82Uw,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,Unsure,True,1.0,173.88.151.185,2002,White,Female,19.0,0,robot,No TV
+R_3D131fAjARqP3In,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,65.28.255.251,2001,White,Male,20.0,1,nurse,Accept
+R_3D131fAjARqP3In,Q3_2_1,Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,65.28.255.251,2001,White,Male,20.0,1,robot,Accept
+R_3D131fAjARqP3In,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,65.28.255.251,2001,White,Male,20.0,1,nurse,Notify Trusted
+R_3D131fAjARqP3In,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,65.28.255.251,2001,White,Male,20.0,1,robot,Notify Trusted
+R_3D131fAjARqP3In,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,65.28.255.251,2001,White,Male,20.0,1,nurse,Notify Doctor
+R_3D131fAjARqP3In,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,65.28.255.251,2001,White,Male,20.0,1,robot,Notify Doctor
+R_3D131fAjARqP3In,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,65.28.255.251,2001,White,Male,20.0,1,nurse,Repeat
+R_3D131fAjARqP3In,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,65.28.255.251,2001,White,Male,20.0,1,robot,Repeat
+R_3D131fAjARqP3In,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,65.28.255.251,2001,White,Male,20.0,-1,nurse,Refuse Dinner
+R_3D131fAjARqP3In,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,65.28.255.251,2001,White,Male,20.0,-1,robot,Refuse Dinner
+R_3D131fAjARqP3In,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,65.28.255.251,2001,White,Male,20.0,-1,nurse,No TV
+R_3D131fAjARqP3In,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,65.28.255.251,2001,White,Male,20.0,-1,robot,No TV
+R_1LNcoyxbrCRwrN4,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Accept
+R_1LNcoyxbrCRwrN4,Q3_2_1,Unsure,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Accept
+R_1LNcoyxbrCRwrN4,Q3_1_2,Unsure,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Notify Trusted
+R_1LNcoyxbrCRwrN4,Q3_2_2,Unsure,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Notify Trusted
+R_1LNcoyxbrCRwrN4,Q3_1_3,Unsure,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Notify Doctor
+R_1LNcoyxbrCRwrN4,Q3_2_3,Unsure,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Notify Doctor
+R_1LNcoyxbrCRwrN4,Q3_1_4,Unsure,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Repeat
+R_1LNcoyxbrCRwrN4,Q3_2_4,Unsure,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Repeat
+R_1LNcoyxbrCRwrN4,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Refuse Dinner
+R_1LNcoyxbrCRwrN4,Q3_2_5,Unsure,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Refuse Dinner
+R_1LNcoyxbrCRwrN4,Q3_1_6,Unsure,Q3,1,6,nurse,to not let Robert watch TV,No TV,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,No TV
+R_1LNcoyxbrCRwrN4,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,No TV
+R_PNfB4yYG94iFACl,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,72.49.106.49,2003,White,Male,18.0,0,nurse,Accept
+R_PNfB4yYG94iFACl,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,72.49.106.49,2003,White,Male,18.0,-1,robot,Accept
+R_PNfB4yYG94iFACl,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,72.49.106.49,2003,White,Male,18.0,1,nurse,Notify Trusted
+R_PNfB4yYG94iFACl,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,72.49.106.49,2003,White,Male,18.0,1,robot,Notify Trusted
+R_PNfB4yYG94iFACl,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,72.49.106.49,2003,White,Male,18.0,1,nurse,Notify Doctor
+R_PNfB4yYG94iFACl,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,72.49.106.49,2003,White,Male,18.0,1,robot,Notify Doctor
+R_PNfB4yYG94iFACl,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,72.49.106.49,2003,White,Male,18.0,1,nurse,Repeat
+R_PNfB4yYG94iFACl,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,72.49.106.49,2003,White,Male,18.0,1,robot,Repeat
+R_PNfB4yYG94iFACl,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,72.49.106.49,2003,White,Male,18.0,-1,nurse,Refuse Dinner
+R_PNfB4yYG94iFACl,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,72.49.106.49,2003,White,Male,18.0,-1,robot,Refuse Dinner
+R_PNfB4yYG94iFACl,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,72.49.106.49,2003,White,Male,18.0,-1,nurse,No TV
+R_PNfB4yYG94iFACl,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,72.49.106.49,2003,White,Male,18.0,-1,robot,No TV
+R_2rPLu6QBPIrpWa9,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,nurse,Accept
+R_2rPLu6QBPIrpWa9,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,-1,robot,Accept
+R_2rPLu6QBPIrpWa9,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,nurse,Notify Trusted
+R_2rPLu6QBPIrpWa9,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,robot,Notify Trusted
+R_2rPLu6QBPIrpWa9,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,nurse,Notify Doctor
+R_2rPLu6QBPIrpWa9,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,robot,Notify Doctor
+R_2rPLu6QBPIrpWa9,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,nurse,Repeat
+R_2rPLu6QBPIrpWa9,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,robot,Repeat
+R_2rPLu6QBPIrpWa9,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,-1,nurse,Refuse Dinner
+R_2rPLu6QBPIrpWa9,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,-1,robot,Refuse Dinner
+R_2rPLu6QBPIrpWa9,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,nurse,No TV
+R_2rPLu6QBPIrpWa9,Q3_2_6,Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,False,0.8333333333333334,50.5.226.250,2001,Black or African American,Female,20.0,1,robot,No TV
+R_3kH6NsmPBESaltd,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.31,2002,White,Male,19.0,0,nurse,Accept
+R_3kH6NsmPBESaltd,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.31,2002,White,Male,19.0,-1,robot,Accept
+R_3kH6NsmPBESaltd,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.31,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_3kH6NsmPBESaltd,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.31,2002,White,Male,19.0,1,robot,Notify Trusted
+R_3kH6NsmPBESaltd,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.31,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_3kH6NsmPBESaltd,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.31,2002,White,Male,19.0,1,robot,Notify Doctor
+R_3kH6NsmPBESaltd,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.31,2002,White,Male,19.0,1,nurse,Repeat
+R_3kH6NsmPBESaltd,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.31,2002,White,Male,19.0,1,robot,Repeat
+R_3kH6NsmPBESaltd,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.31,2002,White,Male,19.0,-1,nurse,Refuse Dinner
+R_3kH6NsmPBESaltd,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.31,2002,White,Male,19.0,-1,robot,Refuse Dinner
+R_3kH6NsmPBESaltd,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,129.137.96.31,2002,White,Male,19.0,-1,nurse,No TV
+R_3kH6NsmPBESaltd,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,129.137.96.31,2002,White,Male,19.0,-1,robot,No TV
+R_2AXuxFcW8jvRBHv,Q3_1_1,Not Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,174.96.118.209,2003,White,Female,18.0,-1,nurse,Accept
+R_2AXuxFcW8jvRBHv,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,174.96.118.209,2003,White,Female,18.0,-1,robot,Accept
+R_2AXuxFcW8jvRBHv,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,174.96.118.209,2003,White,Female,18.0,1,nurse,Notify Trusted
+R_2AXuxFcW8jvRBHv,Q3_2_2,Unsure,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Unsure,True,1.0,174.96.118.209,2003,White,Female,18.0,0,robot,Notify Trusted
+R_2AXuxFcW8jvRBHv,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,174.96.118.209,2003,White,Female,18.0,1,nurse,Notify Doctor
+R_2AXuxFcW8jvRBHv,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,174.96.118.209,2003,White,Female,18.0,1,robot,Notify Doctor
+R_2AXuxFcW8jvRBHv,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,174.96.118.209,2003,White,Female,18.0,1,nurse,Repeat
+R_2AXuxFcW8jvRBHv,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,174.96.118.209,2003,White,Female,18.0,1,robot,Repeat
+R_2AXuxFcW8jvRBHv,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,174.96.118.209,2003,White,Female,18.0,0,nurse,Refuse Dinner
+R_2AXuxFcW8jvRBHv,Q3_2_5,Unsure,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,174.96.118.209,2003,White,Female,18.0,0,robot,Refuse Dinner
+R_2AXuxFcW8jvRBHv,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,174.96.118.209,2003,White,Female,18.0,1,nurse,No TV
+R_2AXuxFcW8jvRBHv,Q3_2_6,Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,174.96.118.209,2003,White,Female,18.0,1,robot,No TV
+R_eJV7tucbh6oHMDn,Q3_1_1,Not Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,184.59.89.89,2001,White,Female,20.0,-1,nurse,Accept
+R_eJV7tucbh6oHMDn,Q3_2_1,Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,184.59.89.89,2001,White,Female,20.0,1,robot,Accept
+R_eJV7tucbh6oHMDn,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,184.59.89.89,2001,White,Female,20.0,1,nurse,Notify Trusted
+R_eJV7tucbh6oHMDn,Q3_2_2,Unsure,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,184.59.89.89,2001,White,Female,20.0,0,robot,Notify Trusted
+R_eJV7tucbh6oHMDn,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,184.59.89.89,2001,White,Female,20.0,1,nurse,Notify Doctor
+R_eJV7tucbh6oHMDn,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,184.59.89.89,2001,White,Female,20.0,1,robot,Notify Doctor
+R_eJV7tucbh6oHMDn,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,184.59.89.89,2001,White,Female,20.0,1,nurse,Repeat
+R_eJV7tucbh6oHMDn,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,184.59.89.89,2001,White,Female,20.0,1,robot,Repeat
+R_eJV7tucbh6oHMDn,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,184.59.89.89,2001,White,Female,20.0,0,nurse,Refuse Dinner
+R_eJV7tucbh6oHMDn,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,184.59.89.89,2001,White,Female,20.0,-1,robot,Refuse Dinner
+R_eJV7tucbh6oHMDn,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,184.59.89.89,2001,White,Female,20.0,1,nurse,No TV
+R_eJV7tucbh6oHMDn,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,184.59.89.89,2001,White,Female,20.0,0,robot,No TV
+R_PHj2afgeWr8XXUJ,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,0,nurse,Accept
+R_PHj2afgeWr8XXUJ,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,-1,robot,Accept
+R_PHj2afgeWr8XXUJ,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_PHj2afgeWr8XXUJ,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Unsure,False,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,1,robot,Notify Trusted
+R_PHj2afgeWr8XXUJ,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_PHj2afgeWr8XXUJ,Q3_2_3,Unsure,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Unsure,True,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,0,robot,Notify Doctor
+R_PHj2afgeWr8XXUJ,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,1,nurse,Repeat
+R_PHj2afgeWr8XXUJ,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,1,robot,Repeat
+R_PHj2afgeWr8XXUJ,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,-1,nurse,Refuse Dinner
+R_PHj2afgeWr8XXUJ,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,-1,robot,Refuse Dinner
+R_PHj2afgeWr8XXUJ,Q3_1_6,Unsure,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,0,nurse,No TV
+R_PHj2afgeWr8XXUJ,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,0.8333333333333334,72.49.3.208,2002,White,Male,19.0,-1,robot,No TV
+R_3p3hKlui8baSfLO,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,nurse,Accept
+R_3p3hKlui8baSfLO,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,-1,robot,Accept
+R_3p3hKlui8baSfLO,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,nurse,Notify Trusted
+R_3p3hKlui8baSfLO,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,robot,Notify Trusted
+R_3p3hKlui8baSfLO,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,nurse,Notify Doctor
+R_3p3hKlui8baSfLO,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,robot,Notify Doctor
+R_3p3hKlui8baSfLO,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,nurse,Repeat
+R_3p3hKlui8baSfLO,Q3_2_4,Unsure,Q3,2,4,robot,repeat the request to take the medication,Repeat,Not Permissible,False,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,0,robot,Repeat
+R_3p3hKlui8baSfLO,Q3_1_5,Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,nurse,Refuse Dinner
+R_3p3hKlui8baSfLO,Q3_2_5,Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,robot,Refuse Dinner
+R_3p3hKlui8baSfLO,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,nurse,No TV
+R_3p3hKlui8baSfLO,Q3_2_6,Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,0.8333333333333334,129.137.96.1,2003,White,Female,18.0,1,robot,No TV
+R_2s4wHgPrFmmzArf,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,74.215.71.20,2003,White,Male,18.0,0,nurse,Accept
+R_2s4wHgPrFmmzArf,Q3_2_1,Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,74.215.71.20,2003,White,Male,18.0,1,robot,Accept
+R_2s4wHgPrFmmzArf,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,74.215.71.20,2003,White,Male,18.0,1,nurse,Notify Trusted
+R_2s4wHgPrFmmzArf,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,74.215.71.20,2003,White,Male,18.0,1,robot,Notify Trusted
+R_2s4wHgPrFmmzArf,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.215.71.20,2003,White,Male,18.0,1,nurse,Notify Doctor
+R_2s4wHgPrFmmzArf,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.215.71.20,2003,White,Male,18.0,1,robot,Notify Doctor
+R_2s4wHgPrFmmzArf,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,74.215.71.20,2003,White,Male,18.0,1,nurse,Repeat
+R_2s4wHgPrFmmzArf,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,74.215.71.20,2003,White,Male,18.0,1,robot,Repeat
+R_2s4wHgPrFmmzArf,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,74.215.71.20,2003,White,Male,18.0,-1,nurse,Refuse Dinner
+R_2s4wHgPrFmmzArf,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,74.215.71.20,2003,White,Male,18.0,-1,robot,Refuse Dinner
+R_2s4wHgPrFmmzArf,Q3_1_6,Unsure,Q3,1,6,nurse,to not let Robert watch TV,No TV,Unsure,True,1.0,74.215.71.20,2003,White,Male,18.0,0,nurse,No TV
+R_2s4wHgPrFmmzArf,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,Unsure,True,1.0,74.215.71.20,2003,White,Male,18.0,0,robot,No TV
+R_1JF3A1VQ2VlBZus,Q3_1_1,Unsure,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,nurse,Accept
+R_1JF3A1VQ2VlBZus,Q3_2_1,Unsure,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,robot,Accept
+R_1JF3A1VQ2VlBZus,Q3_1_2,Unsure,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,nurse,Notify Trusted
+R_1JF3A1VQ2VlBZus,Q3_2_2,Unsure,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,robot,Notify Trusted
+R_1JF3A1VQ2VlBZus,Q3_1_3,Unsure,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Unsure,True,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,nurse,Notify Doctor
+R_1JF3A1VQ2VlBZus,Q3_2_3,Unsure,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Unsure,True,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,robot,Notify Doctor
+R_1JF3A1VQ2VlBZus,Q3_1_4,Unsure,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,nurse,Repeat
+R_1JF3A1VQ2VlBZus,Q3_2_4,Unsure,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,robot,Repeat
+R_1JF3A1VQ2VlBZus,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,nurse,Refuse Dinner
+R_1JF3A1VQ2VlBZus,Q3_2_5,Unsure,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,robot,Refuse Dinner
+R_1JF3A1VQ2VlBZus,Q3_1_6,Unsure,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,nurse,No TV
+R_1JF3A1VQ2VlBZus,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,129.137.96.16,2003,Black or African American,Male,18.0,0,robot,No TV
+R_2bI88YuPHwxlIS5,Q3_1_1,Not Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,-1,nurse,Accept
+R_2bI88YuPHwxlIS5,Q3_2_1,Unsure,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,0,robot,Accept
+R_2bI88YuPHwxlIS5,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,1,nurse,Notify Trusted
+R_2bI88YuPHwxlIS5,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,1,robot,Notify Trusted
+R_2bI88YuPHwxlIS5,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,1,nurse,Notify Doctor
+R_2bI88YuPHwxlIS5,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,1,robot,Notify Doctor
+R_2bI88YuPHwxlIS5,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,1,nurse,Repeat
+R_2bI88YuPHwxlIS5,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,1,robot,Repeat
+R_2bI88YuPHwxlIS5,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,-1,nurse,Refuse Dinner
+R_2bI88YuPHwxlIS5,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,-1,robot,Refuse Dinner
+R_2bI88YuPHwxlIS5,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,1,nurse,No TV
+R_2bI88YuPHwxlIS5,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,129.137.96.21,2002,Other_Latina,Female,19.0,0,robot,No TV
+R_a9lnFV1u20FSefT,Q3_1_1,Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,129.137.96.17,2003,White,Female,18.0,1,nurse,Accept
+R_a9lnFV1u20FSefT,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.17,2003,White,Female,18.0,-1,robot,Accept
+R_a9lnFV1u20FSefT,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.17,2003,White,Female,18.0,1,nurse,Notify Trusted
+R_a9lnFV1u20FSefT,Q3_2_2,Not Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Not Permissible,True,1.0,129.137.96.17,2003,White,Female,18.0,-1,robot,Notify Trusted
+R_a9lnFV1u20FSefT,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.17,2003,White,Female,18.0,1,nurse,Notify Doctor
+R_a9lnFV1u20FSefT,Q3_2_3,Unsure,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.17,2003,White,Female,18.0,0,robot,Notify Doctor
+R_a9lnFV1u20FSefT,Q3_1_4,Unsure,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.17,2003,White,Female,18.0,0,nurse,Repeat
+R_a9lnFV1u20FSefT,Q3_2_4,Unsure,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.17,2003,White,Female,18.0,0,robot,Repeat
+R_a9lnFV1u20FSefT,Q3_1_5,Not Permissible,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.17,2003,White,Female,18.0,-1,nurse,Refuse Dinner
+R_a9lnFV1u20FSefT,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.17,2003,White,Female,18.0,-1,robot,Refuse Dinner
+R_a9lnFV1u20FSefT,Q3_1_6,Not Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,129.137.96.17,2003,White,Female,18.0,-1,nurse,No TV
+R_a9lnFV1u20FSefT,Q3_2_6,Not Permissible,Q3,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,129.137.96.17,2003,White,Female,18.0,-1,robot,No TV
+R_RwsztA7sU17NAxr,Q3_1_1,Not Permissible,Q3,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,-1,nurse,Accept
+R_RwsztA7sU17NAxr,Q3_2_1,Not Permissible,Q3,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,-1,robot,Accept
+R_RwsztA7sU17NAxr,Q3_1_2,Permissible,Q3,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,1,nurse,Notify Trusted
+R_RwsztA7sU17NAxr,Q3_2_2,Permissible,Q3,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,1,robot,Notify Trusted
+R_RwsztA7sU17NAxr,Q3_1_3,Permissible,Q3,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,1,nurse,Notify Doctor
+R_RwsztA7sU17NAxr,Q3_2_3,Permissible,Q3,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,1,robot,Notify Doctor
+R_RwsztA7sU17NAxr,Q3_1_4,Permissible,Q3,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,1,nurse,Repeat
+R_RwsztA7sU17NAxr,Q3_2_4,Permissible,Q3,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,1,robot,Repeat
+R_RwsztA7sU17NAxr,Q3_1_5,Unsure,Q3,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,0,nurse,Refuse Dinner
+R_RwsztA7sU17NAxr,Q3_2_5,Not Permissible,Q3,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,-1,robot,Refuse Dinner
+R_RwsztA7sU17NAxr,Q3_1_6,Permissible,Q3,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,1,nurse,No TV
+R_RwsztA7sU17NAxr,Q3_2_6,Unsure,Q3,2,6,robot,to not let Robert watch TV,No TV,Unsure,True,1.0,157.32.88.156,2003,Other_Indian(South Asian),Female,18.0,0,robot,No TV
+R_1dNpfdlnEhu57ii,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,-1,nurse,Accept
+R_1dNpfdlnEhu57ii,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,-1,robot,Accept
+R_1dNpfdlnEhu57ii,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,nurse,Notify Trusted
+R_1dNpfdlnEhu57ii,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,robot,Notify Trusted
+R_1dNpfdlnEhu57ii,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,1,nurse,Notify Doctor
+R_1dNpfdlnEhu57ii,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,1,robot,Notify Doctor
+R_1dNpfdlnEhu57ii,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,1,nurse,Repeat
+R_1dNpfdlnEhu57ii,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,1,robot,Repeat
+R_1dNpfdlnEhu57ii,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.8,2003,White,Male,18.0,-1,nurse,Refuse Dinner
+R_1dNpfdlnEhu57ii,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.8,2003,White,Male,18.0,-1,robot,Refuse Dinner
+R_1dNpfdlnEhu57ii,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,129.137.96.8,2003,White,Male,18.0,0,nurse,No TV
+R_1dNpfdlnEhu57ii,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,129.137.96.8,2003,White,Male,18.0,0,robot,No TV
+R_3GqupIBPWIHDAlt,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,129.137.96.8,2003,White,Male,18.0,0,nurse,Accept
+R_3GqupIBPWIHDAlt,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,-1,robot,Accept
+R_3GqupIBPWIHDAlt,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,nurse,Notify Trusted
+R_3GqupIBPWIHDAlt,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,robot,Notify Trusted
+R_3GqupIBPWIHDAlt,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,nurse,Notify Doctor
+R_3GqupIBPWIHDAlt,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,robot,Notify Doctor
+R_3GqupIBPWIHDAlt,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,nurse,Repeat
+R_3GqupIBPWIHDAlt,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.8,2003,White,Male,18.0,1,robot,Repeat
+R_3GqupIBPWIHDAlt,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,-1,nurse,Refuse Dinner
+R_3GqupIBPWIHDAlt,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,-1,robot,Refuse Dinner
+R_3GqupIBPWIHDAlt,Q14_1_6,Not Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,-1,nurse,No TV
+R_3GqupIBPWIHDAlt,Q14_2_6,Not Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,129.137.96.8,2003,White,Male,18.0,-1,robot,No TV
+R_1gzoOqsLKbnCm8U,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.19,2002,White,Male,19.0,-1,nurse,Accept
+R_1gzoOqsLKbnCm8U,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.19,2002,White,Male,19.0,0,robot,Accept
+R_1gzoOqsLKbnCm8U,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_1gzoOqsLKbnCm8U,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.19,2002,White,Male,19.0,1,robot,Notify Trusted
+R_1gzoOqsLKbnCm8U,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_1gzoOqsLKbnCm8U,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,robot,Notify Doctor
+R_1gzoOqsLKbnCm8U,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,nurse,Repeat
+R_1gzoOqsLKbnCm8U,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.19,2002,White,Male,19.0,1,robot,Repeat
+R_1gzoOqsLKbnCm8U,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,129.137.96.19,2002,White,Male,19.0,0,nurse,Refuse Dinner
+R_1gzoOqsLKbnCm8U,Q14_2_5,Unsure,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,129.137.96.19,2002,White,Male,19.0,0,robot,Refuse Dinner
+R_1gzoOqsLKbnCm8U,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,129.137.96.19,2002,White,Male,19.0,0,nurse,No TV
+R_1gzoOqsLKbnCm8U,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,129.137.96.19,2002,White,Male,19.0,0,robot,No TV
+R_1PZR4Q0Gad9RgQI,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.9,2003,Black or African American,Male,18.0,-1,nurse,Accept
+R_1PZR4Q0Gad9RgQI,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.9,2003,Black or African American,Male,18.0,-1,robot,Accept
+R_1PZR4Q0Gad9RgQI,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,nurse,Notify Trusted
+R_1PZR4Q0Gad9RgQI,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,robot,Notify Trusted
+R_1PZR4Q0Gad9RgQI,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,nurse,Notify Doctor
+R_1PZR4Q0Gad9RgQI,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,robot,Notify Doctor
+R_1PZR4Q0Gad9RgQI,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,nurse,Repeat
+R_1PZR4Q0Gad9RgQI,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,robot,Repeat
+R_1PZR4Q0Gad9RgQI,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.9,2003,Black or African American,Male,18.0,-1,nurse,Refuse Dinner
+R_1PZR4Q0Gad9RgQI,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.9,2003,Black or African American,Male,18.0,-1,robot,Refuse Dinner
+R_1PZR4Q0Gad9RgQI,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,nurse,No TV
+R_1PZR4Q0Gad9RgQI,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.9,2003,Black or African American,Male,18.0,1,robot,No TV
+R_308mlLW4MwAGyFY,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.83.110.128,2002,White,Male,19.0,-1,nurse,Accept
+R_308mlLW4MwAGyFY,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.83.110.128,2002,White,Male,19.0,-1,robot,Accept
+R_308mlLW4MwAGyFY,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.83.110.128,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_308mlLW4MwAGyFY,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.83.110.128,2002,White,Male,19.0,1,robot,Notify Trusted
+R_308mlLW4MwAGyFY,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.83.110.128,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_308mlLW4MwAGyFY,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.83.110.128,2002,White,Male,19.0,1,robot,Notify Doctor
+R_308mlLW4MwAGyFY,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.83.110.128,2002,White,Male,19.0,1,nurse,Repeat
+R_308mlLW4MwAGyFY,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.83.110.128,2002,White,Male,19.0,1,robot,Repeat
+R_308mlLW4MwAGyFY,Q14_1_5,Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Permissible,True,1.0,74.83.110.128,2002,White,Male,19.0,1,nurse,Refuse Dinner
+R_308mlLW4MwAGyFY,Q14_2_5,Unsure,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,74.83.110.128,2002,White,Male,19.0,0,robot,Refuse Dinner
+R_308mlLW4MwAGyFY,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,74.83.110.128,2002,White,Male,19.0,1,nurse,No TV
+R_308mlLW4MwAGyFY,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,74.83.110.128,2002,White,Male,19.0,1,robot,No TV
+R_xl8zPkm1i23EJRT,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.1,2002,White,Female,19.0,-1,nurse,Accept
+R_xl8zPkm1i23EJRT,Q14_2_1,Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,129.137.96.1,2002,White,Female,19.0,1,robot,Accept
+R_xl8zPkm1i23EJRT,Q14_1_2,Unsure,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.1,2002,White,Female,19.0,0,nurse,Notify Trusted
+R_xl8zPkm1i23EJRT,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.1,2002,White,Female,19.0,1,robot,Notify Trusted
+R_xl8zPkm1i23EJRT,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.1,2002,White,Female,19.0,1,nurse,Notify Doctor
+R_xl8zPkm1i23EJRT,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.1,2002,White,Female,19.0,1,robot,Notify Doctor
+R_xl8zPkm1i23EJRT,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.1,2002,White,Female,19.0,1,nurse,Repeat
+R_xl8zPkm1i23EJRT,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.1,2002,White,Female,19.0,1,robot,Repeat
+R_xl8zPkm1i23EJRT,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,129.137.96.1,2002,White,Female,19.0,0,nurse,Refuse Dinner
+R_xl8zPkm1i23EJRT,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.1,2002,White,Female,19.0,-1,robot,Refuse Dinner
+R_xl8zPkm1i23EJRT,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.1,2002,White,Female,19.0,1,nurse,No TV
+R_xl8zPkm1i23EJRT,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.1,2002,White,Female,19.0,1,robot,No TV
+R_1r7hlinAn0zCcqZ,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.231.220,2002,White,Male,19.0,-1,nurse,Accept
+R_1r7hlinAn0zCcqZ,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.231.220,2002,White,Male,19.0,-1,robot,Accept
+R_1r7hlinAn0zCcqZ,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,72.49.231.220,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_1r7hlinAn0zCcqZ,Q14_2_2,Not Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Not Permissible,True,1.0,72.49.231.220,2002,White,Male,19.0,-1,robot,Notify Trusted
+R_1r7hlinAn0zCcqZ,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,72.49.231.220,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_1r7hlinAn0zCcqZ,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,72.49.231.220,2002,White,Male,19.0,1,robot,Notify Doctor
+R_1r7hlinAn0zCcqZ,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,72.49.231.220,2002,White,Male,19.0,1,nurse,Repeat
+R_1r7hlinAn0zCcqZ,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,72.49.231.220,2002,White,Male,19.0,1,robot,Repeat
+R_1r7hlinAn0zCcqZ,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,72.49.231.220,2002,White,Male,19.0,-1,nurse,Refuse Dinner
+R_1r7hlinAn0zCcqZ,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,72.49.231.220,2002,White,Male,19.0,-1,robot,Refuse Dinner
+R_1r7hlinAn0zCcqZ,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,72.49.231.220,2002,White,Male,19.0,1,nurse,No TV
+R_1r7hlinAn0zCcqZ,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,72.49.231.220,2002,White,Male,19.0,1,robot,No TV
+R_1H75RHREZXjaWky,Q14_1_1,Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,1,nurse,Accept
+R_1H75RHREZXjaWky,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,False,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,-1,robot,Accept
+R_1H75RHREZXjaWky,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,1,nurse,Notify Trusted
+R_1H75RHREZXjaWky,Q14_2_2,Not Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,-1,robot,Notify Trusted
+R_1H75RHREZXjaWky,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,1,nurse,Notify Doctor
+R_1H75RHREZXjaWky,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,1,robot,Notify Doctor
+R_1H75RHREZXjaWky,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,1,nurse,Repeat
+R_1H75RHREZXjaWky,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,1,robot,Repeat
+R_1H75RHREZXjaWky,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,-1,nurse,Refuse Dinner
+R_1H75RHREZXjaWky,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,-1,robot,Refuse Dinner
+R_1H75RHREZXjaWky,Q14_1_6,Not Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,-1,nurse,No TV
+R_1H75RHREZXjaWky,Q14_2_6,Not Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,0.8333333333333334,75.81.229.129,2003,White,Female,18.0,-1,robot,No TV
+R_2VvDpG9Hr8ViW7Q,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.20,2003,White,Female,18.0,0,nurse,Accept
+R_2VvDpG9Hr8ViW7Q,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.20,2003,White,Female,18.0,-1,robot,Accept
+R_2VvDpG9Hr8ViW7Q,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.20,2003,White,Female,18.0,1,nurse,Notify Trusted
+R_2VvDpG9Hr8ViW7Q,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.20,2003,White,Female,18.0,1,robot,Notify Trusted
+R_2VvDpG9Hr8ViW7Q,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.20,2003,White,Female,18.0,1,nurse,Notify Doctor
+R_2VvDpG9Hr8ViW7Q,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,129.137.96.20,2003,White,Female,18.0,1,robot,Notify Doctor
+R_2VvDpG9Hr8ViW7Q,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.20,2003,White,Female,18.0,1,nurse,Repeat
+R_2VvDpG9Hr8ViW7Q,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,129.137.96.20,2003,White,Female,18.0,1,robot,Repeat
+R_2VvDpG9Hr8ViW7Q,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.20,2003,White,Female,18.0,-1,nurse,Refuse Dinner
+R_2VvDpG9Hr8ViW7Q,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.20,2003,White,Female,18.0,-1,robot,Refuse Dinner
+R_2VvDpG9Hr8ViW7Q,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.20,2003,White,Female,18.0,1,nurse,No TV
+R_2VvDpG9Hr8ViW7Q,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,Unsure,True,1.0,129.137.96.20,2003,White,Female,18.0,0,robot,No TV
+R_x6jt7yxx6MSFwfT,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,184.54.83.11,2001,Black or African American,Female,20.0,0,nurse,Accept
+R_x6jt7yxx6MSFwfT,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,184.54.83.11,2001,Black or African American,Female,20.0,0,robot,Accept
+R_x6jt7yxx6MSFwfT,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,nurse,Notify Trusted
+R_x6jt7yxx6MSFwfT,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,robot,Notify Trusted
+R_x6jt7yxx6MSFwfT,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,nurse,Notify Doctor
+R_x6jt7yxx6MSFwfT,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,robot,Notify Doctor
+R_x6jt7yxx6MSFwfT,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,nurse,Repeat
+R_x6jt7yxx6MSFwfT,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,robot,Repeat
+R_x6jt7yxx6MSFwfT,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,184.54.83.11,2001,Black or African American,Female,20.0,-1,nurse,Refuse Dinner
+R_x6jt7yxx6MSFwfT,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,184.54.83.11,2001,Black or African American,Female,20.0,-1,robot,Refuse Dinner
+R_x6jt7yxx6MSFwfT,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,nurse,No TV
+R_x6jt7yxx6MSFwfT,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,184.54.83.11,2001,Black or African American,Female,20.0,1,robot,No TV
+R_3NVRlJoKeGdCF6u,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,74.133.142.218,2001,White,Female,20.0,0,nurse,Accept
+R_3NVRlJoKeGdCF6u,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,74.133.142.218,2001,White,Female,20.0,0,robot,Accept
+R_3NVRlJoKeGdCF6u,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.133.142.218,2001,White,Female,20.0,1,nurse,Notify Trusted
+R_3NVRlJoKeGdCF6u,Q14_2_2,Unsure,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.133.142.218,2001,White,Female,20.0,0,robot,Notify Trusted
+R_3NVRlJoKeGdCF6u,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,74.133.142.218,2001,White,Female,20.0,1,nurse,Notify Doctor
+R_3NVRlJoKeGdCF6u,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,74.133.142.218,2001,White,Female,20.0,1,robot,Notify Doctor
+R_3NVRlJoKeGdCF6u,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,74.133.142.218,2001,White,Female,20.0,1,nurse,Repeat
+R_3NVRlJoKeGdCF6u,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,74.133.142.218,2001,White,Female,20.0,1,robot,Repeat
+R_3NVRlJoKeGdCF6u,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,74.133.142.218,2001,White,Female,20.0,-1,nurse,Refuse Dinner
+R_3NVRlJoKeGdCF6u,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,74.133.142.218,2001,White,Female,20.0,-1,robot,Refuse Dinner
+R_3NVRlJoKeGdCF6u,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,74.133.142.218,2001,White,Female,20.0,0,nurse,No TV
+R_3NVRlJoKeGdCF6u,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,74.133.142.218,2001,White,Female,20.0,0,robot,No TV
+R_2OPWz143KkxPoeg,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Accept
+R_2OPWz143KkxPoeg,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Accept
+R_2OPWz143KkxPoeg,Q14_1_2,Unsure,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Notify Trusted
+R_2OPWz143KkxPoeg,Q14_2_2,Unsure,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Notify Trusted
+R_2OPWz143KkxPoeg,Q14_1_3,Unsure,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Notify Doctor
+R_2OPWz143KkxPoeg,Q14_2_3,Unsure,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Notify Doctor
+R_2OPWz143KkxPoeg,Q14_1_4,Unsure,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Repeat
+R_2OPWz143KkxPoeg,Q14_2_4,Unsure,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Repeat
+R_2OPWz143KkxPoeg,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,Refuse Dinner
+R_2OPWz143KkxPoeg,Q14_2_5,Unsure,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,Refuse Dinner
+R_2OPWz143KkxPoeg,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,nurse,No TV
+R_2OPWz143KkxPoeg,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,Unsure,True,1.0,72.49.3.41,2002,"Other_Israeli, Middle Eastern, Armenian",Male,19.0,0,robot,No TV
+R_u3bmwl3XDbY3GGl,Q14_1_1,Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,98.28.242.96,2000,White,Male,21.0,1,nurse,Accept
+R_u3bmwl3XDbY3GGl,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,98.28.242.96,2000,White,Male,21.0,-1,robot,Accept
+R_u3bmwl3XDbY3GGl,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,98.28.242.96,2000,White,Male,21.0,1,nurse,Notify Trusted
+R_u3bmwl3XDbY3GGl,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,98.28.242.96,2000,White,Male,21.0,1,robot,Notify Trusted
+R_u3bmwl3XDbY3GGl,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,98.28.242.96,2000,White,Male,21.0,1,nurse,Notify Doctor
+R_u3bmwl3XDbY3GGl,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,98.28.242.96,2000,White,Male,21.0,1,robot,Notify Doctor
+R_u3bmwl3XDbY3GGl,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,98.28.242.96,2000,White,Male,21.0,1,nurse,Repeat
+R_u3bmwl3XDbY3GGl,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,98.28.242.96,2000,White,Male,21.0,1,robot,Repeat
+R_u3bmwl3XDbY3GGl,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,98.28.242.96,2000,White,Male,21.0,-1,nurse,Refuse Dinner
+R_u3bmwl3XDbY3GGl,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,98.28.242.96,2000,White,Male,21.0,-1,robot,Refuse Dinner
+R_u3bmwl3XDbY3GGl,Q14_1_6,Not Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,98.28.242.96,2000,White,Male,21.0,-1,nurse,No TV
+R_u3bmwl3XDbY3GGl,Q14_2_6,Not Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,98.28.242.96,2000,White,Male,21.0,-1,robot,No TV
+R_3QY6KsHiFxGhLMn,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,174.101.134.64,2002,White,Male,19.0,0,nurse,Accept
+R_3QY6KsHiFxGhLMn,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,174.101.134.64,2002,White,Male,19.0,-1,robot,Accept
+R_3QY6KsHiFxGhLMn,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,174.101.134.64,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_3QY6KsHiFxGhLMn,Q14_2_2,Unsure,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,174.101.134.64,2002,White,Male,19.0,0,robot,Notify Trusted
+R_3QY6KsHiFxGhLMn,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,174.101.134.64,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_3QY6KsHiFxGhLMn,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,174.101.134.64,2002,White,Male,19.0,1,robot,Notify Doctor
+R_3QY6KsHiFxGhLMn,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,174.101.134.64,2002,White,Male,19.0,1,nurse,Repeat
+R_3QY6KsHiFxGhLMn,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,174.101.134.64,2002,White,Male,19.0,1,robot,Repeat
+R_3QY6KsHiFxGhLMn,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,174.101.134.64,2002,White,Male,19.0,-1,nurse,Refuse Dinner
+R_3QY6KsHiFxGhLMn,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,174.101.134.64,2002,White,Male,19.0,-1,robot,Refuse Dinner
+R_3QY6KsHiFxGhLMn,Q14_1_6,Not Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,174.101.134.64,2002,White,Male,19.0,-1,nurse,No TV
+R_3QY6KsHiFxGhLMn,Q14_2_6,Not Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,174.101.134.64,2002,White,Male,19.0,-1,robot,No TV
+R_3eh7lYiNlw2WH8w,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,98.28.29.40,2003,Black or African American,Female,18.0,-1,nurse,Accept
+R_3eh7lYiNlw2WH8w,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,98.28.29.40,2003,Black or African American,Female,18.0,-1,robot,Accept
+R_3eh7lYiNlw2WH8w,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,nurse,Notify Trusted
+R_3eh7lYiNlw2WH8w,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,robot,Notify Trusted
+R_3eh7lYiNlw2WH8w,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,nurse,Notify Doctor
+R_3eh7lYiNlw2WH8w,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,robot,Notify Doctor
+R_3eh7lYiNlw2WH8w,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,nurse,Repeat
+R_3eh7lYiNlw2WH8w,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,robot,Repeat
+R_3eh7lYiNlw2WH8w,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,98.28.29.40,2003,Black or African American,Female,18.0,-1,nurse,Refuse Dinner
+R_3eh7lYiNlw2WH8w,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,98.28.29.40,2003,Black or African American,Female,18.0,-1,robot,Refuse Dinner
+R_3eh7lYiNlw2WH8w,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,nurse,No TV
+R_3eh7lYiNlw2WH8w,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,98.28.29.40,2003,Black or African American,Female,18.0,1,robot,No TV
+R_79ENp3dZyUPriV3,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,52.124.36.227,2003,Black or African American,Female,18.0,-1,nurse,Accept
+R_79ENp3dZyUPriV3,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,52.124.36.227,2003,Black or African American,Female,18.0,-1,robot,Accept
+R_79ENp3dZyUPriV3,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,nurse,Notify Trusted
+R_79ENp3dZyUPriV3,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,robot,Notify Trusted
+R_79ENp3dZyUPriV3,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,nurse,Notify Doctor
+R_79ENp3dZyUPriV3,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,robot,Notify Doctor
+R_79ENp3dZyUPriV3,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,nurse,Repeat
+R_79ENp3dZyUPriV3,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,robot,Repeat
+R_79ENp3dZyUPriV3,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,52.124.36.227,2003,Black or African American,Female,18.0,-1,nurse,Refuse Dinner
+R_79ENp3dZyUPriV3,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,52.124.36.227,2003,Black or African American,Female,18.0,-1,robot,Refuse Dinner
+R_79ENp3dZyUPriV3,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,nurse,No TV
+R_79ENp3dZyUPriV3,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,52.124.36.227,2003,Black or African American,Female,18.0,1,robot,No TV
+R_3R1xqxRRKbvyZxf,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,52.124.36.227,2001,White,Female,20.0,-1,nurse,Accept
+R_3R1xqxRRKbvyZxf,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,52.124.36.227,2001,White,Female,20.0,0,robot,Accept
+R_3R1xqxRRKbvyZxf,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,Notify Trusted
+R_3R1xqxRRKbvyZxf,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,52.124.36.227,2001,White,Female,20.0,1,robot,Notify Trusted
+R_3R1xqxRRKbvyZxf,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,Notify Doctor
+R_3R1xqxRRKbvyZxf,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,robot,Notify Doctor
+R_3R1xqxRRKbvyZxf,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,Repeat
+R_3R1xqxRRKbvyZxf,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,1.0,52.124.36.227,2001,White,Female,20.0,1,robot,Repeat
+R_3R1xqxRRKbvyZxf,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,-1,nurse,Refuse Dinner
+R_3R1xqxRRKbvyZxf,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,-1,robot,Refuse Dinner
+R_3R1xqxRRKbvyZxf,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,No TV
+R_3R1xqxRRKbvyZxf,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,robot,No TV
+R_2CQyMy2GV3GkKYE,Q14_1_1,Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,1,nurse,Accept
+R_2CQyMy2GV3GkKYE,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,-1,robot,Accept
+R_2CQyMy2GV3GkKYE,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,1,nurse,Notify Trusted
+R_2CQyMy2GV3GkKYE,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,1,robot,Notify Trusted
+R_2CQyMy2GV3GkKYE,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,1,nurse,Notify Doctor
+R_2CQyMy2GV3GkKYE,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,1,robot,Notify Doctor
+R_2CQyMy2GV3GkKYE,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,1,nurse,Repeat
+R_2CQyMy2GV3GkKYE,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,1,robot,Repeat
+R_2CQyMy2GV3GkKYE,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,-1,nurse,Refuse Dinner
+R_2CQyMy2GV3GkKYE,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,-1,robot,Refuse Dinner
+R_2CQyMy2GV3GkKYE,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,False,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,0,nurse,No TV
+R_2CQyMy2GV3GkKYE,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,Unsure,True,0.8333333333333334,184.54.55.45,2001,White,Male,20.0,0,robot,No TV
+R_Ovu7FAYMfjRXJER,Q14_1_1,Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,1,nurse,Accept
+R_Ovu7FAYMfjRXJER,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,False,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,0,robot,Accept
+R_Ovu7FAYMfjRXJER,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_Ovu7FAYMfjRXJER,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,1,robot,Notify Trusted
+R_Ovu7FAYMfjRXJER,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_Ovu7FAYMfjRXJER,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,1,robot,Notify Doctor
+R_Ovu7FAYMfjRXJER,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,1,nurse,Repeat
+R_Ovu7FAYMfjRXJER,Q14_2_4,Unsure,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,0,robot,Repeat
+R_Ovu7FAYMfjRXJER,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,0,nurse,Refuse Dinner
+R_Ovu7FAYMfjRXJER,Q14_2_5,Unsure,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,0,robot,Refuse Dinner
+R_Ovu7FAYMfjRXJER,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,0,nurse,No TV
+R_Ovu7FAYMfjRXJER,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,0.8333333333333334,184.54.149.214,2002,White,Male,19.0,0,robot,No TV
+R_2V2aXl6bwYBSzKp,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,52.124.36.227,2001,White,Female,20.0,-1,nurse,Accept
+R_2V2aXl6bwYBSzKp,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,52.124.36.227,2001,White,Female,20.0,0,robot,Accept
+R_2V2aXl6bwYBSzKp,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,Notify Trusted
+R_2V2aXl6bwYBSzKp,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,robot,Notify Trusted
+R_2V2aXl6bwYBSzKp,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,Notify Doctor
+R_2V2aXl6bwYBSzKp,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,52.124.36.227,2001,White,Female,20.0,1,robot,Notify Doctor
+R_2V2aXl6bwYBSzKp,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,Repeat
+R_2V2aXl6bwYBSzKp,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,1,robot,Repeat
+R_2V2aXl6bwYBSzKp,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,-1,nurse,Refuse Dinner
+R_2V2aXl6bwYBSzKp,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,52.124.36.227,2001,White,Female,20.0,-1,robot,Refuse Dinner
+R_2V2aXl6bwYBSzKp,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,52.124.36.227,2001,White,Female,20.0,1,nurse,No TV
+R_2V2aXl6bwYBSzKp,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,52.124.36.227,2001,White,Female,20.0,0,robot,No TV
+R_2xK2ZKF0Oc132Nf,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.215.221.11,2002,White,Male,19.0,-1,nurse,Accept
+R_2xK2ZKF0Oc132Nf,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.215.221.11,2002,White,Male,19.0,-1,robot,Accept
+R_2xK2ZKF0Oc132Nf,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,74.215.221.11,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_2xK2ZKF0Oc132Nf,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,74.215.221.11,2002,White,Male,19.0,1,robot,Notify Trusted
+R_2xK2ZKF0Oc132Nf,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.215.221.11,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_2xK2ZKF0Oc132Nf,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.215.221.11,2002,White,Male,19.0,1,robot,Notify Doctor
+R_2xK2ZKF0Oc132Nf,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.215.221.11,2002,White,Male,19.0,1,nurse,Repeat
+R_2xK2ZKF0Oc132Nf,Q14_2_4,Unsure,Q14,2,4,robot,repeat the request to take the medication,Repeat,Unsure,True,1.0,74.215.221.11,2002,White,Male,19.0,0,robot,Repeat
+R_2xK2ZKF0Oc132Nf,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,74.215.221.11,2002,White,Male,19.0,0,nurse,Refuse Dinner
+R_2xK2ZKF0Oc132Nf,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,74.215.221.11,2002,White,Male,19.0,-1,robot,Refuse Dinner
+R_2xK2ZKF0Oc132Nf,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,74.215.221.11,2002,White,Male,19.0,1,nurse,No TV
+R_2xK2ZKF0Oc132Nf,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,74.215.221.11,2002,White,Male,19.0,1,robot,No TV
+R_1Fzvax1D6uPwnym,Q14_1_1,Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,nurse,Accept
+R_1Fzvax1D6uPwnym,Q14_2_1,Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,True,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,robot,Accept
+R_1Fzvax1D6uPwnym,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,nurse,Notify Trusted
+R_1Fzvax1D6uPwnym,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,robot,Notify Trusted
+R_1Fzvax1D6uPwnym,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,Permissible,True,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,nurse,Notify Doctor
+R_1Fzvax1D6uPwnym,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,Not Permissible,False,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,robot,Notify Doctor
+R_1Fzvax1D6uPwnym,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,,False,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,nurse,Repeat
+R_1Fzvax1D6uPwnym,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,,False,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,1,robot,Repeat
+R_1Fzvax1D6uPwnym,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,0,nurse,Refuse Dinner
+R_1Fzvax1D6uPwnym,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,-1,robot,Refuse Dinner
+R_1Fzvax1D6uPwnym,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,Unsure,True,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,0,nurse,No TV
+R_1Fzvax1D6uPwnym,Q14_2_6,Not Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,0.8333333333333334,65.28.251.182,2000,White,Male,21.0,-1,robot,No TV
+R_2AM42f89SblKtyw,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,1.0,129.137.96.3,2003,Asian,Male,18.0,-1,nurse,Accept
+R_2AM42f89SblKtyw,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,129.137.96.3,2003,Asian,Male,18.0,0,robot,Accept
+R_2AM42f89SblKtyw,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.3,2003,Asian,Male,18.0,1,nurse,Notify Trusted
+R_2AM42f89SblKtyw,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,129.137.96.3,2003,Asian,Male,18.0,1,robot,Notify Trusted
+R_2AM42f89SblKtyw,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.3,2003,Asian,Male,18.0,1,nurse,Notify Doctor
+R_2AM42f89SblKtyw,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.3,2003,Asian,Male,18.0,1,robot,Notify Doctor
+R_2AM42f89SblKtyw,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.3,2003,Asian,Male,18.0,1,nurse,Repeat
+R_2AM42f89SblKtyw,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.3,2003,Asian,Male,18.0,1,robot,Repeat
+R_2AM42f89SblKtyw,Q14_1_5,Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.3,2003,Asian,Male,18.0,1,nurse,Refuse Dinner
+R_2AM42f89SblKtyw,Q14_2_5,Unsure,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,129.137.96.3,2003,Asian,Male,18.0,0,robot,Refuse Dinner
+R_2AM42f89SblKtyw,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,129.137.96.3,2003,Asian,Male,18.0,1,nurse,No TV
+R_2AM42f89SblKtyw,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,129.137.96.3,2003,Asian,Male,18.0,0,robot,No TV
+R_2TKIfViP4QMTyrv,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Not Permissible,True,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,-1,nurse,Accept
+R_2TKIfViP4QMTyrv,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Permissible,False,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,0,robot,Accept
+R_2TKIfViP4QMTyrv,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,nurse,Notify Trusted
+R_2TKIfViP4QMTyrv,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,robot,Notify Trusted
+R_2TKIfViP4QMTyrv,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,nurse,Notify Doctor
+R_2TKIfViP4QMTyrv,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,robot,Notify Doctor
+R_2TKIfViP4QMTyrv,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,nurse,Repeat
+R_2TKIfViP4QMTyrv,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,robot,Repeat
+R_2TKIfViP4QMTyrv,Q14_1_5,Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,nurse,Refuse Dinner
+R_2TKIfViP4QMTyrv,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,-1,robot,Refuse Dinner
+R_2TKIfViP4QMTyrv,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,nurse,No TV
+R_2TKIfViP4QMTyrv,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,0.8333333333333334,129.137.96.3,2002,Black or African American,Female,19.0,1,robot,No TV
+R_3JkeJPwcqQ9vV1y,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.83.84.111,2000,White,Male,21.0,-1,nurse,Accept
+R_3JkeJPwcqQ9vV1y,Q14_2_1,Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.83.84.111,2000,White,Male,21.0,1,robot,Accept
+R_3JkeJPwcqQ9vV1y,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.83.84.111,2000,White,Male,21.0,1,nurse,Notify Trusted
+R_3JkeJPwcqQ9vV1y,Q14_2_2,Not Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.83.84.111,2000,White,Male,21.0,-1,robot,Notify Trusted
+R_3JkeJPwcqQ9vV1y,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.83.84.111,2000,White,Male,21.0,1,nurse,Notify Doctor
+R_3JkeJPwcqQ9vV1y,Q14_2_3,Not Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.83.84.111,2000,White,Male,21.0,-1,robot,Notify Doctor
+R_3JkeJPwcqQ9vV1y,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.83.84.111,2000,White,Male,21.0,1,nurse,Repeat
+R_3JkeJPwcqQ9vV1y,Q14_2_4,Not Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Not Permissible,True,1.0,74.83.84.111,2000,White,Male,21.0,-1,robot,Repeat
+R_3JkeJPwcqQ9vV1y,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,74.83.84.111,2000,White,Male,21.0,0,nurse,Refuse Dinner
+R_3JkeJPwcqQ9vV1y,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,74.83.84.111,2000,White,Male,21.0,-1,robot,Refuse Dinner
+R_3JkeJPwcqQ9vV1y,Q14_1_6,Not Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Not Permissible,True,1.0,74.83.84.111,2000,White,Male,21.0,-1,nurse,No TV
+R_3JkeJPwcqQ9vV1y,Q14_2_6,Not Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Not Permissible,True,1.0,74.83.84.111,2000,White,Male,21.0,-1,robot,No TV
+R_2awQwQvUABvREcV,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.133.128.24,2003,White,Female,18.0,-1,nurse,Accept
+R_2awQwQvUABvREcV,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,74.133.128.24,2003,White,Female,18.0,-1,robot,Accept
+R_2awQwQvUABvREcV,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.133.128.24,2003,White,Female,18.0,1,nurse,Notify Trusted
+R_2awQwQvUABvREcV,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,74.133.128.24,2003,White,Female,18.0,1,robot,Notify Trusted
+R_2awQwQvUABvREcV,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.133.128.24,2003,White,Female,18.0,1,nurse,Notify Doctor
+R_2awQwQvUABvREcV,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.133.128.24,2003,White,Female,18.0,1,robot,Notify Doctor
+R_2awQwQvUABvREcV,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.133.128.24,2003,White,Female,18.0,1,nurse,Repeat
+R_2awQwQvUABvREcV,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.133.128.24,2003,White,Female,18.0,1,robot,Repeat
+R_2awQwQvUABvREcV,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,74.133.128.24,2003,White,Female,18.0,-1,nurse,Refuse Dinner
+R_2awQwQvUABvREcV,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,74.133.128.24,2003,White,Female,18.0,-1,robot,Refuse Dinner
+R_2awQwQvUABvREcV,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,74.133.128.24,2003,White,Female,18.0,1,nurse,No TV
+R_2awQwQvUABvREcV,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,74.133.128.24,2003,White,Female,18.0,1,robot,No TV
+R_2ByvQpdd3Ztnc0K,Q14_1_1,Not Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.17,2003,Black or African American,Female,18.0,-1,nurse,Accept
+R_2ByvQpdd3Ztnc0K,Q14_2_1,Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,129.137.96.17,2003,Black or African American,Female,18.0,1,robot,Accept
+R_2ByvQpdd3Ztnc0K,Q14_1_2,Unsure,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.17,2003,Black or African American,Female,18.0,0,nurse,Notify Trusted
+R_2ByvQpdd3Ztnc0K,Q14_2_2,Unsure,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,129.137.96.17,2003,Black or African American,Female,18.0,0,robot,Notify Trusted
+R_2ByvQpdd3Ztnc0K,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.17,2003,Black or African American,Female,18.0,1,nurse,Notify Doctor
+R_2ByvQpdd3Ztnc0K,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,129.137.96.17,2003,Black or African American,Female,18.0,1,robot,Notify Doctor
+R_2ByvQpdd3Ztnc0K,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.17,2003,Black or African American,Female,18.0,1,nurse,Repeat
+R_2ByvQpdd3Ztnc0K,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,129.137.96.17,2003,Black or African American,Female,18.0,1,robot,Repeat
+R_2ByvQpdd3Ztnc0K,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.17,2003,Black or African American,Female,18.0,-1,nurse,Refuse Dinner
+R_2ByvQpdd3Ztnc0K,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Not Permissible,True,1.0,129.137.96.17,2003,Black or African American,Female,18.0,-1,robot,Refuse Dinner
+R_2ByvQpdd3Ztnc0K,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.17,2003,Black or African American,Female,18.0,1,nurse,No TV
+R_2ByvQpdd3Ztnc0K,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,129.137.96.17,2003,Black or African American,Female,18.0,1,robot,No TV
+R_1KrONZ7FAqsKvSM,Q14_1_1,Permissible,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Permissible,True,1.0,184.57.227.57,2002,White,Female,19.0,1,nurse,Accept
+R_1KrONZ7FAqsKvSM,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,184.57.227.57,2002,White,Female,19.0,0,robot,Accept
+R_1KrONZ7FAqsKvSM,Q14_1_2,Unsure,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,184.57.227.57,2002,White,Female,19.0,0,nurse,Notify Trusted
+R_1KrONZ7FAqsKvSM,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,184.57.227.57,2002,White,Female,19.0,1,robot,Notify Trusted
+R_1KrONZ7FAqsKvSM,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,184.57.227.57,2002,White,Female,19.0,1,nurse,Notify Doctor
+R_1KrONZ7FAqsKvSM,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,184.57.227.57,2002,White,Female,19.0,1,robot,Notify Doctor
+R_1KrONZ7FAqsKvSM,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,184.57.227.57,2002,White,Female,19.0,1,nurse,Repeat
+R_1KrONZ7FAqsKvSM,Q14_2_4,Unsure,Q14,2,4,robot,repeat the request to take the medication,Repeat,Unsure,True,1.0,184.57.227.57,2002,White,Female,19.0,0,robot,Repeat
+R_1KrONZ7FAqsKvSM,Q14_1_5,Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Permissible,True,1.0,184.57.227.57,2002,White,Female,19.0,1,nurse,Refuse Dinner
+R_1KrONZ7FAqsKvSM,Q14_2_5,Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Permissible,True,1.0,184.57.227.57,2002,White,Female,19.0,1,robot,Refuse Dinner
+R_1KrONZ7FAqsKvSM,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,184.57.227.57,2002,White,Female,19.0,1,nurse,No TV
+R_1KrONZ7FAqsKvSM,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,184.57.227.57,2002,White,Female,19.0,1,robot,No TV
+R_3dRlLRWqMotE0BZ,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,,False,1.0,98.102.203.61,2002,White,Male,19.0,0,nurse,Accept
+R_3dRlLRWqMotE0BZ,Q14_2_1,Not Permissible,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,,False,1.0,98.102.203.61,2002,White,Male,19.0,-1,robot,Accept
+R_3dRlLRWqMotE0BZ,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,98.102.203.61,2002,White,Male,19.0,1,nurse,Notify Trusted
+R_3dRlLRWqMotE0BZ,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,,False,1.0,98.102.203.61,2002,White,Male,19.0,1,robot,Notify Trusted
+R_3dRlLRWqMotE0BZ,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,98.102.203.61,2002,White,Male,19.0,1,nurse,Notify Doctor
+R_3dRlLRWqMotE0BZ,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,98.102.203.61,2002,White,Male,19.0,1,robot,Notify Doctor
+R_3dRlLRWqMotE0BZ,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,98.102.203.61,2002,White,Male,19.0,1,nurse,Repeat
+R_3dRlLRWqMotE0BZ,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,98.102.203.61,2002,White,Male,19.0,1,robot,Repeat
+R_3dRlLRWqMotE0BZ,Q14_1_5,Unsure,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,98.102.203.61,2002,White,Male,19.0,0,nurse,Refuse Dinner
+R_3dRlLRWqMotE0BZ,Q14_2_5,Unsure,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,Unsure,True,1.0,98.102.203.61,2002,White,Male,19.0,0,robot,Refuse Dinner
+R_3dRlLRWqMotE0BZ,Q14_1_6,Permissible,Q14,1,6,nurse,to not let Robert watch TV,No TV,Permissible,True,1.0,98.102.203.61,2002,White,Male,19.0,1,nurse,No TV
+R_3dRlLRWqMotE0BZ,Q14_2_6,Permissible,Q14,2,6,robot,to not let Robert watch TV,No TV,Permissible,True,1.0,98.102.203.61,2002,White,Male,19.0,1,robot,No TV
+R_3IWfwGALd4GOavZ,Q14_1_1,Unsure,Q14,1,1,nurse,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,74.130.177.203,2001,White,Female,20.0,0,nurse,Accept
+R_3IWfwGALd4GOavZ,Q14_2_1,Unsure,Q14,2,1,robot,accept Roberts's decision to not take the medication,Accept,Unsure,True,1.0,74.130.177.203,2001,White,Female,20.0,0,robot,Accept
+R_3IWfwGALd4GOavZ,Q14_1_2,Permissible,Q14,1,2,nurse,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,74.130.177.203,2001,White,Female,20.0,1,nurse,Notify Trusted
+R_3IWfwGALd4GOavZ,Q14_2_2,Permissible,Q14,2,2,robot,notify a trusted person selected by Robert,Notify Trusted,Permissible,True,1.0,74.130.177.203,2001,White,Female,20.0,1,robot,Notify Trusted
+R_3IWfwGALd4GOavZ,Q14_1_3,Permissible,Q14,1,3,nurse,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.130.177.203,2001,White,Female,20.0,1,nurse,Notify Doctor
+R_3IWfwGALd4GOavZ,Q14_2_3,Permissible,Q14,2,3,robot,notify Robert's doctor about his decision,Notify Doctor,,False,1.0,74.130.177.203,2001,White,Female,20.0,1,robot,Notify Doctor
+R_3IWfwGALd4GOavZ,Q14_1_4,Permissible,Q14,1,4,nurse,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.130.177.203,2001,White,Female,20.0,1,nurse,Repeat
+R_3IWfwGALd4GOavZ,Q14_2_4,Permissible,Q14,2,4,robot,repeat the request to take the medication,Repeat,Permissible,True,1.0,74.130.177.203,2001,White,Female,20.0,1,robot,Repeat
+R_3IWfwGALd4GOavZ,Q14_1_5,Not Permissible,Q14,1,5,nurse,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,74.130.177.203,2001,White,Female,20.0,-1,nurse,Refuse Dinner
+R_3IWfwGALd4GOavZ,Q14_2_5,Not Permissible,Q14,2,5,robot,refuse to serve dinner until the medication is taken,Refuse Dinner,,False,1.0,74.130.177.203,2001,White,Female,20.0,-1,robot,Refuse Dinner
+R_3IWfwGALd4GOavZ,Q14_1_6,Unsure,Q14,1,6,nurse,to not let Robert watch TV,No TV,,False,1.0,74.130.177.203,2001,White,Female,20.0,0,nurse,No TV
+R_3IWfwGALd4GOavZ,Q14_2_6,Unsure,Q14,2,6,robot,to not let Robert watch TV,No TV,,False,1.0,74.130.177.203,2001,White,Female,20.0,0,robot,No TV

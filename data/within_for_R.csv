@@ -1,0 +1,931 @@
+ResponseId,Action,Malady,Actor,Rating
+R_12M5JKKCF2E3Gjh,Notify Doctor,0,nurse,27.66666666666667
+R_12M5JKKCF2E3Gjh,Notify Doctor,1,nurse,30.33333333333333
+R_12M5JKKCF2E3Gjh,Notify Doctor,2,nurse,50.0
+R_12M5JKKCF2E3Gjh,Notify Trusted,1,nurse,50.0
+R_1E7pMka0qrama0N,No TV,0,nurse,-24.333333333333332
+R_1E7pMka0qrama0N,Notify Trusted,0,nurse,49.0
+R_1E7pMka0qrama0N,Repeat,2,nurse,50.0
+R_1FkMa51xjOKjRkO,Refuse Dinner,1,nurse,-50.0
+R_1FkMa51xjOKjRkO,Repeat,0,nurse,35.33333333333333
+R_1FkMa51xjOKjRkO,Repeat,2,nurse,35.0
+R_1GJOYUZ8EXKX1j2,Accept,0,nurse,1.6666666666666643
+R_1GJOYUZ8EXKX1j2,Accept,1,nurse,-19.333333333333332
+R_1GJOYUZ8EXKX1j2,Accept,2,nurse,-46.0
+R_1GJOYUZ8EXKX1j2,No TV,0,nurse,-34.666666666666664
+R_1GJOYUZ8EXKX1j2,Refuse Dinner,0,nurse,-50.0
+R_1GJOYUZ8EXKX1j2,Repeat,1,nurse,36.33333333333333
+R_1HesO4bkbo4Pvhc,Accept,1,nurse,-10.666666666666664
+R_1HesO4bkbo4Pvhc,Accept,2,nurse,-42.333333333333336
+R_1HesO4bkbo4Pvhc,No TV,1,nurse,24.33333333333333
+R_1HesO4bkbo4Pvhc,Notify Doctor,1,nurse,37.33333333333333
+R_1HesO4bkbo4Pvhc,Notify Doctor,2,nurse,50.0
+R_1HesO4bkbo4Pvhc,Notify Trusted,0,nurse,50.0
+R_1HesO4bkbo4Pvhc,Refuse Dinner,1,nurse,-8.0
+R_1HesO4bkbo4Pvhc,Repeat,0,nurse,17.66666666666667
+R_1Hi57FmeEo1Dmen,Notify Doctor,1,nurse,26.66666666666667
+R_1Hi57FmeEo1Dmen,Notify Trusted,0,nurse,28.0
+R_1Hi57FmeEo1Dmen,Refuse Dinner,1,nurse,-50.0
+R_1Hi57FmeEo1Dmen,Repeat,0,nurse,0.6666666666666643
+R_1Hi57FmeEo1Dmen,Repeat,1,nurse,26.33333333333333
+R_1JRXzyEb9lTaE9x,No TV,0,nurse,-21.333333333333332
+R_1JRXzyEb9lTaE9x,No TV,1,nurse,6.333333333333336
+R_1JRXzyEb9lTaE9x,No TV,2,nurse,26.0
+R_1JRXzyEb9lTaE9x,Notify Trusted,0,nurse,28.33333333333333
+R_1JRXzyEb9lTaE9x,Notify Trusted,1,nurse,22.66666666666667
+R_1K1Ni89OYoE01GI,Accept,0,nurse,2.0
+R_1K1Ni89OYoE01GI,No TV,1,nurse,1.0
+R_1K1Ni89OYoE01GI,Notify Doctor,0,nurse,40.0
+R_1K1Ni89OYoE01GI,Notify Doctor,1,nurse,35.33333333333333
+R_1K1Ni89OYoE01GI,Notify Trusted,1,nurse,46.0
+R_1M6eqt7FXYLs55l,Accept,1,nurse,-8.333333333333336
+R_1M6eqt7FXYLs55l,Notify Doctor,1,nurse,50.0
+R_1M6eqt7FXYLs55l,Notify Doctor,2,nurse,50.0
+R_1M6eqt7FXYLs55l,Repeat,0,nurse,29.0
+R_1N4X8Is4IBN18hK,Accept,0,nurse,-25.0
+R_1N4X8Is4IBN18hK,Accept,2,nurse,-50.0
+R_1N4X8Is4IBN18hK,Notify Trusted,0,nurse,27.66666666666667
+R_1N4X8Is4IBN18hK,Refuse Dinner,1,nurse,-23.333333333333332
+R_1N4X8Is4IBN18hK,Refuse Dinner,2,nurse,-49.0
+R_1N4X8Is4IBN18hK,Repeat,1,nurse,34.0
+R_1Naf0QbvJV4x7us,No TV,1,nurse,8.666666666666664
+R_1Naf0QbvJV4x7us,Notify Doctor,1,nurse,28.66666666666667
+R_1Naf0QbvJV4x7us,Notify Trusted,0,nurse,29.33333333333333
+R_1Naf0QbvJV4x7us,Refuse Dinner,1,nurse,-4.666666666666664
+R_1Naf0QbvJV4x7us,Refuse Dinner,2,nurse,25.0
+R_1Naf0QbvJV4x7us,Repeat,0,nurse,20.0
+R_1Naf0QbvJV4x7us,Repeat,2,nurse,20.33333333333333
+R_1Nq38xcP7MnRoc0,Notify Doctor,1,nurse,48.66666666666667
+R_1Nq38xcP7MnRoc0,Notify Trusted,1,nurse,47.0
+R_1Nq38xcP7MnRoc0,Refuse Dinner,0,nurse,-23.0
+R_1Nq38xcP7MnRoc0,Refuse Dinner,2,nurse,-28.0
+R_1Opf8GXOEO0qUTC,No TV,1,nurse,32.66666666666667
+R_1Opf8GXOEO0qUTC,No TV,2,nurse,17.33333333333333
+R_1Opf8GXOEO0qUTC,Notify Doctor,0,nurse,42.33333333333333
+R_1Opf8GXOEO0qUTC,Notify Doctor,1,nurse,33.0
+R_1Opf8GXOEO0qUTC,Notify Trusted,0,nurse,46.33333333333333
+R_1QASzpyy8iP62ZR,Accept,0,nurse,26.66666666666667
+R_1QASzpyy8iP62ZR,No TV,0,nurse,-50.0
+R_1QASzpyy8iP62ZR,Notify Doctor,1,nurse,27.33333333333333
+R_1QASzpyy8iP62ZR,Repeat,0,nurse,26.0
+R_1QASzpyy8iP62ZR,Repeat,1,nurse,50.0
+R_1d49npMMNNzYGbH,Accept,2,nurse,-26.0
+R_1d49npMMNNzYGbH,No TV,0,nurse,-15.0
+R_1d49npMMNNzYGbH,Notify Trusted,0,nurse,19.66666666666667
+R_1d49npMMNNzYGbH,Notify Trusted,1,nurse,18.66666666666667
+R_1d49npMMNNzYGbH,Notify Trusted,2,nurse,29.33333333333333
+R_1d49npMMNNzYGbH,Repeat,1,nurse,22.66666666666667
+R_1d49npMMNNzYGbH,Repeat,2,nurse,21.0
+R_1f8V4BqepxFoO4Q,Accept,0,nurse,18.66666666666667
+R_1f8V4BqepxFoO4Q,Notify Trusted,0,nurse,27.33333333333333
+R_1f8V4BqepxFoO4Q,Notify Trusted,1,nurse,50.0
+R_1f8V4BqepxFoO4Q,Notify Trusted,2,nurse,50.0
+R_1f8V4BqepxFoO4Q,Repeat,0,nurse,40.33333333333333
+R_1jIKYDlQ39mtLnQ,No TV,2,nurse,1.6666666666666643
+R_1jIKYDlQ39mtLnQ,Notify Doctor,0,nurse,-43.0
+R_1jIKYDlQ39mtLnQ,Refuse Dinner,1,nurse,14.333333333333329
+R_1jWjixT7Sv4VOKL,Accept,0,nurse,-2.0
+R_1jWjixT7Sv4VOKL,No TV,0,nurse,13.0
+R_1jWjixT7Sv4VOKL,No TV,2,nurse,-43.333333333333336
+R_1jWjixT7Sv4VOKL,Notify Trusted,0,nurse,8.666666666666664
+R_1jWjixT7Sv4VOKL,Notify Trusted,1,nurse,17.0
+R_1kYrU4KwYrSrhfN,No TV,0,nurse,-46.0
+R_1kYrU4KwYrSrhfN,Notify Doctor,0,nurse,0.6666666666666643
+R_1kYrU4KwYrSrhfN,Notify Doctor,2,nurse,27.66666666666667
+R_1kYrU4KwYrSrhfN,Notify Trusted,2,nurse,34.33333333333333
+R_1kYrU4KwYrSrhfN,Repeat,1,nurse,1.0
+R_1lhG0Bv9wiiAuHS,Refuse Dinner,1,nurse,-37.666666666666664
+R_1lhG0Bv9wiiAuHS,Refuse Dinner,2,nurse,-42.0
+R_1lhG0Bv9wiiAuHS,Repeat,0,nurse,34.33333333333333
+R_1lyqJceiLd6e7N4,Accept,1,nurse,-14.333333333333336
+R_1lyqJceiLd6e7N4,Notify Doctor,0,nurse,21.0
+R_1lyqJceiLd6e7N4,Notify Trusted,2,nurse,19.0
+R_1nPj0A0jZVDgjqU,Accept,0,nurse,-26.0
+R_1nPj0A0jZVDgjqU,Notify Doctor,1,nurse,50.0
+R_1nPj0A0jZVDgjqU,Refuse Dinner,0,nurse,-40.0
+R_1nPj0A0jZVDgjqU,Refuse Dinner,1,nurse,-25.0
+R_1nPj0A0jZVDgjqU,Repeat,0,nurse,48.66666666666667
+R_1nPj0A0jZVDgjqU,Repeat,1,nurse,50.0
+R_1o5AYe2O4lyaUMb,Accept,2,nurse,-25.0
+R_1o5AYe2O4lyaUMb,No TV,1,nurse,0.0
+R_1o5AYe2O4lyaUMb,Notify Doctor,0,nurse,27.33333333333333
+R_1o5AYe2O4lyaUMb,Notify Doctor,1,nurse,26.66666666666667
+R_1o5AYe2O4lyaUMb,Notify Trusted,2,nurse,26.33333333333333
+R_1o5AYe2O4lyaUMb,Refuse Dinner,0,nurse,-50.0
+R_1o7us29rdchxtlP,Notify Trusted,1,nurse,32.66666666666667
+R_1o7us29rdchxtlP,Refuse Dinner,0,nurse,-50.0
+R_1o7us29rdchxtlP,Repeat,0,nurse,49.66666666666667
+R_1o7us29rdchxtlP,Repeat,1,nurse,50.0
+R_1o7us29rdchxtlP,Repeat,2,nurse,49.33333333333333
+R_26fLbIcCwkCOhmC,Accept,1,nurse,-38.666666666666664
+R_26fLbIcCwkCOhmC,Notify Doctor,1,nurse,37.0
+R_26fLbIcCwkCOhmC,Notify Trusted,0,nurse,26.66666666666667
+R_26fLbIcCwkCOhmC,Refuse Dinner,1,nurse,-34.333333333333336
+R_27Tfatbnxh2njwi,Accept,0,nurse,18.0
+R_27Tfatbnxh2njwi,Accept,2,nurse,-27.666666666666668
+R_27Tfatbnxh2njwi,No TV,1,nurse,45.33333333333333
+R_27Tfatbnxh2njwi,No TV,2,nurse,26.0
+R_27Tfatbnxh2njwi,Notify Trusted,0,nurse,45.0
+R_27ey9dyu4RFTkN3,Accept,0,nurse,42.66666666666667
+R_27ey9dyu4RFTkN3,Accept,2,nurse,-41.666666666666664
+R_27ey9dyu4RFTkN3,Notify Trusted,0,nurse,50.0
+R_27ey9dyu4RFTkN3,Refuse Dinner,0,nurse,-50.0
+R_27ey9dyu4RFTkN3,Refuse Dinner,1,nurse,-50.0
+R_2AM41gBRq2G8LCv,Notify Trusted,0,nurse,50.0
+R_2AM41gBRq2G8LCv,Notify Trusted,2,nurse,50.0
+R_2AM41gBRq2G8LCv,Refuse Dinner,2,nurse,-50.0
+R_2AM41gBRq2G8LCv,Repeat,0,nurse,50.0
+R_2AM41gBRq2G8LCv,Repeat,1,nurse,50.0
+R_2CHydS6nnTf5L1S,Accept,1,nurse,14.0
+R_2CHydS6nnTf5L1S,No TV,1,nurse,33.0
+R_2CHydS6nnTf5L1S,Notify Doctor,2,nurse,46.33333333333333
+R_2CHydS6nnTf5L1S,Refuse Dinner,0,nurse,-47.666666666666664
+R_2CHydS6nnTf5L1S,Repeat,1,nurse,50.0
+R_2CkcK56sTjuescU,Refuse Dinner,2,nurse,17.33333333333333
+R_2CkcK56sTjuescU,Repeat,0,nurse,50.0
+R_2D5EyqjukCesvd7,Accept,1,nurse,1.0
+R_2D5EyqjukCesvd7,No TV,0,nurse,-50.0
+R_2D5EyqjukCesvd7,No TV,1,nurse,-50.0
+R_2D5EyqjukCesvd7,Notify Doctor,1,nurse,50.0
+R_2D5EyqjukCesvd7,Notify Trusted,2,nurse,-0.3333333333333357
+R_2D5EyqjukCesvd7,Refuse Dinner,1,nurse,-25.666666666666668
+R_2D5EyqjukCesvd7,Refuse Dinner,2,nurse,33.33333333333333
+R_2EuzUij7ltavVOB,Refuse Dinner,0,nurse,-24.666666666666668
+R_2EuzUij7ltavVOB,Refuse Dinner,2,nurse,-20.0
+R_2EuzUij7ltavVOB,Repeat,1,nurse,1.0
+R_2OPcnCVbfKsapGP,Accept,1,nurse,-34.333333333333336
+R_2OPcnCVbfKsapGP,Accept,2,nurse,-50.0
+R_2OPcnCVbfKsapGP,No TV,2,nurse,27.0
+R_2OPcnCVbfKsapGP,Notify Doctor,1,nurse,50.0
+R_2OPcnCVbfKsapGP,Repeat,1,nurse,50.0
+R_2OPcnCVbfKsapGP,Repeat,2,nurse,42.33333333333333
+R_2QmMDSgGZ3Dx8oE,Notify Trusted,0,nurse,16.0
+R_2QmMDSgGZ3Dx8oE,Notify Trusted,2,nurse,50.0
+R_2QmMDSgGZ3Dx8oE,Refuse Dinner,2,nurse,-42.0
+R_2QmMDSgGZ3Dx8oE,Repeat,0,nurse,50.0
+R_2QmMDSgGZ3Dx8oE,Repeat,2,nurse,50.0
+R_2TSFTkP1IOhpktf,Accept,2,nurse,-16.333333333333336
+R_2TSFTkP1IOhpktf,No TV,1,nurse,-23.0
+R_2TSFTkP1IOhpktf,Notify Trusted,1,nurse,41.33333333333333
+R_2TSFTkP1IOhpktf,Notify Trusted,2,nurse,30.0
+R_2TSFTkP1IOhpktf,Refuse Dinner,0,nurse,-49.333333333333336
+R_2TSFTkP1IOhpktf,Repeat,1,nurse,38.0
+R_2TSFTkP1IOhpktf,Repeat,2,nurse,29.0
+R_2aVTDXXTfoikf6q,Accept,0,nurse,-22.666666666666668
+R_2aVTDXXTfoikf6q,Accept,2,nurse,-30.666666666666668
+R_2aVTDXXTfoikf6q,No TV,1,nurse,15.0
+R_2aVTDXXTfoikf6q,No TV,2,nurse,7.333333333333336
+R_2aVTDXXTfoikf6q,Notify Trusted,2,nurse,42.66666666666667
+R_2aVTDXXTfoikf6q,Refuse Dinner,0,nurse,-19.0
+R_2aVTDXXTfoikf6q,Refuse Dinner,2,nurse,-7.333333333333336
+R_2aVTDXXTfoikf6q,Repeat,1,nurse,42.33333333333333
+R_2b2HhBZWv3p3zPL,Accept,1,nurse,-15.333333333333336
+R_2b2HhBZWv3p3zPL,Accept,2,nurse,-50.0
+R_2b2HhBZWv3p3zPL,No TV,1,nurse,-5.333333333333336
+R_2b2HhBZWv3p3zPL,Notify Doctor,0,nurse,47.66666666666667
+R_2b2HhBZWv3p3zPL,Notify Trusted,2,nurse,-22.333333333333332
+R_2b2HhBZWv3p3zPL,Repeat,0,nurse,45.0
+R_2b2HhBZWv3p3zPL,Repeat,1,nurse,50.0
+R_2b2HhBZWv3p3zPL,Repeat,2,nurse,47.66666666666667
+R_2bqCfAfxocV8YxP,Accept,0,nurse,38.0
+R_2bqCfAfxocV8YxP,Accept,1,nurse,2.3333333333333357
+R_2bqCfAfxocV8YxP,Notify Trusted,2,nurse,46.33333333333333
+R_2bqCfAfxocV8YxP,Refuse Dinner,0,nurse,35.33333333333333
+R_2bqCfAfxocV8YxP,Repeat,1,nurse,33.33333333333333
+R_2ciMmd7YYW0g0xi,No TV,1,nurse,-34.333333333333336
+R_2ciMmd7YYW0g0xi,Notify Doctor,2,nurse,35.0
+R_2ciMmd7YYW0g0xi,Refuse Dinner,0,nurse,-47.666666666666664
+R_2ciMmd7YYW0g0xi,Repeat,0,nurse,46.0
+R_2e99VLGVkXNzCHK,Accept,1,nurse,-26.333333333333332
+R_2e99VLGVkXNzCHK,Refuse Dinner,0,nurse,25.33333333333333
+R_2e99VLGVkXNzCHK,Repeat,1,nurse,24.0
+R_2e99VLGVkXNzCHK,Repeat,2,nurse,40.0
+R_2f9RDtWbZJ7GYUZ,No TV,2,nurse,25.33333333333333
+R_2f9RDtWbZJ7GYUZ,Notify Trusted,2,nurse,29.66666666666667
+R_2f9RDtWbZJ7GYUZ,Refuse Dinner,0,nurse,-30.0
+R_2f9RDtWbZJ7GYUZ,Refuse Dinner,1,nurse,-12.666666666666664
+R_2f9RDtWbZJ7GYUZ,Repeat,1,nurse,33.33333333333333
+R_2f9RDtWbZJ7GYUZ,Repeat,2,nurse,44.0
+R_2ffdTBGk3wSa0K1,Notify Trusted,2,nurse,43.0
+R_2ffdTBGk3wSa0K1,Refuse Dinner,0,nurse,-5.666666666666664
+R_2ffdTBGk3wSa0K1,Refuse Dinner,1,nurse,-8.666666666666664
+R_2ffdTBGk3wSa0K1,Repeat,2,nurse,42.33333333333333
+R_2rB0uLsJLbKezza,No TV,1,nurse,50.0
+R_2rB0uLsJLbKezza,No TV,2,nurse,50.0
+R_2rB0uLsJLbKezza,Notify Trusted,0,nurse,50.0
+R_2rB0uLsJLbKezza,Repeat,1,nurse,50.0
+R_2rB0uLsJLbKezza,Repeat,2,nurse,50.0
+R_2sZLiEaabIriy1W,No TV,2,nurse,20.0
+R_2sZLiEaabIriy1W,Notify Doctor,2,nurse,50.0
+R_2tzLEeI6ynkwNPV,Accept,1,nurse,-6.0
+R_2tzLEeI6ynkwNPV,Notify Doctor,0,nurse,24.33333333333333
+R_2tzLEeI6ynkwNPV,Notify Doctor,1,nurse,8.666666666666664
+R_2tzLEeI6ynkwNPV,Notify Doctor,2,nurse,12.333333333333336
+R_2tzLEeI6ynkwNPV,Notify Trusted,1,nurse,32.66666666666667
+R_2tzLEeI6ynkwNPV,Repeat,0,nurse,14.666666666666671
+R_2v82JdsKUO6eyUZ,Notify Doctor,0,nurse,50.0
+R_2v82JdsKUO6eyUZ,Notify Doctor,2,nurse,50.0
+R_2v82JdsKUO6eyUZ,Repeat,0,nurse,44.0
+R_2v82JdsKUO6eyUZ,Repeat,1,nurse,28.33333333333333
+R_2z6by9xs8TVm8vx,Accept,1,nurse,28.33333333333333
+R_2z6by9xs8TVm8vx,No TV,0,nurse,-50.0
+R_2z6by9xs8TVm8vx,No TV,1,nurse,-50.0
+R_2z6by9xs8TVm8vx,Notify Trusted,0,nurse,5.666666666666664
+R_2z6by9xs8TVm8vx,Notify Trusted,1,nurse,22.66666666666667
+R_2z6by9xs8TVm8vx,Notify Trusted,2,nurse,50.0
+R_30pgFrkgPoftmut,Accept,0,nurse,3.6666666666666643
+R_30pgFrkgPoftmut,Accept,1,nurse,-3.3333333333333357
+R_30pgFrkgPoftmut,No TV,0,nurse,15.333333333333329
+R_30pgFrkgPoftmut,Notify Trusted,1,nurse,41.0
+R_30pgFrkgPoftmut,Notify Trusted,2,nurse,39.0
+R_30pgFrkgPoftmut,Refuse Dinner,0,nurse,10.0
+R_30pgFrkgPoftmut,Repeat,0,nurse,19.0
+R_30pgFrkgPoftmut,Repeat,2,nurse,34.0
+R_31GlPAadw7upkPU,Accept,2,nurse,-24.666666666666668
+R_31GlPAadw7upkPU,No TV,1,nurse,-17.333333333333336
+R_31GlPAadw7upkPU,No TV,2,nurse,23.66666666666667
+R_31GlPAadw7upkPU,Notify Doctor,0,nurse,50.0
+R_31GlPAadw7upkPU,Repeat,1,nurse,26.66666666666667
+R_31NRi3MIu3CJiag,Accept,2,nurse,-17.0
+R_31NRi3MIu3CJiag,No TV,0,nurse,8.333333333333336
+R_31NRi3MIu3CJiag,Refuse Dinner,1,nurse,-27.0
+R_31nmlPiX0JNyzjN,Accept,1,nurse,14.0
+R_31nmlPiX0JNyzjN,No TV,0,nurse,-27.333333333333332
+R_31nmlPiX0JNyzjN,No TV,1,nurse,-8.333333333333336
+R_31nmlPiX0JNyzjN,Notify Doctor,2,nurse,44.0
+R_31nmlPiX0JNyzjN,Notify Trusted,0,nurse,-0.6666666666666643
+R_31nmlPiX0JNyzjN,Repeat,2,nurse,50.0
+R_31pcsK8oMAZ8WvN,Notify Doctor,2,nurse,45.33333333333333
+R_31pcsK8oMAZ8WvN,Notify Trusted,0,nurse,44.33333333333333
+R_31pcsK8oMAZ8WvN,Repeat,2,nurse,47.33333333333333
+R_32QO5qQnHuJDz3z,Accept,2,nurse,15.666666666666671
+R_32QO5qQnHuJDz3z,Notify Trusted,2,nurse,22.66666666666667
+R_32QO5qQnHuJDz3z,Refuse Dinner,1,nurse,-8.0
+R_32QO5qQnHuJDz3z,Repeat,0,nurse,14.666666666666671
+R_32QO5qQnHuJDz3z,Repeat,2,nurse,28.33333333333333
+R_33lFaSYQynm15oF,Accept,1,nurse,20.0
+R_33lFaSYQynm15oF,Accept,2,nurse,-49.0
+R_33lFaSYQynm15oF,No TV,1,nurse,-13.333333333333336
+R_33lFaSYQynm15oF,Notify Doctor,2,nurse,12.0
+R_33lFaSYQynm15oF,Repeat,1,nurse,43.66666666666667
+R_3G1IXyfplVRhlwe,Accept,2,nurse,-47.666666666666664
+R_3G1IXyfplVRhlwe,No TV,0,nurse,-48.333333333333336
+R_3G1IXyfplVRhlwe,Notify Doctor,1,nurse,26.66666666666667
+R_3G1IXyfplVRhlwe,Notify Trusted,1,nurse,39.33333333333333
+R_3HhpXRigyQU3IdP,Accept,1,nurse,-24.666666666666668
+R_3HhpXRigyQU3IdP,Accept,2,nurse,9.333333333333336
+R_3HhpXRigyQU3IdP,Notify Doctor,1,nurse,50.0
+R_3HhpXRigyQU3IdP,Notify Trusted,0,nurse,50.0
+R_3HhpXRigyQU3IdP,Refuse Dinner,2,nurse,-50.0
+R_3HhpXRigyQU3IdP,Repeat,2,nurse,50.0
+R_3I3IEzhEMolBovc,Accept,0,nurse,-2.6666666666666643
+R_3I3IEzhEMolBovc,Accept,1,nurse,-8.333333333333336
+R_3I3IEzhEMolBovc,No TV,1,nurse,37.33333333333333
+R_3I3IEzhEMolBovc,Notify Doctor,2,nurse,18.66666666666667
+R_3I3IEzhEMolBovc,Refuse Dinner,1,nurse,9.333333333333336
+R_3J9psXkhNIiVYk0,Accept,0,nurse,-14.0
+R_3J9psXkhNIiVYk0,Accept,1,nurse,35.66666666666667
+R_3J9psXkhNIiVYk0,No TV,2,nurse,7.666666666666664
+R_3J9psXkhNIiVYk0,Notify Doctor,1,nurse,48.66666666666667
+R_3J9psXkhNIiVYk0,Notify Doctor,2,nurse,49.33333333333333
+R_3J9psXkhNIiVYk0,Notify Trusted,2,nurse,46.33333333333333
+R_3J9psXkhNIiVYk0,Refuse Dinner,2,nurse,3.0
+R_3J9psXkhNIiVYk0,Repeat,0,nurse,38.33333333333333
+R_3J9psXkhNIiVYk0,Repeat,2,nurse,46.33333333333333
+R_3JmIx33zvTUflLp,Accept,0,nurse,5.0
+R_3JmIx33zvTUflLp,No TV,2,nurse,17.66666666666667
+R_3JmIx33zvTUflLp,Notify Doctor,0,nurse,-3.6666666666666643
+R_3JmIx33zvTUflLp,Notify Doctor,2,nurse,16.0
+R_3JmIx33zvTUflLp,Repeat,0,nurse,29.33333333333333
+R_3JmIx33zvTUflLp,Repeat,1,nurse,23.0
+R_3O7DiV0yMWFRq2m,Accept,1,nurse,-15.666666666666664
+R_3O7DiV0yMWFRq2m,No TV,1,nurse,18.33333333333333
+R_3O7DiV0yMWFRq2m,Notify Doctor,0,nurse,50.0
+R_3O7DiV0yMWFRq2m,Notify Doctor,2,nurse,47.66666666666667
+R_3QQyOpvltbKCJbA,No TV,0,nurse,-25.333333333333332
+R_3QQyOpvltbKCJbA,No TV,2,nurse,45.0
+R_3QQyOpvltbKCJbA,Notify Doctor,0,nurse,39.66666666666667
+R_3QQyOpvltbKCJbA,Notify Trusted,1,nurse,39.0
+R_3RfLwKdHV3tpyAY,Accept,1,nurse,-25.0
+R_3RfLwKdHV3tpyAY,Notify Doctor,2,nurse,47.66666666666667
+R_3RfLwKdHV3tpyAY,Notify Trusted,0,nurse,27.0
+R_3RfLwKdHV3tpyAY,Notify Trusted,1,nurse,26.33333333333333
+R_3RfLwKdHV3tpyAY,Repeat,0,nurse,26.33333333333333
+R_3esFgBFoYNFYaP4,No TV,1,nurse,-50.0
+R_3esFgBFoYNFYaP4,Notify Trusted,0,nurse,-15.666666666666664
+R_3esFgBFoYNFYaP4,Refuse Dinner,2,nurse,-27.333333333333332
+R_3foE7vnQXR9zxCg,Accept,0,nurse,-2.6666666666666643
+R_3foE7vnQXR9zxCg,Accept,2,nurse,-17.666666666666664
+R_3foE7vnQXR9zxCg,No TV,0,nurse,16.0
+R_3foE7vnQXR9zxCg,No TV,2,nurse,-3.3333333333333357
+R_3foE7vnQXR9zxCg,Notify Trusted,1,nurse,41.0
+R_3foE7vnQXR9zxCg,Refuse Dinner,1,nurse,-22.0
+R_3huSVgz6YdpWoUm,No TV,0,nurse,-17.666666666666664
+R_3huSVgz6YdpWoUm,Notify Doctor,1,nurse,50.0
+R_3huSVgz6YdpWoUm,Notify Trusted,0,nurse,-17.666666666666664
+R_3huSVgz6YdpWoUm,Repeat,0,nurse,8.666666666666664
+R_3huSVgz6YdpWoUm,Repeat,1,nurse,26.33333333333333
+R_3mz2lLPZUsBo03D,No TV,2,nurse,41.0
+R_3mz2lLPZUsBo03D,Notify Doctor,0,nurse,39.0
+R_3mz2lLPZUsBo03D,Notify Trusted,1,nurse,45.33333333333333
+R_3mz2lLPZUsBo03D,Refuse Dinner,0,nurse,46.0
+R_3mz2lLPZUsBo03D,Repeat,2,nurse,43.0
+R_3n1vKHC1L6Fli7n,No TV,1,nurse,26.66666666666667
+R_3n1vKHC1L6Fli7n,No TV,2,nurse,-25.666666666666668
+R_3n1vKHC1L6Fli7n,Notify Doctor,1,nurse,11.0
+R_3n1vKHC1L6Fli7n,Notify Doctor,2,nurse,50.0
+R_3n1vKHC1L6Fli7n,Notify Trusted,0,nurse,18.33333333333333
+R_3p3W13SeB33JecZ,Accept,0,nurse,-10.666666666666664
+R_3p3W13SeB33JecZ,Repeat,0,nurse,36.66666666666667
+R_3p3W13SeB33JecZ,Repeat,1,nurse,39.66666666666667
+R_3p3W13SeB33JecZ,Repeat,2,nurse,36.33333333333333
+R_3qJ9WJC1bftnSY4,Accept,0,nurse,-29.0
+R_3qJ9WJC1bftnSY4,Accept,2,nurse,-50.0
+R_3qJ9WJC1bftnSY4,Notify Doctor,2,nurse,47.0
+R_3qJ9WJC1bftnSY4,Notify Trusted,0,nurse,40.0
+R_3qJ9WJC1bftnSY4,Refuse Dinner,1,nurse,36.33333333333333
+R_3qJ9WJC1bftnSY4,Repeat,0,nurse,46.66666666666667
+R_3qJSaS8toe4IcQy,Accept,1,nurse,23.66666666666667
+R_3qJSaS8toe4IcQy,No TV,1,nurse,-6.0
+R_3qJSaS8toe4IcQy,Notify Doctor,0,nurse,30.0
+R_3qJSaS8toe4IcQy,Repeat,0,nurse,26.66666666666667
+R_3s4bDaIBbzFp9ym,Accept,1,nurse,24.66666666666667
+R_3s4bDaIBbzFp9ym,No TV,1,nurse,-5.666666666666664
+R_3s4bDaIBbzFp9ym,Notify Doctor,2,nurse,44.66666666666667
+R_3s4bDaIBbzFp9ym,Notify Trusted,1,nurse,27.33333333333333
+R_3s4bDaIBbzFp9ym,Repeat,1,nurse,40.66666666666667
+R_6Ls3dl3OLGHt8gF,Notify Doctor,0,nurse,50.0
+R_6Ls3dl3OLGHt8gF,Notify Trusted,2,nurse,47.33333333333333
+R_6Ls3dl3OLGHt8gF,Refuse Dinner,2,nurse,42.33333333333333
+R_6Ls3dl3OLGHt8gF,Repeat,1,nurse,50.0
+R_6YI1ti7om7CIrCN,Accept,2,nurse,-41.666666666666664
+R_6YI1ti7om7CIrCN,Notify Doctor,0,nurse,50.0
+R_6YI1ti7om7CIrCN,Refuse Dinner,0,nurse,-50.0
+R_6YI1ti7om7CIrCN,Repeat,2,nurse,43.66666666666667
+R_8dmmlbKXxOwBJL3,Accept,1,nurse,38.33333333333333
+R_8dmmlbKXxOwBJL3,No TV,2,nurse,-49.0
+R_8dmmlbKXxOwBJL3,Notify Doctor,2,nurse,50.0
+R_AGxeSB8rEs6AWpX,Accept,1,nurse,-25.666666666666668
+R_AGxeSB8rEs6AWpX,Accept,2,nurse,-25.0
+R_AGxeSB8rEs6AWpX,No TV,0,nurse,45.33333333333333
+R_AGxeSB8rEs6AWpX,Refuse Dinner,1,nurse,-33.66666666666667
+R_AGxeSB8rEs6AWpX,Refuse Dinner,2,nurse,-18.333333333333332
+R_AGxeSB8rEs6AWpX,Repeat,0,nurse,34.0
+R_D81cYKBKy1pur4d,Accept,1,nurse,-14.666666666666664
+R_D81cYKBKy1pur4d,Accept,2,nurse,-32.0
+R_D81cYKBKy1pur4d,Notify Trusted,1,nurse,-35.333333333333336
+R_D81cYKBKy1pur4d,Refuse Dinner,1,nurse,-49.0
+R_DG08uV3fj7nU7SN,Accept,1,nurse,-23.333333333333332
+R_DG08uV3fj7nU7SN,Notify Doctor,2,nurse,37.33333333333333
+R_DG08uV3fj7nU7SN,Notify Trusted,2,nurse,26.0
+R_DG08uV3fj7nU7SN,Repeat,1,nurse,29.0
+R_OycztwfwNlSnmQV,Notify Doctor,1,nurse,28.0
+R_OycztwfwNlSnmQV,Notify Trusted,0,nurse,-26.0
+R_OycztwfwNlSnmQV,Notify Trusted,2,nurse,50.0
+R_OycztwfwNlSnmQV,Refuse Dinner,0,nurse,-26.666666666666668
+R_OycztwfwNlSnmQV,Refuse Dinner,1,nurse,8.0
+R_OycztwfwNlSnmQV,Repeat,1,nurse,50.0
+R_RUA15hlKe1UO9B7,Accept,0,nurse,6.333333333333336
+R_RUA15hlKe1UO9B7,No TV,1,nurse,-23.333333333333332
+R_RUA15hlKe1UO9B7,Notify Doctor,1,nurse,45.0
+R_RUA15hlKe1UO9B7,Notify Trusted,0,nurse,10.666666666666664
+R_RUA15hlKe1UO9B7,Repeat,0,nurse,14.0
+R_TaPyt1jmn7s6bfP,No TV,1,nurse,-22.666666666666668
+R_TaPyt1jmn7s6bfP,No TV,2,nurse,-31.0
+R_TaPyt1jmn7s6bfP,Notify Doctor,0,nurse,13.333333333333336
+R_TaPyt1jmn7s6bfP,Notify Trusted,1,nurse,9.0
+R_TaPyt1jmn7s6bfP,Notify Trusted,2,nurse,50.0
+R_TaPyt1jmn7s6bfP,Refuse Dinner,1,nurse,-28.333333333333332
+R_UckR58XVbjg8hzj,No TV,0,nurse,-16.666666666666664
+R_UckR58XVbjg8hzj,Notify Trusted,1,nurse,33.33333333333333
+R_UckR58XVbjg8hzj,Notify Trusted,2,nurse,46.0
+R_UckR58XVbjg8hzj,Refuse Dinner,2,nurse,-50.0
+R_UoLTSNaBG1bhftD,No TV,0,nurse,4.333333333333336
+R_UoLTSNaBG1bhftD,Notify Trusted,1,nurse,48.0
+R_UoLTSNaBG1bhftD,Refuse Dinner,2,nurse,3.3333333333333357
+R_UoLTSNaBG1bhftD,Repeat,0,nurse,50.0
+R_UoLTSNaBG1bhftD,Repeat,1,nurse,50.0
+R_V1D3ZpsUANHfYGZ,No TV,0,nurse,27.66666666666667
+R_V1D3ZpsUANHfYGZ,No TV,2,nurse,19.0
+R_V1D3ZpsUANHfYGZ,Notify Doctor,2,nurse,50.0
+R_V1D3ZpsUANHfYGZ,Refuse Dinner,0,nurse,-7.333333333333336
+R_V1D3ZpsUANHfYGZ,Refuse Dinner,2,nurse,-15.666666666666664
+R_V1D3ZpsUANHfYGZ,Repeat,0,nurse,50.0
+R_YXFSO6wQnaGXG25,No TV,2,nurse,35.33333333333333
+R_YXFSO6wQnaGXG25,Notify Trusted,0,nurse,47.33333333333333
+R_YXFSO6wQnaGXG25,Refuse Dinner,0,nurse,-2.6666666666666643
+R_YXFSO6wQnaGXG25,Repeat,1,nurse,40.66666666666667
+R_ZgyoH4tLfgpEqqJ,Accept,2,nurse,-50.0
+R_ZgyoH4tLfgpEqqJ,No TV,0,nurse,-23.333333333333332
+R_ZgyoH4tLfgpEqqJ,Notify Trusted,0,nurse,-17.666666666666664
+R_ZgyoH4tLfgpEqqJ,Refuse Dinner,2,nurse,-50.0
+R_ZgyoH4tLfgpEqqJ,Repeat,0,nurse,50.0
+R_cwmBUEHqhY7QbQt,Accept,0,nurse,-19.333333333333332
+R_cwmBUEHqhY7QbQt,Accept,2,nurse,-31.0
+R_cwmBUEHqhY7QbQt,No TV,1,nurse,26.33333333333333
+R_cwmBUEHqhY7QbQt,Notify Doctor,1,nurse,17.33333333333333
+R_cwmBUEHqhY7QbQt,Notify Trusted,0,nurse,15.666666666666671
+R_cwmBUEHqhY7QbQt,Refuse Dinner,0,nurse,-19.333333333333332
+R_cwmBUEHqhY7QbQt,Refuse Dinner,2,nurse,-4.666666666666664
+R_dch6euZINWy6UHT,Accept,0,nurse,-41.666666666666664
+R_dch6euZINWy6UHT,No TV,0,nurse,7.666666666666664
+R_dch6euZINWy6UHT,Notify Doctor,0,nurse,42.0
+R_dch6euZINWy6UHT,Refuse Dinner,0,nurse,-50.0
+R_dch6euZINWy6UHT,Refuse Dinner,2,nurse,-50.0
+R_pRebi66FuloBo9H,Accept,0,nurse,3.3333333333333357
+R_pRebi66FuloBo9H,No TV,2,nurse,14.333333333333329
+R_pRebi66FuloBo9H,Refuse Dinner,1,nurse,-50.0
+R_pRebi66FuloBo9H,Refuse Dinner,2,nurse,-50.0
+R_pRebi66FuloBo9H,Repeat,0,nurse,38.0
+R_pRebi66FuloBo9H,Repeat,2,nurse,50.0
+R_paDDLpu71Eec8cF,Accept,0,nurse,-11.666666666666664
+R_paDDLpu71Eec8cF,Accept,1,nurse,-14.666666666666664
+R_paDDLpu71Eec8cF,No TV,2,nurse,10.0
+R_paDDLpu71Eec8cF,Notify Doctor,1,nurse,6.666666666666664
+R_saEddz3f6tZ4MM1,Accept,1,nurse,-32.66666666666667
+R_saEddz3f6tZ4MM1,No TV,0,nurse,42.0
+R_saEddz3f6tZ4MM1,No TV,2,nurse,50.0
+R_saEddz3f6tZ4MM1,Notify Trusted,1,nurse,-0.3333333333333357
+R_saEddz3f6tZ4MM1,Refuse Dinner,2,nurse,16.33333333333333
+R_tDp4PGjd5EdtnXz,No TV,2,nurse,-26.333333333333332
+R_tDp4PGjd5EdtnXz,Notify Doctor,1,nurse,50.0
+R_tDp4PGjd5EdtnXz,Notify Doctor,2,nurse,44.0
+R_tDp4PGjd5EdtnXz,Refuse Dinner,0,nurse,-48.666666666666664
+R_tDp4PGjd5EdtnXz,Repeat,1,nurse,1.3333333333333357
+R_tYAiMvmCS5Rt00F,Notify Doctor,2,nurse,48.0
+R_tYAiMvmCS5Rt00F,Notify Trusted,0,nurse,-30.0
+R_tYAiMvmCS5Rt00F,Repeat,1,nurse,48.0
+R_wSN1N47egwRcc1j,Accept,2,nurse,-38.333333333333336
+R_wSN1N47egwRcc1j,No TV,1,nurse,28.66666666666667
+R_wSN1N47egwRcc1j,Notify Doctor,0,nurse,29.0
+R_wSN1N47egwRcc1j,Repeat,2,nurse,31.33333333333333
+R_12M5JKKCF2E3Gjh,No TV,1,robot,5.0
+R_12M5JKKCF2E3Gjh,No TV,2,robot,-34.666666666666664
+R_12M5JKKCF2E3Gjh,Notify Doctor,0,robot,50.0
+R_12M5JKKCF2E3Gjh,Refuse Dinner,0,robot,-26.0
+R_12M5JKKCF2E3Gjh,Refuse Dinner,1,robot,-12.0
+R_12M5JKKCF2E3Gjh,Repeat,2,robot,-18.333333333333332
+R_1E7pMka0qrama0N,Accept,0,robot,-17.333333333333336
+R_1E7pMka0qrama0N,Accept,2,robot,-40.333333333333336
+R_1E7pMka0qrama0N,No TV,2,robot,0.3333333333333357
+R_1E7pMka0qrama0N,Refuse Dinner,0,robot,-48.333333333333336
+R_1E7pMka0qrama0N,Refuse Dinner,1,robot,-47.666666666666664
+R_1E7pMka0qrama0N,Repeat,1,robot,43.33333333333333
+R_1E7pMka0qrama0N,Repeat,2,robot,47.0
+R_1FkMa51xjOKjRkO,No TV,0,robot,-50.0
+R_1FkMa51xjOKjRkO,No TV,2,robot,-25.666666666666668
+R_1FkMa51xjOKjRkO,Notify Doctor,0,robot,35.33333333333333
+R_1FkMa51xjOKjRkO,Notify Trusted,0,robot,22.0
+R_1FkMa51xjOKjRkO,Notify Trusted,2,robot,21.66666666666667
+R_1FkMa51xjOKjRkO,Refuse Dinner,2,robot,-50.0
+R_1FkMa51xjOKjRkO,Repeat,2,robot,36.33333333333333
+R_1GJOYUZ8EXKX1j2,Accept,0,robot,-19.666666666666668
+R_1GJOYUZ8EXKX1j2,Notify Doctor,0,robot,33.0
+R_1GJOYUZ8EXKX1j2,Refuse Dinner,0,robot,-40.666666666666664
+R_1GJOYUZ8EXKX1j2,Repeat,2,robot,34.33333333333333
+R_1HesO4bkbo4Pvhc,Accept,1,robot,-22.0
+R_1HesO4bkbo4Pvhc,Notify Trusted,0,robot,33.66666666666667
+R_1Hi57FmeEo1Dmen,Notify Trusted,0,robot,27.33333333333333
+R_1Hi57FmeEo1Dmen,Notify Trusted,1,robot,27.66666666666667
+R_1Hi57FmeEo1Dmen,Refuse Dinner,0,robot,-50.0
+R_1Hi57FmeEo1Dmen,Repeat,0,robot,17.66666666666667
+R_1Hi57FmeEo1Dmen,Repeat,1,robot,-15.666666666666664
+R_1JRXzyEb9lTaE9x,Accept,1,robot,-0.6666666666666643
+R_1JRXzyEb9lTaE9x,Notify Doctor,1,robot,31.0
+R_1JRXzyEb9lTaE9x,Notify Trusted,1,robot,36.66666666666667
+R_1JRXzyEb9lTaE9x,Notify Trusted,2,robot,-3.0
+R_1JRXzyEb9lTaE9x,Repeat,0,robot,14.666666666666671
+R_1K1Ni89OYoE01GI,Notify Doctor,2,robot,26.66666666666667
+R_1K1Ni89OYoE01GI,Notify Trusted,0,robot,36.0
+R_1K1Ni89OYoE01GI,Refuse Dinner,1,robot,-50.0
+R_1K1Ni89OYoE01GI,Refuse Dinner,2,robot,-24.333333333333332
+R_1K1Ni89OYoE01GI,Repeat,1,robot,35.66666666666667
+R_1M6eqt7FXYLs55l,Accept,2,robot,-30.666666666666668
+R_1M6eqt7FXYLs55l,No TV,2,robot,50.0
+R_1M6eqt7FXYLs55l,Notify Doctor,2,robot,50.0
+R_1M6eqt7FXYLs55l,Notify Trusted,1,robot,50.0
+R_1M6eqt7FXYLs55l,Notify Trusted,2,robot,44.33333333333333
+R_1M6eqt7FXYLs55l,Refuse Dinner,0,robot,-8.0
+R_1N4X8Is4IBN18hK,Accept,0,robot,-25.0
+R_1N4X8Is4IBN18hK,No TV,0,robot,-0.3333333333333357
+R_1N4X8Is4IBN18hK,Notify Trusted,1,robot,27.33333333333333
+R_1N4X8Is4IBN18hK,Refuse Dinner,1,robot,-13.666666666666664
+R_1Naf0QbvJV4x7us,Accept,2,robot,-30.666666666666668
+R_1Naf0QbvJV4x7us,Notify Trusted,2,robot,29.66666666666667
+R_1Naf0QbvJV4x7us,Refuse Dinner,0,robot,-10.0
+R_1Nq38xcP7MnRoc0,Accept,1,robot,-18.666666666666668
+R_1Nq38xcP7MnRoc0,Accept,2,robot,-47.666666666666664
+R_1Nq38xcP7MnRoc0,No TV,2,robot,-6.666666666666664
+R_1Nq38xcP7MnRoc0,Notify Doctor,0,robot,45.66666666666667
+R_1Nq38xcP7MnRoc0,Notify Doctor,1,robot,29.33333333333333
+R_1Nq38xcP7MnRoc0,Repeat,2,robot,8.666666666666664
+R_1Opf8GXOEO0qUTC,No TV,1,robot,24.0
+R_1Opf8GXOEO0qUTC,Notify Trusted,1,robot,47.33333333333333
+R_1Opf8GXOEO0qUTC,Refuse Dinner,1,robot,24.66666666666667
+R_1Opf8GXOEO0qUTC,Refuse Dinner,2,robot,16.33333333333333
+R_1Opf8GXOEO0qUTC,Repeat,2,robot,34.33333333333333
+R_1QASzpyy8iP62ZR,No TV,1,robot,-50.0
+R_1QASzpyy8iP62ZR,Notify Doctor,0,robot,-0.6666666666666643
+R_1QASzpyy8iP62ZR,Notify Doctor,1,robot,25.33333333333333
+R_1QASzpyy8iP62ZR,Notify Trusted,2,robot,50.0
+R_1QASzpyy8iP62ZR,Repeat,1,robot,10.0
+R_1d49npMMNNzYGbH,No TV,0,robot,-19.666666666666668
+R_1d49npMMNNzYGbH,Repeat,0,robot,22.33333333333333
+R_1d49npMMNNzYGbH,Repeat,1,robot,46.66666666666667
+R_1f8V4BqepxFoO4Q,No TV,0,robot,-44.333333333333336
+R_1f8V4BqepxFoO4Q,No TV,1,robot,-42.333333333333336
+R_1f8V4BqepxFoO4Q,Notify Trusted,1,robot,14.0
+R_1f8V4BqepxFoO4Q,Refuse Dinner,1,robot,-50.0
+R_1f8V4BqepxFoO4Q,Repeat,1,robot,50.0
+R_1jIKYDlQ39mtLnQ,Notify Doctor,0,robot,-22.0
+R_1jIKYDlQ39mtLnQ,Notify Doctor,1,robot,-30.0
+R_1jIKYDlQ39mtLnQ,Notify Doctor,2,robot,17.33333333333333
+R_1jIKYDlQ39mtLnQ,Notify Trusted,0,robot,11.0
+R_1jIKYDlQ39mtLnQ,Notify Trusted,1,robot,31.33333333333333
+R_1jIKYDlQ39mtLnQ,Notify Trusted,2,robot,50.0
+R_1jIKYDlQ39mtLnQ,Refuse Dinner,2,robot,-45.666666666666664
+R_1jWjixT7Sv4VOKL,Accept,0,robot,-3.3333333333333357
+R_1jWjixT7Sv4VOKL,No TV,1,robot,20.66666666666667
+R_1jWjixT7Sv4VOKL,Refuse Dinner,0,robot,20.33333333333333
+R_1jWjixT7Sv4VOKL,Refuse Dinner,2,robot,19.33333333333333
+R_1jWjixT7Sv4VOKL,Repeat,1,robot,23.0
+R_1kYrU4KwYrSrhfN,Accept,2,robot,1.0
+R_1kYrU4KwYrSrhfN,No TV,0,robot,-46.0
+R_1kYrU4KwYrSrhfN,Notify Doctor,0,robot,26.0
+R_1kYrU4KwYrSrhfN,Refuse Dinner,0,robot,-50.0
+R_1kYrU4KwYrSrhfN,Repeat,2,robot,30.66666666666667
+R_1lhG0Bv9wiiAuHS,Accept,1,robot,11.0
+R_1lhG0Bv9wiiAuHS,No TV,2,robot,-0.6666666666666643
+R_1lhG0Bv9wiiAuHS,Notify Doctor,0,robot,42.0
+R_1lhG0Bv9wiiAuHS,Notify Doctor,2,robot,49.33333333333333
+R_1lhG0Bv9wiiAuHS,Refuse Dinner,0,robot,-42.333333333333336
+R_1lhG0Bv9wiiAuHS,Refuse Dinner,2,robot,-41.666666666666664
+R_1lhG0Bv9wiiAuHS,Repeat,0,robot,47.0
+R_1lyqJceiLd6e7N4,Accept,1,robot,-5.666666666666664
+R_1lyqJceiLd6e7N4,Accept,2,robot,-31.0
+R_1lyqJceiLd6e7N4,No TV,0,robot,-13.666666666666664
+R_1lyqJceiLd6e7N4,No TV,2,robot,-4.666666666666664
+R_1lyqJceiLd6e7N4,Notify Doctor,0,robot,24.66666666666667
+R_1lyqJceiLd6e7N4,Notify Trusted,2,robot,22.66666666666667
+R_1lyqJceiLd6e7N4,Refuse Dinner,0,robot,-40.0
+R_1nPj0A0jZVDgjqU,Accept,0,robot,-25.333333333333332
+R_1nPj0A0jZVDgjqU,No TV,2,robot,-26.333333333333332
+R_1nPj0A0jZVDgjqU,Notify Doctor,2,robot,41.66666666666667
+R_1nPj0A0jZVDgjqU,Refuse Dinner,2,robot,-41.0
+R_1o5AYe2O4lyaUMb,Accept,0,robot,-26.0
+R_1o5AYe2O4lyaUMb,No TV,2,robot,-25.0
+R_1o5AYe2O4lyaUMb,Notify Trusted,0,robot,17.33333333333333
+R_1o5AYe2O4lyaUMb,Repeat,2,robot,26.0
+R_1o7us29rdchxtlP,Accept,0,robot,49.66666666666667
+R_1o7us29rdchxtlP,Accept,1,robot,43.66666666666667
+R_1o7us29rdchxtlP,Accept,2,robot,-7.0
+R_1o7us29rdchxtlP,No TV,0,robot,-46.0
+R_1o7us29rdchxtlP,Notify Doctor,2,robot,39.33333333333333
+R_26fLbIcCwkCOhmC,No TV,2,robot,-15.333333333333336
+R_26fLbIcCwkCOhmC,Notify Doctor,0,robot,5.333333333333336
+R_26fLbIcCwkCOhmC,Notify Doctor,2,robot,33.33333333333333
+R_26fLbIcCwkCOhmC,Notify Trusted,0,robot,30.0
+R_26fLbIcCwkCOhmC,Refuse Dinner,1,robot,-21.0
+R_26fLbIcCwkCOhmC,Repeat,0,robot,26.33333333333333
+R_27Tfatbnxh2njwi,Accept,1,robot,-9.0
+R_27Tfatbnxh2njwi,No TV,0,robot,32.33333333333333
+R_27Tfatbnxh2njwi,No TV,1,robot,46.33333333333333
+R_27Tfatbnxh2njwi,Notify Doctor,2,robot,45.33333333333333
+R_27Tfatbnxh2njwi,Refuse Dinner,2,robot,25.0
+R_27ey9dyu4RFTkN3,Accept,2,robot,-50.0
+R_27ey9dyu4RFTkN3,No TV,2,robot,50.0
+R_27ey9dyu4RFTkN3,Notify Trusted,0,robot,50.0
+R_27ey9dyu4RFTkN3,Repeat,0,robot,-7.333333333333336
+R_27ey9dyu4RFTkN3,Repeat,1,robot,-26.0
+R_2AM41gBRq2G8LCv,Notify Trusted,2,robot,50.0
+R_2AM41gBRq2G8LCv,Refuse Dinner,0,robot,-50.0
+R_2AM41gBRq2G8LCv,Refuse Dinner,1,robot,-50.0
+R_2AM41gBRq2G8LCv,Refuse Dinner,2,robot,-50.0
+R_2AM41gBRq2G8LCv,Repeat,1,robot,50.0
+R_2CHydS6nnTf5L1S,Accept,0,robot,25.66666666666667
+R_2CHydS6nnTf5L1S,Notify Trusted,1,robot,50.0
+R_2CHydS6nnTf5L1S,Notify Trusted,2,robot,-7.0
+R_2CHydS6nnTf5L1S,Repeat,0,robot,44.33333333333333
+R_2CHydS6nnTf5L1S,Repeat,1,robot,43.0
+R_2CkcK56sTjuescU,Accept,1,robot,34.0
+R_2CkcK56sTjuescU,Accept,2,robot,-25.333333333333332
+R_2CkcK56sTjuescU,No TV,2,robot,23.33333333333333
+R_2CkcK56sTjuescU,Notify Doctor,1,robot,-13.0
+R_2CkcK56sTjuescU,Notify Doctor,2,robot,41.0
+R_2CkcK56sTjuescU,Notify Trusted,1,robot,41.33333333333333
+R_2CkcK56sTjuescU,Refuse Dinner,0,robot,5.666666666666664
+R_2CkcK56sTjuescU,Repeat,2,robot,10.666666666666664
+R_2D5EyqjukCesvd7,Notify Doctor,1,robot,19.33333333333333
+R_2D5EyqjukCesvd7,Notify Trusted,2,robot,-4.0
+R_2D5EyqjukCesvd7,Repeat,0,robot,1.0
+R_2EuzUij7ltavVOB,Accept,1,robot,-19.0
+R_2EuzUij7ltavVOB,Notify Doctor,2,robot,34.33333333333333
+R_2EuzUij7ltavVOB,Notify Trusted,0,robot,18.66666666666667
+R_2EuzUij7ltavVOB,Notify Trusted,1,robot,37.33333333333333
+R_2EuzUij7ltavVOB,Refuse Dinner,1,robot,-23.666666666666668
+R_2EuzUij7ltavVOB,Refuse Dinner,2,robot,-21.0
+R_2EuzUij7ltavVOB,Repeat,0,robot,23.0
+R_2OPcnCVbfKsapGP,Accept,0,robot,-28.333333333333332
+R_2OPcnCVbfKsapGP,Notify Doctor,0,robot,42.0
+R_2OPcnCVbfKsapGP,Notify Doctor,2,robot,46.0
+R_2OPcnCVbfKsapGP,Repeat,1,robot,50.0
+R_2QmMDSgGZ3Dx8oE,No TV,1,robot,18.66666666666667
+R_2QmMDSgGZ3Dx8oE,No TV,2,robot,-44.0
+R_2QmMDSgGZ3Dx8oE,Notify Doctor,1,robot,-30.0
+R_2QmMDSgGZ3Dx8oE,Notify Trusted,0,robot,13.0
+R_2QmMDSgGZ3Dx8oE,Repeat,0,robot,50.0
+R_2TSFTkP1IOhpktf,No TV,1,robot,-35.666666666666664
+R_2TSFTkP1IOhpktf,Notify Doctor,1,robot,27.0
+R_2TSFTkP1IOhpktf,Notify Trusted,0,robot,30.33333333333333
+R_2aVTDXXTfoikf6q,Notify Doctor,2,robot,48.0
+R_2aVTDXXTfoikf6q,Repeat,0,robot,44.0
+R_2b2HhBZWv3p3zPL,Notify Doctor,0,robot,48.33333333333333
+R_2b2HhBZWv3p3zPL,Repeat,1,robot,50.0
+R_2bqCfAfxocV8YxP,Accept,0,robot,22.66666666666667
+R_2bqCfAfxocV8YxP,Accept,1,robot,10.0
+R_2bqCfAfxocV8YxP,Notify Doctor,0,robot,25.66666666666667
+R_2bqCfAfxocV8YxP,Notify Doctor,1,robot,43.66666666666667
+R_2bqCfAfxocV8YxP,Notify Trusted,1,robot,50.0
+R_2ciMmd7YYW0g0xi,Accept,0,robot,20.33333333333333
+R_2ciMmd7YYW0g0xi,Notify Doctor,1,robot,39.33333333333333
+R_2ciMmd7YYW0g0xi,Notify Doctor,2,robot,23.66666666666667
+R_2ciMmd7YYW0g0xi,Notify Trusted,0,robot,29.0
+R_2ciMmd7YYW0g0xi,Notify Trusted,1,robot,39.66666666666667
+R_2ciMmd7YYW0g0xi,Notify Trusted,2,robot,39.66666666666667
+R_2e99VLGVkXNzCHK,Accept,0,robot,-25.666666666666668
+R_2e99VLGVkXNzCHK,No TV,1,robot,24.33333333333333
+R_2e99VLGVkXNzCHK,Notify Doctor,0,robot,50.0
+R_2e99VLGVkXNzCHK,Notify Trusted,0,robot,38.66666666666667
+R_2e99VLGVkXNzCHK,Refuse Dinner,1,robot,26.66666666666667
+R_2e99VLGVkXNzCHK,Repeat,1,robot,26.66666666666667
+R_2f9RDtWbZJ7GYUZ,Accept,2,robot,-44.333333333333336
+R_2f9RDtWbZJ7GYUZ,Refuse Dinner,0,robot,-8.0
+R_2f9RDtWbZJ7GYUZ,Refuse Dinner,2,robot,1.6666666666666643
+R_2f9RDtWbZJ7GYUZ,Repeat,1,robot,36.0
+R_2ffdTBGk3wSa0K1,Accept,2,robot,-3.6666666666666643
+R_2ffdTBGk3wSa0K1,No TV,1,robot,31.33333333333333
+R_2ffdTBGk3wSa0K1,Notify Doctor,2,robot,39.0
+R_2ffdTBGk3wSa0K1,Notify Trusted,1,robot,0.0
+R_2ffdTBGk3wSa0K1,Refuse Dinner,2,robot,-11.0
+R_2ffdTBGk3wSa0K1,Repeat,1,robot,34.0
+R_2rB0uLsJLbKezza,No TV,0,robot,50.0
+R_2rB0uLsJLbKezza,No TV,1,robot,50.0
+R_2rB0uLsJLbKezza,Notify Trusted,0,robot,50.0
+R_2rB0uLsJLbKezza,Notify Trusted,1,robot,50.0
+R_2rB0uLsJLbKezza,Refuse Dinner,0,robot,-5.0
+R_2sZLiEaabIriy1W,Accept,1,robot,-42.666666666666664
+R_2sZLiEaabIriy1W,No TV,2,robot,13.333333333333336
+R_2sZLiEaabIriy1W,Notify Doctor,0,robot,26.33333333333333
+R_2sZLiEaabIriy1W,Notify Doctor,1,robot,39.0
+R_2sZLiEaabIriy1W,Notify Doctor,2,robot,44.66666666666667
+R_2sZLiEaabIriy1W,Notify Trusted,0,robot,41.33333333333333
+R_2sZLiEaabIriy1W,Refuse Dinner,1,robot,6.333333333333336
+R_2sZLiEaabIriy1W,Repeat,2,robot,43.66666666666667
+R_2tzLEeI6ynkwNPV,Notify Doctor,2,robot,9.333333333333336
+R_2tzLEeI6ynkwNPV,Notify Trusted,1,robot,35.33333333333333
+R_2tzLEeI6ynkwNPV,Notify Trusted,2,robot,27.33333333333333
+R_2tzLEeI6ynkwNPV,Refuse Dinner,2,robot,-41.0
+R_2v82JdsKUO6eyUZ,Accept,1,robot,25.33333333333333
+R_2v82JdsKUO6eyUZ,No TV,0,robot,-50.0
+R_2v82JdsKUO6eyUZ,Notify Doctor,1,robot,50.0
+R_2v82JdsKUO6eyUZ,Notify Doctor,2,robot,50.0
+R_2v82JdsKUO6eyUZ,Repeat,0,robot,50.0
+R_2v82JdsKUO6eyUZ,Repeat,2,robot,50.0
+R_2z6by9xs8TVm8vx,Accept,0,robot,28.66666666666667
+R_2z6by9xs8TVm8vx,No TV,0,robot,-50.0
+R_2z6by9xs8TVm8vx,No TV,2,robot,-50.0
+R_2z6by9xs8TVm8vx,Refuse Dinner,1,robot,-50.0
+R_30pgFrkgPoftmut,Accept,0,robot,18.33333333333333
+R_30pgFrkgPoftmut,Repeat,1,robot,13.333333333333336
+R_31GlPAadw7upkPU,Accept,1,robot,13.0
+R_31GlPAadw7upkPU,Accept,2,robot,-41.333333333333336
+R_31GlPAadw7upkPU,Notify Doctor,0,robot,34.33333333333333
+R_31GlPAadw7upkPU,Notify Trusted,1,robot,-24.0
+R_31GlPAadw7upkPU,Refuse Dinner,2,robot,-25.666666666666668
+R_31NRi3MIu3CJiag,Accept,0,robot,-9.0
+R_31NRi3MIu3CJiag,No TV,0,robot,16.66666666666667
+R_31NRi3MIu3CJiag,No TV,2,robot,42.33333333333333
+R_31NRi3MIu3CJiag,Notify Doctor,2,robot,50.0
+R_31NRi3MIu3CJiag,Notify Trusted,1,robot,42.66666666666667
+R_31NRi3MIu3CJiag,Refuse Dinner,0,robot,8.666666666666664
+R_31NRi3MIu3CJiag,Repeat,0,robot,50.0
+R_31nmlPiX0JNyzjN,Accept,0,robot,-18.666666666666668
+R_31nmlPiX0JNyzjN,No TV,1,robot,-7.333333333333336
+R_31nmlPiX0JNyzjN,No TV,2,robot,-50.0
+R_31nmlPiX0JNyzjN,Refuse Dinner,0,robot,-29.333333333333332
+R_31pcsK8oMAZ8WvN,Accept,2,robot,-30.333333333333332
+R_31pcsK8oMAZ8WvN,No TV,1,robot,-43.333333333333336
+R_31pcsK8oMAZ8WvN,Notify Doctor,0,robot,46.66666666666667
+R_31pcsK8oMAZ8WvN,Notify Doctor,1,robot,46.0
+R_31pcsK8oMAZ8WvN,Notify Trusted,0,robot,33.33333333333333
+R_31pcsK8oMAZ8WvN,Refuse Dinner,0,robot,-44.333333333333336
+R_31pcsK8oMAZ8WvN,Refuse Dinner,2,robot,-43.333333333333336
+R_32QO5qQnHuJDz3z,Accept,2,robot,-28.0
+R_32QO5qQnHuJDz3z,No TV,2,robot,-50.0
+R_32QO5qQnHuJDz3z,Notify Doctor,0,robot,-8.666666666666664
+R_32QO5qQnHuJDz3z,Notify Doctor,2,robot,27.33333333333333
+R_32QO5qQnHuJDz3z,Notify Trusted,1,robot,17.66666666666667
+R_33lFaSYQynm15oF,No TV,0,robot,-35.0
+R_33lFaSYQynm15oF,Notify Doctor,0,robot,33.0
+R_33lFaSYQynm15oF,Refuse Dinner,2,robot,-40.666666666666664
+R_33lFaSYQynm15oF,Repeat,0,robot,50.0
+R_33lFaSYQynm15oF,Repeat,2,robot,34.0
+R_3G1IXyfplVRhlwe,Accept,2,robot,-48.666666666666664
+R_3G1IXyfplVRhlwe,Notify Doctor,1,robot,26.0
+R_3G1IXyfplVRhlwe,Notify Doctor,2,robot,46.0
+R_3G1IXyfplVRhlwe,Refuse Dinner,1,robot,-47.333333333333336
+R_3G1IXyfplVRhlwe,Repeat,0,robot,45.66666666666667
+R_3G1IXyfplVRhlwe,Repeat,2,robot,40.0
+R_3HhpXRigyQU3IdP,Accept,1,robot,8.0
+R_3HhpXRigyQU3IdP,Notify Doctor,1,robot,50.0
+R_3HhpXRigyQU3IdP,Notify Trusted,2,robot,50.0
+R_3HhpXRigyQU3IdP,Repeat,2,robot,50.0
+R_3I3IEzhEMolBovc,Notify Trusted,0,robot,9.333333333333336
+R_3I3IEzhEMolBovc,Notify Trusted,1,robot,5.0
+R_3I3IEzhEMolBovc,Refuse Dinner,0,robot,5.0
+R_3I3IEzhEMolBovc,Refuse Dinner,1,robot,5.0
+R_3I3IEzhEMolBovc,Repeat,1,robot,50.0
+R_3J9psXkhNIiVYk0,Accept,1,robot,-2.0
+R_3JmIx33zvTUflLp,No TV,0,robot,-14.333333333333336
+R_3JmIx33zvTUflLp,Notify Doctor,0,robot,21.66666666666667
+R_3JmIx33zvTUflLp,Notify Doctor,1,robot,11.666666666666664
+R_3JmIx33zvTUflLp,Notify Trusted,2,robot,31.0
+R_3O7DiV0yMWFRq2m,No TV,1,robot,26.33333333333333
+R_3O7DiV0yMWFRq2m,No TV,2,robot,40.0
+R_3O7DiV0yMWFRq2m,Refuse Dinner,0,robot,9.666666666666664
+R_3O7DiV0yMWFRq2m,Refuse Dinner,1,robot,0.0
+R_3O7DiV0yMWFRq2m,Repeat,0,robot,50.0
+R_3O7DiV0yMWFRq2m,Repeat,2,robot,50.0
+R_3QQyOpvltbKCJbA,Accept,0,robot,-37.333333333333336
+R_3QQyOpvltbKCJbA,Accept,1,robot,-38.0
+R_3QQyOpvltbKCJbA,No TV,0,robot,19.33333333333333
+R_3QQyOpvltbKCJbA,No TV,1,robot,0.3333333333333357
+R_3QQyOpvltbKCJbA,Refuse Dinner,0,robot,-43.666666666666664
+R_3QQyOpvltbKCJbA,Refuse Dinner,1,robot,-25.666666666666668
+R_3RfLwKdHV3tpyAY,Accept,0,robot,-26.0
+R_3RfLwKdHV3tpyAY,No TV,2,robot,-49.666666666666664
+R_3RfLwKdHV3tpyAY,Refuse Dinner,1,robot,-47.666666666666664
+R_3RfLwKdHV3tpyAY,Refuse Dinner,2,robot,-49.666666666666664
+R_3RfLwKdHV3tpyAY,Repeat,0,robot,25.66666666666667
+R_3esFgBFoYNFYaP4,Accept,0,robot,50.0
+R_3esFgBFoYNFYaP4,Accept,2,robot,0.6666666666666643
+R_3esFgBFoYNFYaP4,Notify Doctor,0,robot,29.33333333333333
+R_3esFgBFoYNFYaP4,Notify Doctor,2,robot,50.0
+R_3esFgBFoYNFYaP4,Refuse Dinner,2,robot,-50.0
+R_3esFgBFoYNFYaP4,Repeat,1,robot,27.33333333333333
+R_3esFgBFoYNFYaP4,Repeat,2,robot,27.33333333333333
+R_3foE7vnQXR9zxCg,No TV,2,robot,10.333333333333336
+R_3foE7vnQXR9zxCg,Notify Doctor,1,robot,36.66666666666667
+R_3foE7vnQXR9zxCg,Notify Trusted,1,robot,47.33333333333333
+R_3foE7vnQXR9zxCg,Repeat,2,robot,38.66666666666667
+R_3huSVgz6YdpWoUm,No TV,0,robot,-22.0
+R_3huSVgz6YdpWoUm,Notify Doctor,1,robot,48.33333333333333
+R_3huSVgz6YdpWoUm,Notify Doctor,2,robot,49.33333333333333
+R_3huSVgz6YdpWoUm,Notify Trusted,1,robot,-24.0
+R_3huSVgz6YdpWoUm,Refuse Dinner,2,robot,-50.0
+R_3mz2lLPZUsBo03D,No TV,2,robot,45.33333333333333
+R_3mz2lLPZUsBo03D,Notify Doctor,0,robot,45.33333333333333
+R_3mz2lLPZUsBo03D,Notify Doctor,2,robot,40.66666666666667
+R_3mz2lLPZUsBo03D,Notify Trusted,1,robot,39.0
+R_3mz2lLPZUsBo03D,Repeat,2,robot,31.66666666666667
+R_3n1vKHC1L6Fli7n,Accept,1,robot,9.333333333333336
+R_3n1vKHC1L6Fli7n,No TV,1,robot,27.33333333333333
+R_3n1vKHC1L6Fli7n,Notify Doctor,0,robot,1.6666666666666643
+R_3n1vKHC1L6Fli7n,Notify Doctor,2,robot,50.0
+R_3n1vKHC1L6Fli7n,Refuse Dinner,1,robot,-27.333333333333332
+R_3p3W13SeB33JecZ,Accept,0,robot,-14.333333333333336
+R_3p3W13SeB33JecZ,Accept,2,robot,-18.0
+R_3p3W13SeB33JecZ,No TV,1,robot,20.33333333333333
+R_3p3W13SeB33JecZ,Notify Trusted,2,robot,29.0
+R_3p3W13SeB33JecZ,Refuse Dinner,0,robot,-22.0
+R_3p3W13SeB33JecZ,Refuse Dinner,1,robot,-22.333333333333332
+R_3qJ9WJC1bftnSY4,Accept,2,robot,-50.0
+R_3qJ9WJC1bftnSY4,No TV,1,robot,-0.3333333333333357
+R_3qJ9WJC1bftnSY4,Notify Doctor,0,robot,46.33333333333333
+R_3qJ9WJC1bftnSY4,Repeat,1,robot,39.33333333333333
+R_3qJSaS8toe4IcQy,Accept,0,robot,24.0
+R_3qJSaS8toe4IcQy,Notify Doctor,0,robot,6.333333333333336
+R_3qJSaS8toe4IcQy,Notify Doctor,1,robot,21.33333333333333
+R_3qJSaS8toe4IcQy,Notify Trusted,1,robot,-6.333333333333336
+R_3qJSaS8toe4IcQy,Notify Trusted,2,robot,29.33333333333333
+R_3qJSaS8toe4IcQy,Refuse Dinner,2,robot,-30.333333333333332
+R_3s4bDaIBbzFp9ym,No TV,1,robot,10.333333333333336
+R_3s4bDaIBbzFp9ym,Notify Trusted,2,robot,32.0
+R_3s4bDaIBbzFp9ym,Repeat,0,robot,44.66666666666667
+R_3s4bDaIBbzFp9ym,Repeat,1,robot,33.33333333333333
+R_3s4bDaIBbzFp9ym,Repeat,2,robot,34.66666666666667
+R_6Ls3dl3OLGHt8gF,Accept,2,robot,-50.0
+R_6Ls3dl3OLGHt8gF,No TV,0,robot,-18.666666666666668
+R_6Ls3dl3OLGHt8gF,Notify Doctor,0,robot,49.0
+R_6Ls3dl3OLGHt8gF,Notify Trusted,1,robot,41.66666666666667
+R_6Ls3dl3OLGHt8gF,Refuse Dinner,2,robot,40.0
+R_6Ls3dl3OLGHt8gF,Repeat,1,robot,50.0
+R_6YI1ti7om7CIrCN,Accept,1,robot,-42.0
+R_6YI1ti7om7CIrCN,No TV,1,robot,-1.0
+R_6YI1ti7om7CIrCN,No TV,2,robot,-50.0
+R_6YI1ti7om7CIrCN,Notify Doctor,0,robot,50.0
+R_6YI1ti7om7CIrCN,Notify Doctor,1,robot,50.0
+R_6YI1ti7om7CIrCN,Refuse Dinner,1,robot,-50.0
+R_8dmmlbKXxOwBJL3,No TV,0,robot,-50.0
+R_8dmmlbKXxOwBJL3,No TV,1,robot,-24.666666666666668
+R_8dmmlbKXxOwBJL3,Notify Doctor,0,robot,50.0
+R_8dmmlbKXxOwBJL3,Notify Doctor,2,robot,50.0
+R_8dmmlbKXxOwBJL3,Notify Trusted,2,robot,27.66666666666667
+R_8dmmlbKXxOwBJL3,Repeat,0,robot,-16.0
+R_8dmmlbKXxOwBJL3,Repeat,2,robot,-32.33333333333333
+R_AGxeSB8rEs6AWpX,No TV,1,robot,48.0
+R_AGxeSB8rEs6AWpX,Notify Trusted,0,robot,46.0
+R_AGxeSB8rEs6AWpX,Notify Trusted,2,robot,46.33333333333333
+R_AGxeSB8rEs6AWpX,Refuse Dinner,1,robot,-47.666666666666664
+R_D81cYKBKy1pur4d,Accept,0,robot,22.33333333333333
+R_D81cYKBKy1pur4d,Accept,1,robot,-7.666666666666664
+R_D81cYKBKy1pur4d,Notify Doctor,0,robot,9.333333333333336
+R_D81cYKBKy1pur4d,Notify Doctor,2,robot,34.0
+R_D81cYKBKy1pur4d,Refuse Dinner,1,robot,-49.333333333333336
+R_D81cYKBKy1pur4d,Refuse Dinner,2,robot,-50.0
+R_DG08uV3fj7nU7SN,No TV,2,robot,-41.0
+R_DG08uV3fj7nU7SN,Notify Doctor,0,robot,13.333333333333336
+R_DG08uV3fj7nU7SN,Notify Trusted,0,robot,31.66666666666667
+R_DG08uV3fj7nU7SN,Refuse Dinner,1,robot,-45.0
+R_DG08uV3fj7nU7SN,Repeat,0,robot,26.0
+R_DG08uV3fj7nU7SN,Repeat,1,robot,50.0
+R_OycztwfwNlSnmQV,Accept,1,robot,-33.33333333333333
+R_OycztwfwNlSnmQV,No TV,0,robot,34.0
+R_OycztwfwNlSnmQV,No TV,1,robot,50.0
+R_OycztwfwNlSnmQV,Notify Doctor,1,robot,27.0
+R_RUA15hlKe1UO9B7,No TV,1,robot,-1.6666666666666643
+R_RUA15hlKe1UO9B7,Notify Doctor,0,robot,35.66666666666667
+R_RUA15hlKe1UO9B7,Notify Trusted,0,robot,0.0
+R_RUA15hlKe1UO9B7,Notify Trusted,1,robot,24.33333333333333
+R_RUA15hlKe1UO9B7,Notify Trusted,2,robot,-33.33333333333333
+R_TaPyt1jmn7s6bfP,Accept,1,robot,-20.0
+R_TaPyt1jmn7s6bfP,No TV,0,robot,-31.333333333333332
+R_TaPyt1jmn7s6bfP,Notify Trusted,1,robot,22.0
+R_TaPyt1jmn7s6bfP,Notify Trusted,2,robot,49.33333333333333
+R_UckR58XVbjg8hzj,Accept,0,robot,17.33333333333333
+R_UckR58XVbjg8hzj,No TV,0,robot,-17.0
+R_UckR58XVbjg8hzj,Notify Doctor,0,robot,50.0
+R_UckR58XVbjg8hzj,Notify Trusted,1,robot,25.66666666666667
+R_UckR58XVbjg8hzj,Refuse Dinner,2,robot,-8.0
+R_UckR58XVbjg8hzj,Repeat,1,robot,47.0
+R_UoLTSNaBG1bhftD,No TV,0,robot,-2.0
+R_UoLTSNaBG1bhftD,Notify Trusted,0,robot,50.0
+R_UoLTSNaBG1bhftD,Refuse Dinner,0,robot,-50.0
+R_UoLTSNaBG1bhftD,Repeat,0,robot,50.0
+R_UoLTSNaBG1bhftD,Repeat,2,robot,50.0
+R_V1D3ZpsUANHfYGZ,Accept,1,robot,-8.333333333333336
+R_V1D3ZpsUANHfYGZ,Refuse Dinner,0,robot,-8.333333333333336
+R_V1D3ZpsUANHfYGZ,Refuse Dinner,1,robot,-7.333333333333336
+R_V1D3ZpsUANHfYGZ,Repeat,1,robot,50.0
+R_YXFSO6wQnaGXG25,Notify Doctor,1,robot,50.0
+R_YXFSO6wQnaGXG25,Notify Trusted,0,robot,42.0
+R_YXFSO6wQnaGXG25,Notify Trusted,2,robot,38.0
+R_YXFSO6wQnaGXG25,Refuse Dinner,0,robot,-4.0
+R_YXFSO6wQnaGXG25,Refuse Dinner,2,robot,-0.6666666666666643
+R_YXFSO6wQnaGXG25,Repeat,0,robot,42.66666666666667
+R_ZgyoH4tLfgpEqqJ,Accept,1,robot,-32.0
+R_ZgyoH4tLfgpEqqJ,No TV,0,robot,-24.0
+R_ZgyoH4tLfgpEqqJ,No TV,2,robot,-24.333333333333332
+R_ZgyoH4tLfgpEqqJ,Refuse Dinner,0,robot,-50.0
+R_ZgyoH4tLfgpEqqJ,Repeat,2,robot,13.666666666666664
+R_cwmBUEHqhY7QbQt,Accept,2,robot,-13.666666666666664
+R_cwmBUEHqhY7QbQt,No TV,0,robot,-18.666666666666668
+R_cwmBUEHqhY7QbQt,Repeat,0,robot,29.33333333333333
+R_dch6euZINWy6UHT,Accept,0,robot,-33.0
+R_dch6euZINWy6UHT,No TV,0,robot,0.3333333333333357
+R_dch6euZINWy6UHT,No TV,1,robot,10.666666666666664
+R_dch6euZINWy6UHT,No TV,2,robot,-50.0
+R_dch6euZINWy6UHT,Notify Trusted,1,robot,42.0
+R_pRebi66FuloBo9H,Accept,0,robot,43.0
+R_pRebi66FuloBo9H,No TV,0,robot,18.0
+R_pRebi66FuloBo9H,Notify Trusted,1,robot,41.0
+R_pRebi66FuloBo9H,Refuse Dinner,1,robot,-50.0
+R_paDDLpu71Eec8cF,Accept,0,robot,-31.666666666666668
+R_paDDLpu71Eec8cF,No TV,2,robot,6.666666666666664
+R_paDDLpu71Eec8cF,Notify Doctor,1,robot,8.0
+R_paDDLpu71Eec8cF,Notify Trusted,0,robot,24.0
+R_paDDLpu71Eec8cF,Refuse Dinner,2,robot,12.333333333333336
+R_paDDLpu71Eec8cF,Repeat,2,robot,35.0
+R_saEddz3f6tZ4MM1,Accept,2,robot,-33.0
+R_saEddz3f6tZ4MM1,No TV,0,robot,50.0
+R_saEddz3f6tZ4MM1,Notify Doctor,0,robot,9.0
+R_saEddz3f6tZ4MM1,Refuse Dinner,1,robot,-17.0
+R_saEddz3f6tZ4MM1,Refuse Dinner,2,robot,9.666666666666664
+R_tDp4PGjd5EdtnXz,Notify Doctor,0,robot,49.33333333333333
+R_tDp4PGjd5EdtnXz,Notify Trusted,0,robot,32.0
+R_tDp4PGjd5EdtnXz,Notify Trusted,1,robot,31.0
+R_tDp4PGjd5EdtnXz,Notify Trusted,2,robot,41.0
+R_tDp4PGjd5EdtnXz,Refuse Dinner,2,robot,-35.333333333333336
+R_tYAiMvmCS5Rt00F,Accept,0,robot,-31.666666666666668
+R_tYAiMvmCS5Rt00F,No TV,0,robot,-26.666666666666668
+R_tYAiMvmCS5Rt00F,No TV,2,robot,-27.0
+R_tYAiMvmCS5Rt00F,Notify Doctor,0,robot,43.0
+R_tYAiMvmCS5Rt00F,Notify Doctor,2,robot,46.33333333333333
+R_tYAiMvmCS5Rt00F,Repeat,0,robot,42.0
+R_tYAiMvmCS5Rt00F,Repeat,2,robot,48.0
+R_wSN1N47egwRcc1j,Accept,0,robot,38.33333333333333
+R_wSN1N47egwRcc1j,Accept,1,robot,-3.6666666666666643
+R_wSN1N47egwRcc1j,Notify Doctor,2,robot,40.66666666666667
+R_wSN1N47egwRcc1j,Notify Trusted,2,robot,4.666666666666664
+R_wSN1N47egwRcc1j,Refuse Dinner,2,robot,-49.333333333333336
+R_wSN1N47egwRcc1j,Repeat,2,robot,9.333333333333336
